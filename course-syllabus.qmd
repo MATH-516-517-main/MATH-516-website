@@ -7,39 +7,28 @@ format:
 
 ## Course description
 
-The course will provide the opportunity to tackle real world problems requiring advanced computational skills and visualisation techniques to complement statistical thinking. 
-Students will practice proposing efficient solutions, and effectively communicating the results with stakeholders.
+The course will provide an overview of everyday challenges in applied statistics through case studies. Students will learn how to use core statistical methods and their extensions, and will use computational and problem-solving tools to provide reproducible solutions for the problems presented.
 
 ## Content
 
-- Modern statistical computing environments (e.g., R, Julia, and Python)
-- Aids to efficiency and reproducibility (e.g., GitHub, Markdown)
-- Data management, wrangling, and ethics
-
-- Statistical graphics (grammar, good practices, applications, and examples)
-- Kernel density estimation and smoothing
-- Cross-validation
-- EM algorithm and applications
-- Resampling methods for uncertainty assessment (bootstrap, jackknife, cross-validation), with applications to regression, time series and dependent data
-- Markov chain Monte Carlo techniques (Gibbs sampler, Metropolis-Hastings algorithm, Hamiltonian Monte Carlo, convergence diagnostics) and software (e.g., Stan)
-- Other methods for Bayesian inference (e.g., importance sampling)
-- Decision trees for classification
+The course will be problem-based, but solutions to the problems may require ideas and tools from areas such as smoothing, regression analysis, statistical modelling (likelihood methods) and model selection, time series analysis, spatial and functional data analysis, extreme value analysis, and causal inference
 
 
 ## Prerequisites
 
-Required courses: Probability and statistics, Linear models
+Required courses: Regression methods, Statistical Computation and Visualisation.
 
 ## Learning Outcomes
 By the end of the course, the student must be able to:
 
-- Plan complex visualisation and computational tasks
-- Perform complex visualisation and computational tasks
-- Implement reproducible computational solutions to statistical problems in modern environments and platforms
+- Propose suitable statistical solutions for real-world problems.
+- Apply suitable statistical solutions for real-world problems.
+- Assess / Evaluate the adequacy of a statistical method for a given task.
+- Report results clearly in writing and orally to different types of stakeholder.
 
 
 ##  Transversal skills
+- Give feedback (critique) in an appropriate fashion.
 - Take feedback (critique) and respond in an appropriate manner.
 - Communicate effectively with professionals from other disciplines.
-- Demonstrate the capacity for critical thinking
 - Identify the different roles that are involved in well-functioning teams and assume different roles, including leadership roles.
