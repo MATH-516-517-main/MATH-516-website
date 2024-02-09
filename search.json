@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "The course will provide an overview of everyday challenges in applied statistics through case studies. Students will learn how to use core statistical methods and their extensions, and will use computational and problem-solving tools to provide reproducible solutions for the problems presented."
+  },
+  {
+    "objectID": "course-syllabus.html#course-description",
+    "href": "course-syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "The course will provide an overview of everyday challenges in applied statistics through case studies. Students will learn how to use core statistical methods and their extensions, and will use computational and problem-solving tools to provide reproducible solutions for the problems presented."
+  },
+  {
+    "objectID": "course-syllabus.html#content",
+    "href": "course-syllabus.html#content",
+    "title": "Syllabus",
+    "section": "Content",
+    "text": "Content\nThe course will be problem-based, but solutions to the problems may require ideas and tools from areas such as smoothing, regression analysis, statistical modelling (likelihood methods) and model selection, time series analysis, spatial and functional data analysis, extreme value analysis, and causal inference"
+  },
+  {
+    "objectID": "course-syllabus.html#prerequisites",
+    "href": "course-syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nRequired courses: Regression methods, Statistical Computation and Visualisation."
+  },
+  {
+    "objectID": "course-syllabus.html#learning-outcomes",
+    "href": "course-syllabus.html#learning-outcomes",
+    "title": "Syllabus",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the end of the course, the student must be able to:\n\nPropose suitable statistical solutions for real-world problems.\nApply suitable statistical solutions for real-world problems.\nAssess / Evaluate the adequacy of a statistical method for a given task.\nReport results clearly in writing and orally to different types of stakeholder."
+  },
+  {
+    "objectID": "course-syllabus.html#transversal-skills",
+    "href": "course-syllabus.html#transversal-skills",
+    "title": "Syllabus",
+    "section": "Transversal skills",
+    "text": "Transversal skills\n\nGive feedback (critique) in an appropriate fashion.\nTake feedback (critique) and respond in an appropriate manner.\nCommunicate effectively with professionals from other disciplines.\nIdentify the different roles that are involved in well-functioning teams and assume different roles, including leadership roles."
+  },
+  {
     "objectID": "projects/project-01.html",
     "href": "projects/project-01.html",
     "title": "Project Week 1",
@@ -7,11 +49,25 @@
     "text": "Important\n\n\n\nDue date\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nChecklist:\n\nreport.pdf in GitHub repository (max 20 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report"
   },
   {
-    "objectID": "projects/project-02.html",
-    "href": "projects/project-02.html",
-    "title": "Project Week 2",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH 516: Applied Statistics",
     "section": "",
-    "text": "Important\n\n\n\nDue date\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nChecklist:\n\nreport.pdf in GitHub repository (max 20 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report"
+    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      WEEK\n      DATE\n      TOPIC\n      DUE\n    \n  \n  \n    1\nMon, Feb 19\n \n \n     \nWed, Feb 21\n \n \n     \nSun, Feb 25\n \n \n    2\nMon, Feb 26\n \n \n     \nWed, Feb 28\n \n \n     \nSun, Mar 3\n \n \n    3\nMon, Mar 4\n \n \n     \nWed, Mar 6\n \n \n     \nSun, Mar 10"
+  },
+  {
+    "objectID": "course-faq.html",
+    "href": "course-faq.html",
+    "title": "Help & FAQ",
+    "section": "",
+    "text": "Tip\n\n\n\nIf you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ."
+  },
+  {
+    "objectID": "course-faq.html#faq",
+    "href": "course-faq.html#faq",
+    "title": "Help & FAQ",
+    "section": "FAQ",
+    "text": "FAQ\n\nOrganizational\n\nWhich language will we be using?\nYou can use either Python,R, or Julia. We will be providing code examples and suppport in all three languages.\n\n\nWhat software do I need to install?\nYou will need to use git, and a text editor or IDE.\nFor git, please see here for instructions on how to install it.\nYou can use any kind of text editor or IDE you like. We recomment using VS Code with the extension corresponding to your language of choice. You can also use Rstudio for R. See here for instructions on how to install the software and IDEs.\n\n\nHow do I submit an assignment?\nWe will be using Github-classroom to distribute and collect assignments. You will need to create a Github account if you don’t already have one.\n\n\n\nTechnical issues\n\nI am lost with Github, what should I do?\nGitHub has possibly the best tutorials and documentation of any software out there. You can find the Hello world there. Most of the time googling your issue will lead you to the right place.\n\n\nI have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?\nFirst google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.\n\n\nI cannot find the repository linked to the assignment, what should I do?\nAt the top of each assignment there should be a link you can manually click to accept the assignment. If this happens after the first assignment, please let us know."
   },
   {
     "objectID": "course-overview.html",
@@ -42,67 +98,11 @@
     "text": "6.1 License\n\nThis online work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International. Visit here for more information about the license.\nThis website and part of the course materials where adapted from different sources:\n\nDr. Mine Çetinkaya-Rundel STA 101 website\nDr. Tomas Masák MATH-517 Fall 2022 course\nfredhutch.io and R for data analysis and visualization of Ecological Data"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MATH 516: Applied Statistics",
+    "objectID": "projects/project-02.html",
+    "href": "projects/project-02.html",
+    "title": "Project Week 2",
     "section": "",
-    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      WEEK\n      DATE\n      TOPIC\n      DUE\n    \n  \n  \n    1\nMon, Feb 19\n \n \n     \nWed, Feb 21\n \n \n     \nSun, Feb 25\n \n \n    2\nMon, Feb 26\n \n \n     \nWed, Feb 28\n \n \n     \nSun, Mar 3\n \n \n    3\nMon, Mar 4\n \n \n     \nWed, Mar 6\n \n \n     \nSun, Mar 10"
-  },
-  {
-    "objectID": "course-syllabus.html",
-    "href": "course-syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "The course will provide the opportunity to tackle real world problems requiring advanced computational skills and visualisation techniques to complement statistical thinking. Students will practice proposing efficient solutions, and effectively communicating the results with stakeholders."
-  },
-  {
-    "objectID": "course-syllabus.html#course-description",
-    "href": "course-syllabus.html#course-description",
-    "title": "Syllabus",
-    "section": "",
-    "text": "The course will provide the opportunity to tackle real world problems requiring advanced computational skills and visualisation techniques to complement statistical thinking. Students will practice proposing efficient solutions, and effectively communicating the results with stakeholders."
-  },
-  {
-    "objectID": "course-syllabus.html#content",
-    "href": "course-syllabus.html#content",
-    "title": "Syllabus",
-    "section": "Content",
-    "text": "Content\n\nModern statistical computing environments (e.g., R, Julia, and Python)\nAids to efficiency and reproducibility (e.g., GitHub, Markdown)\nData management, wrangling, and ethics\nStatistical graphics (grammar, good practices, applications, and examples)\nKernel density estimation and smoothing\nCross-validation\nEM algorithm and applications\nResampling methods for uncertainty assessment (bootstrap, jackknife, cross-validation), with applications to regression, time series and dependent data\nMarkov chain Monte Carlo techniques (Gibbs sampler, Metropolis-Hastings algorithm, Hamiltonian Monte Carlo, convergence diagnostics) and software (e.g., Stan)\nOther methods for Bayesian inference (e.g., importance sampling)\nDecision trees for classification"
-  },
-  {
-    "objectID": "course-syllabus.html#prerequisites",
-    "href": "course-syllabus.html#prerequisites",
-    "title": "Syllabus",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nRequired courses: Probability and statistics, Linear models"
-  },
-  {
-    "objectID": "course-syllabus.html#learning-outcomes",
-    "href": "course-syllabus.html#learning-outcomes",
-    "title": "Syllabus",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nBy the end of the course, the student must be able to:\n\nPlan complex visualisation and computational tasks\nPerform complex visualisation and computational tasks\nImplement reproducible computational solutions to statistical problems in modern environments and platforms"
-  },
-  {
-    "objectID": "course-syllabus.html#transversal-skills",
-    "href": "course-syllabus.html#transversal-skills",
-    "title": "Syllabus",
-    "section": "Transversal skills",
-    "text": "Transversal skills\n\nTake feedback (critique) and respond in an appropriate manner.\nCommunicate effectively with professionals from other disciplines.\nDemonstrate the capacity for critical thinking\nIdentify the different roles that are involved in well-functioning teams and assume different roles, including leadership roles."
-  },
-  {
-    "objectID": "course-faq.html",
-    "href": "course-faq.html",
-    "title": "Help & FAQ",
-    "section": "",
-    "text": "Tip\n\n\n\nIf you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ."
-  },
-  {
-    "objectID": "course-faq.html#faq",
-    "href": "course-faq.html#faq",
-    "title": "Help & FAQ",
-    "section": "FAQ",
-    "text": "FAQ\n\nOrganizational\n\nWhich language will we be using?\nYou can use either Python,R, or Julia. We will be providing code examples and suppport in all three languages.\n\n\nWhat software do I need to install?\nYou will need to use git, and a text editor or IDE.\nFor git, please see here for instructions on how to install it.\nYou can use any kind of text editor or IDE you like. We recomment using VS Code with the extension corresponding to your language of choice. You can also use Rstudio for R. See here for instructions on how to install the software and IDEs.\n\n\nHow do I submit an assignment?\nWe will be using Github-classroom to distribute and collect assignments. You will need to create a Github account if you don’t already have one.\n\n\n\nTechnical issues\n\nI am lost with Github, what should I do?\nGitHub has possibly the best tutorials and documentation of any software out there. You can find the Hello world there. Most of the time googling your issue will lead you to the right place.\n\n\nI have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?\nFirst google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.\n\n\nI cannot find the repository linked to the assignment, what should I do?\nAt the top of each assignment there should be a link you can manually click to accept the assignment. If this happens after the first assignment, please let us know."
+    "text": "Important\n\n\n\nDue date\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nChecklist:\n\nreport.pdf in GitHub repository (max 20 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report"
   },
   {
     "objectID": "projects/tips-resources.html",
