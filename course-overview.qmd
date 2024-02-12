@@ -21,17 +21,17 @@ You can find the course syllabus [here](/course-syllabus.qmd) and the course sch
 
 # Course Content
 
-
-
-Apart from the topics mentioned [in the schedule](index.qmd), mastering this course requires scripting (simulation studies and data exploration & visualization tasks), as well as sharing your code via **GitHub**. You will be required to do a small project a final project, and various assignments fostering these skills. **Exercise classes should be attended** and used to pick up the required skills, and work on these projects and assignments! Additional exercises can be found in the Exercices tab on this website.
+Apart from the topics mentioned [in the schedule](index.qmd), mastering this course requires scripting (simulation studies and data exploration & visualization tasks), as well as sharing your code via **GitHub**. Check out [this manual](https://math-517.github.io/math_517_website/resources/tutorials/github.html) from the previous course (MATH-517, a **mandatory prerequisite**). **Exercise classes should be attended** and used to pick up the required skills, and work on the projects!
 
 # Evaluation
 
 The assessment method for this course is "controle continue", meaning that the course and all the work required from the students effectively with the end of the semester. 
 
+**Project 1 is mandatory** (deadline in Sunday, March 3) and the course is "without withdrawal", i.e., whoever submits Project 1 is committing to the course and will eventually get a grade.
+
 There will be 7 projects (data analyses) in total:
 
-1.  EM Algorithm - Daniela’s Data
+1.  Snow Data
     - Weeks 1 and 2 (19.2.-3.3.2024)
 2.  GLMs - Climate-related Disasters
     - Weeks 3 and 4 (4.3.-17.3.2014)
