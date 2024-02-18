@@ -45,9 +45,9 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 To understand spatial and temporal (climate change) dependencies
 
-![](%22../images/fig_AnnualAvg1990.pdf%22){width=30%}
-![](%22../images/fig_AnnualAvg2010.pdf%22){width=30%}
-![](%22../images/fig_AnnualAvg2015.pdf%22){width=30%}
+![](%22/images/fig_AnnualAvg1990.pdf%22){width=30%}
+![](%22/images/fig_AnnualAvg2010.pdf%22){width=30%}
+![](%22/images/fig_AnnualAvg2015.pdf%22){width=30%}
 
 \hfill \footnotesize Source: [Castro-Camilo et al. (2020)](https://doi.org/10.1007/s10687-020-00394-z)
 
@@ -55,7 +55,7 @@ To understand spatial and temporal (climate change) dependencies
 
 To understand variability in gene expressions
 
-![](%22../images/Plots/heatmap.png%22){width=70%}
+![](%22/images/Plots/heatmap.png%22){width=70%}
 
 \hfill \footnotesize Source: [Schwartzentruber et al.  (2018)](https://doi.org/10.1038/s41588-017-0005-8)
 
