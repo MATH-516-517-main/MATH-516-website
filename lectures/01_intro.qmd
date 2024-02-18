@@ -1,0 +1,297 @@
+---
+title: "Week 1: Introduction & Organization"
+subtitle: "MATH-516 Applied Statistics"
+author: "Linda Mhalla"
+# date: "`r format(Sys.time(), '%b %d, %Y')`"
+date: "February 19, 2024"
+format: beamer
+editor: visual
+execute: 
+  warning: false
+message: false
+echo: true
+footer: "Copyright (c) 2024, EPFL"
+theme: "Madrid"
+colortheme: "seahorse"
+urlcolor: blue
+number-sections: true
+header-includes:
+- \usepackage{bm}
+- \usepackage[makeroom]{cancel}
+- \newcommand{\E}{\mathbb{E}}
+- \newcommand{\R}{\mathbb{R}}
+- \newcommand{\argmin}{\mathrm{arg\,min\;}}
+- \newcommand{\argmax}{\mathrm{arg\,max\;}}
+- \newcommand{\rank}{\mathrm{rank}}
+- \newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+# Introduction
+
+## Why Applied Statistics
+
+ - [Data are everywhere!](https://www.science.org/toc/science/331/6018)
+ 
+   * Large amount of data that come with **uncertainty** and **variability**
+   * We want to learn something about these data, but what?
+   <!-- uncertainty: multimodality, measurement errors (in data collection, precision of measurement), sampling uncertainty (we have a sample not an entire population so if this sample is not representative...) -->
+   <!-- variability: even if you control for all the features you can think of, you still have variability in your data -->
+   
+## Why Should I Learn Applied Statistics? 
+
+To understand spatial and temporal (climate change) dependencies
+
+![](%22/Users/mhalla/switchdrive/EPFL/Teaching/Applied_Stat/Applied_Statistics_2024/Plots/fig_AnnualAvg1990.pdf%22){width=30%}
+![](%22/Users/mhalla/switchdrive/EPFL/Teaching/Applied_Stat/Applied_Statistics_2024/Plots/fig_AnnualAvg2010.pdf%22){width=30%}
+![](%22/Users/mhalla/switchdrive/EPFL/Teaching/Applied_Stat/Applied_Statistics_2024/Plots/fig_AnnualAvg2015.pdf%22){width=30%}
+
+\hfill \footnotesize Source: [Castro-Camilo et al. (2020)](https://doi.org/10.1007/s10687-020-00394-z)
+
+## Why Should I Learn Applied Statistics? 
+
+To understand variability in gene expressions
+
+![](%22/Users/mhalla/switchdrive/EPFL/Teaching/Applied_Stat/Applied_Statistics_2024/Plots/heatmap.png%22){width=70%}
+
+\hfill \footnotesize Source: [Schwartzentruber et al.  (2018)](https://doi.org/10.1038/s41588-017-0005-8)
+
+
+## Job of a Statistician
+
+Understand a complex world by describing it in relatively simple terms that capture essential aspects of its structure, and provide us some idea of how uncertain we are about that knowledge
+
+* think about uncertainty and bias (anticipate and reduce it)
+* build models emulating nature
+  - inference about the models leads to conclusions about nature -- but what if the model is a poor representation of nature?
+* provide *interpretable* models allowing for rational conclusions
+  - prediction vs. information extraction
+  - all models are wrong $\Rightarrow$ critical model validation
+* estimate variation ($\Rightarrow$ confidence intervals, significance)
+* draw conclusions from data
+* traditional role: statisticians invited to analyze existing data
+  - e.g. does the existing data contain the desired information?
+* modern role: collaborative step-by-step
+  - from acquisition of data to presentation of results
+  - interdisciplinary communication
+<!-- * exploratory vs. confirmatory analysis -->
+
+\hfill David Donoho (2015) [50 years of Data Science](https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734)
+
+## Domains of Application
+
+- actuarial science
+- biostatistics (medicine, pharma, genetics, etc.)
+- business
+- chemometrics
+- econometrics
+- epidemiology
+- finance
+- geostatistics
+- machine learning and AI
+- official statistics (demography, surveys, etc.)
+- psychology
+- quality control
+- reliability
+- physics
+- signal processing
+- ...
+
+## Why Models?
+
+We build models in order to
+
+- (1) understand the nature,
+- (2) predict the future, and
+- (3) control the world. [or was it rule the world?]
+
+\hfill -- Patrick Winston (former director of the AI lab at MIT)
+
+\bigskip
+(1) is the main goal of applied statistics
+    - interpretation
+    - parsimony
+(2) is the main goal of AI
+    - average accuracy
+(3) is just to slam the message home
+
+\bigskip\bigskip
+
+> All models are wrong, but some are useful.
+
+\hfill -- George Box
+
+
+# Organization
+
+## Organization
+
+- This course: a taste of real world problems and challenges for future statisticians
+
+- Emphasis on models and inference: we
+overview several techniques of statistical modelling, and discuss real life problems
+
+- Project based evaluation:  
+
+   * you will be challenged to use these tools to learn from the data
+   
+- This course is problem-driven, and hence you are responsible for understanding what are the appropriate models to analyze the data and to implement these computationally
+   
+   * reproducibility of the analysis, and effective and rigorous communication
+of your analyses are assumed acquired from MATH-517
+
+
+## Classes
+
+**Lectures**
+
+* Teacher: Linda Mhalla
+* Time: Monday 13:15-14:00 and Wednesday 13:15-14:00 (biweekly)
+* Place: MA A1 10
+
+\bigskip
+
+**Exercises**
+
+* Teacher: Almond Stöcker
+* Time: Monday 13:15-16:00
+* Place: CM 0 12
+
+\bigskip
+
+A schedule can be found [here](https://math-516.github.io/website/)
+
+## Prerequisites
+
+Learning Prerequisites (from the course book):
+
+* REQUIRED COURSES
+    - Regression Methods 
+    - **Statistical Computation and Visualization** (MATH-517)
+* RECOMMENDED COURSES
+    - Time Series
+    - Statistical Inference
+
+\bigskip    
+\pause
+Learning Prerequisites (my strong personal recommendation):
+
+* required course:
+    - **Statistical Computation and Visualization** (MATH-517)
+* somewhat helpful courses:
+    - Regression Methods 
+    - Time Series
+    - Statistical Inference
+
+## Content
+\small
+
+* **Week 1**: Intro
+    - Project 1: Snow Data
+* **Week 3**: Poisson Regression
+    - Project 2: Climate-related Disasters
+* **Week 5**: Logistic Regression
+    - Project 3: TBD
+* **Week 7**: Linear Mixed Models
+    - Project 4: Energy Expenditure in the Human Body
+* **Week 9**: Causal Inference
+    - Project 5: Tubingen Datasets
+* **Week 11**: Extreme Value Theory
+    - Project 6: The Vargas Tragedy or Rainfall data in Switzerland
+* **Week 12**: Statistical Consulting
+    - Project 7: TBD
+* Week 14: **Oral Exam**
+    - discussing your submitted projects
+
+**Project deadlines**: Project assigned on (Monday of) Week $X$ has a deadline on Sunday evening of Week $X+1$, i.e. there are always 2 weeks per project.
+
+
+## Project Submission
+
+R/RStudio, Markdown/Quarto (or eventually LaTeX) and GitHub will be needed
+
+  - submissions are made through GitHub Classroom (see dedicated tutorial on the [MATH-517 course website](https://math-517.github.io/math_517_website/resources/tutorials/github_classroom.html))
+    
+
+## Evaluation
+
+The grade will reflect on the quality of the projects, which are expected to
+
+* identify questions of interest
+    - some will be provided during the description of the project
+* choose appropriate models to analyze the data
+    - demonstrate understanding of the models used
+* implement the models in R
+    - though this is probably not displayed in the report
+* critically evaluate shortcomings of your models (model diagnostics)
+    - a good solution may be to provide more than one model at first and eventually compare those
+* use a final model to answer the questions of interest
+
+## Evaluation
+
+It is imperative that the final report is
+
+* readable
+    - figures need to have self-explanatory captions, appropriate font size, and be generally of a decent quality
+    - there should be no code in the report, unless it significantly improves clarity of the report (e.g. R table instead of a Latex table is permitted for simplicity) and even in such a case it has to be verbally explained around any code chunk what it actually does
+* reproducible
+    - i.e., the R Markdown file can be run again on a different machine inside a copy of your Github repo
+    - code is well commented
+    
+This makes projects iterative work, where most of the work done (e.g. data exploration and model selection) is underrepresented in the final report
+
+## Report Writing
+
+Some (paraphrased) quotes:
+
+ - If a work is not compiled into a report, it does not exist. If the report is not readable and reproducible, the work is useless.
+
+- Think about what you want to write and then write it as clearly and economically as possible. That is all there is to academic writing.
+
+## Report Writing
+
+- The length of the reports should be between 8 and 15 pages, all included
+
+- The reports should include: 
+
+ * An abstract
+ * An introduction presenting the problem
+ * A description of the data
+ * An exploratory analysis of the data (with some relevant plots)
+ * A statistical description of the method(s) used to analyse the data
+ * An interpretation of the results (with some relevant plots)
+ * A conclusion
+
+## Evaluation
+
+* 7 projects in total (for you to choose from)
+    - specific data and tasks to perform
+    - done individually, but exchange of ideas (but not the code) is encouraged
+* 5 projects will form your chosen portfolio
+    - Project 1 is mandatory
+    - at least one from Projects 2-3
+        - you will get a detailed feedback on this one
+    - at least one from Projects 4-5
+    - at least one from Projects 6-7
+* Project 1 (linked heavily to MATH-517) gets a grade of its own (not provided), the rest will be graded during the final oral examination
+
+\vspace{-2mm}
+* this course is "without withdrawal" (submit Project 1 $\equiv$ commit)
+
+## References (for the 1st half of this course)
+
+\footnotesize
+* Wood (2017) Generalized Additive Models: an Introduction with R (2nd ed.)
+    - even though mainly about GAMs, this book has a short and practical exposition to linear models and GLMs that has a value of its own
+    - computational flavor
+* Davison (2003) Statistical Models
+    - nice reference due to the content breadth; is self-contained , but no `R` code
+* Gelman & Hill (2006) Data Analysis Using Regression and Multilevel/Hierarchical Models
+    - focuses very much on interpretation
+    - eloquent/lengthy and not always to the point (or precise)
+* Wickham & Grolemund (2017) [R for Data Science](https://r4ds.had.co.nz/index.html)
+    - useful guide to `tidyverse`, i.e., data exploration and manipulation
+
