@@ -55,7 +55,7 @@ To understand spatial and temporal (climate change) dependencies
 
 To understand variability in gene expressions
 
-![](/images/Plots/heatmap.png){width=70%}
+![](/images/heatmap.png){width=70%}
 
 \hfill \footnotesize Source: [Schwartzentruber et al.  (2018)](https://doi.org/10.1038/s41588-017-0005-8)
 
