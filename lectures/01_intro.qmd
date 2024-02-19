@@ -295,3 +295,12 @@ Some (paraphrased) quotes:
 * Wickham & Grolemund (2017) [R for Data Science](https://r4ds.had.co.nz/index.html)
     - useful guide to `tidyverse`, i.e., data exploration and manipulation
 
+## A Quick Poll
+
+What are your expectations from this course? 
+
+  - want/need to get out of it
+  - [Click here to answer](https://app.wooclap.com/BQZIXK?from=instruction-slide)
+  
+
+![](/images/Wooclap_survey.png){width=50%}
