@@ -65,14 +65,24 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-
-
 <meta property="og:title" content="MATH 516 - Project Week 1">
 <meta property="og:description" content="Snow Particles">
 <meta property="og:site_name" content="MATH 516">
-</head>
+</head><body class="nav-sidebar docked">\usepackage{bm}
+\usepackage[makeroom]{cancel}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\argmin}{\mathrm{arg\,min\;}}
+\newcommand{\argmax}{\mathrm{arg\,max\;}}
+\newcommand{\rank}{\mathrm{rank}}
+\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
 
-<body class="nav-sidebar docked">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -213,7 +223,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Due date</strong></p>
+<p><strong>Due date:</strong> Sunday, March 3</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -253,6 +263,85 @@ Submission requirements
 <li><input type="checkbox">Source code in GitHub repository</li>
 <li><input type="checkbox"><code>README.md</code> with instructions on how to run the code and reproduce the PDF report</li>
 </ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Description of the Project
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<ul>
+<li>data from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters
+<ul>
+<li>shared with the permision of the authors of <a href="https://www.sciencedirect.com/science/article/pii/S1875963717301246">this paper</a></li>
+</ul></li>
+<li>the total number of particles measured (variable <code>particles.detected</code>) and the fraction (variable <code>retained [%]</code>) of particles belonging to each diameter bin (given by <code>startpoint</code> and <code>endpoint</code>)
+<ul>
+<li>only binned data are available (and the grid is not equidistant)</li>
+</ul></li>
+</ul>
+<p><img src="../images/snow_snap.png" class="img-fluid" style="width:40.0%"></p>
+</section>
+<section id="the-goal" class="level2">
+<h2 class="anchored" data-anchor-id="the-goal">The Goal</h2>
+<p>Simulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models</p>
+<ul>
+<li>i.e., the goal is to do Monte Carlo: <strong>how to simulate snow-flake diameters that are compatible with the data?</strong></li>
+</ul>
+<p>Expert knowledge: a mixture of two log-normal distributions is a good model for the diameters</p>
+</section>
+<section id="tasks-for-you" class="level2">
+<h2 class="anchored" data-anchor-id="tasks-for-you">Tasks for You</h2>
+<ol type="1">
+<li>Is the assumption viable, i.e.&nbsp;is bi-log-normal distribution a reasonable model for the data?
+<ul>
+<li>simple exploration of the data</li>
+</ul></li>
+<li>Fit the bi-log-normal distribution in order to be able to simulate the data easily
+<ul>
+<li>jittering and EM algorithm</li>
+<li>optimization (e.g.&nbsp;local search starting from the jittered EM result)</li>
+<li>Bayesian approach</li>
+</ul></li>
+<li>Test whether the diameters come from a bi-log-normal distribution
+<ul>
+<li>parametric Bootstrap and goodness of fit</li>
+</ul></li>
+</ol>
+</section>
+<section id="math-517-content" class="level2">
+<h2 class="anchored" data-anchor-id="math-517-content">MATH-517 Content</h2>
+<ul>
+<li>Week 1: Introduction &amp; Software &amp; Data Considerations</li>
+<li>Week 2: Graphics &amp; Visualization</li>
+<li><strong>Week 3: Kernel Density Estimation</strong></li>
+<li>Week 4: Non-parametric Regression</li>
+<li><strong>Week 5: Cross-validation</strong></li>
+<li><strong>Week 6: EM Algorithm</strong></li>
+<li><strong>Week 7: EM Algorithm</strong></li>
+<li><strong>Week 8: Monte Carlo</strong></li>
+<li><strong>Week 9: Bootstrap</strong></li>
+<li><strong>Week 10: Bootstrap</strong></li>
+<li><strong>Week 11: Bayesian Computations</strong></li>
+<li><strong>Week 12: Bayesian Computations</strong></li>
+<li>Week 13: Decision Trees</li>
+<li>Week 14: <span class="math inline">\(\emptyset\)</span>
+<ul>
+<li>Weeks in bold are pertinent to Project 1</li>
+<li>Weeks 1-2 established the workflow needed for all the projects</li>
+</ul></li>
+</ul>
+</section>
 </div>
 </div>
 </div>
