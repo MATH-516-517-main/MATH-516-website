@@ -257,13 +257,13 @@ Some (paraphrased) quotes:
 
 - The reports should include: 
 
- * An abstract
- * An introduction presenting the problem
- * A description of the data
- * An exploratory analysis of the data (with some relevant plots)
- * A statistical description of the method(s) used to analyse the data
- * An interpretation of the results (with some relevant plots)
- * A conclusion
+  * An abstract
+  * An introduction presenting the problem
+  * A description of the data
+  * An exploratory analysis of the data (with some relevant plots)
+  * A statistical description of the method(s) used to analyse the data
+  * An interpretation of the results (with some relevant plots)
+  * A conclusion
 
 ## Evaluation
 
@@ -279,7 +279,7 @@ Some (paraphrased) quotes:
 * Project 1 (linked heavily to MATH-517) gets a grade of its own (not provided), the rest will be graded during the final oral examination
 
 \vspace{-2mm}
-* this course is "without withdrawal" (submit Project 1 $\equiv$ commit)
+* This course is "without withdrawal" (submit Project 1 $\equiv$ commit)
 
 ## References (for the 1st half of this course)
 
