@@ -3,15 +3,6 @@ title: "Project Week 1"
 subtitle: "Snow Particles"
 bibliography: ref.bib
 urlcolor: blue
-header-includes:
-- \usepackage{bm}
-- \usepackage[makeroom]{cancel}
-- \newcommand{\E}{\mathbb{E}}
-- \newcommand{\R}{\mathbb{R}}
-- \newcommand{\argmin}{\mathrm{arg\,min\;}}
-- \newcommand{\argmax}{\mathrm{arg\,max\;}}
-- \newcommand{\rank}{\mathrm{rank}}
-- \newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
 ---
 
 
