@@ -81,11 +81,9 @@ We will use GitHub Classroom to handle the projects for this course. See [this p
 [![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png){alt="Creative Commons License"}](https://creativecommons.org/licenses/by-sa/4.0/)\
 This online work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). Visit [here](https://github.com/dukestatsciintrods/blob/master/LICENSE.md) for more information about the license.
 
-This website and part of the course materials where adapted from different sources:
+This website and part of the course materials were adapted from different sources:
 
 - [Dr. Mine Çetinkaya-Rundel STA 101 website](https://sta101-f23.github.io/course-overview.html)
 - [Dr. Linda Mhalla MATH-517 Fall 2023 course](https://math-517.github.io/math_517_website/)
 - [fredhutch.io](https://fredhutchio.github.io/r_intro/) and [R for data analysis and visualization of Ecological Data](https://datacarpentry.org/R-ecology-lesson/instructor/aio.html)
 
-
-[^1]: Details on how submissions will be handled will be provided later in the semester.
