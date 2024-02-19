@@ -2,11 +2,21 @@
 title: "Project Week 1"
 subtitle: "Snow Particles"
 bibliography: ref.bib
+urlcolor: blue
+header-includes:
+- \usepackage{bm}
+- \usepackage[makeroom]{cancel}
+- \newcommand{\E}{\mathbb{E}}
+- \newcommand{\R}{\mathbb{R}}
+- \newcommand{\argmin}{\mathrm{arg\,min\;}}
+- \newcommand{\argmax}{\mathrm{arg\,max\;}}
+- \newcommand{\rank}{\mathrm{rank}}
+- \newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
 ---
 
 
 ::: callout-important
-**Due date**
+**Due date:** Sunday, March 3
 :::
 
 ::: {.callout-note collapse="true"}
@@ -29,4 +39,67 @@ An aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. I
 1. [ ] `report.pdf` in GitHub repository (**max 15 pages**)
 2. [ ]  Source code in GitHub repository 
 3. [ ] `README.md` with instructions on how to run the code and reproduce the PDF report
+:::
+
+::: {.callout-warning collapse="true"}
+# Description of the Project
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+## Data
+
+-   data from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters
+    -   shared with the permision of the authors of [this paper](https://www.sciencedirect.com/science/article/pii/S1875963717301246)
+-   the total number of particles measured (variable `particles.detected`) and the fraction (variable `retained [%]`) of particles belonging to each diameter bin (given by `startpoint` and `endpoint`)
+    -   only binned data are available (and the grid is not equidistant)
+
+\footnotesize
+
+```{r}
+Data <- read.csv("Data/1_snow_particles.csv")
+head(Data)
+```
+
+\normalsize
+
+## The Goal
+
+Simulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models
+
+-   i.e., the goal is to do Monte Carlo: **how to simulate snow-flake diameters that are compatible with the data?**
+
+Expert knowledge: a mixture of two log-normal distributions is a good model for the diameters
+
+## Tasks for You
+
+1.  Is the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?
+    -   simple exploration of the data
+2.  Fit the bi-log-normal distribution in order to be able to simulate the data easily
+    -   jittering and EM algorithm
+    -   optimization (e.g. local search starting from the jittered EM result)
+    -   Bayesian approach
+3.  Test whether the diameters come from a bi-log-normal distribution
+    -   parametric Bootstrap and goodness of fit
+
+## MATH-517 Content
+
+-   Week 1: Introduction & Software & Data Considerations
+-   Week 2: Graphics & Visualization
+-   **Week 3: Kernel Density Estimation**
+-   Week 4: Non-parametric Regression
+-   **Week 5: Cross-validation**
+-   **Week 6: EM Algorithm**
+-   **Week 7: EM Algorithm**
+-   **Week 8: Monte Carlo**
+-   **Week 9: Bootstrap**
+-   **Week 10: Bootstrap**
+-   **Week 11: Bayesian Computations**
+-   **Week 12: Bayesian Computations**
+-   Week 13: Decision Trees
+-   Week 14: $\emptyset$
+    -   Weeks in bold are pertinent to Project 1
+    -   Weeks 1-2 established the workflow needed for all the projects
+
 :::
