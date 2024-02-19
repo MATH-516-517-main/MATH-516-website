@@ -57,10 +57,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 \footnotesize
 
-```{r}
-Data <- read.csv("Data/1_snow_particles.csv")
-head(Data)
-```
+![](/images/snow_snap.png){width=40%}
 
 \normalsize
 
