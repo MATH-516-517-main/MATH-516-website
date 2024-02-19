@@ -66,10 +66,10 @@ idividual project.
 
 # Materials
 
-All materials will be gradually made available on this website. Lectures and Projects can be accessed through their respective tabs. Supplemental materials can be found in the [`Ressources`](resources/resources.qmd) tab. Lecture slides will be posted in the [schedule](index.qmd).
+All materials will be gradually made available on this website. Lectures and Projects can be accessed through their respective tabs. Lecture slides as well as projects' descriptions will be posted in the [schedule](index.qmd).
 
 
-# Handing-in Assignments and Projects
+# Handing-in Projects
 
 We will use GitHub Classroom to handle the projects for this course. See [this page](resources/tutorials/github_classroom.qmd) for more information on how to use GitHub Classroom.
 
