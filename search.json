@@ -14,6 +14,20 @@
     "text": "FAQ\n\nOrganizational\n\nWhich language will we be using?\nYou can use either Python, R, or Julia. We will be providing code examples and suppport only in R, though. We will gladly help you, within our capabilities, if you are using Python or Julia.\n\n\nWhat software do I need to install?\nYou will need to use git, and a text editor or IDE.\nFor git, please see here for instructions on how to install it.\nYou can use any kind of text editor or IDE you like. We recomment using VS Code with the extension corresponding to your language of choice. You can also use Rstudio for R. See here for instructions on how to install the software and IDEs.\n\n\nHow do I submit a project?\nWe will be using Github-classroom to distribute and collect projects. You will need to create a Github account if you don’t already have one.\n\n\n\nTechnical issues\n\nI am lost with Github, what should I do?\nGitHub has possibly the best tutorials and documentation of any software out there. You can find the Hello world there. Most of the time googling your issue will lead you to the right place.\n\n\nI have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?\nFirst google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.\n\n\nI cannot find the repository linked to the project, what should I do?\nAt the top of each project there should be a link where you can manually click to accept the project. If this happens after the first project, please let us know."
   },
   {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "This is the homepage for MATH-516 Applied Statistics in Spring 2024 at EPFL. All course materials will be posted on this site.\nYou can find the course syllabus here and the course schedule here. All the additional ressources can be found either on this page or by using the search bar on the top left corner of the website. These ressources include project descriptions, datasets, tips and tricks, etc…"
+  },
+  {
+    "objectID": "course-overview.html#license",
+    "href": "course-overview.html#license",
+    "title": "Course overview",
+    "section": "5.1 License",
+    "text": "5.1 License\n\nThis online work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International. Visit here for more information about the license.\nThis website and part of the course materials were adapted from different sources:\n\nDr. Mine Çetinkaya-Rundel STA 101 website\nDr. Linda Mhalla MATH-517 Fall 2023 course\nfredhutch.io and R for data analysis and visualization of Ecological Data"
+  },
+  {
     "objectID": "projects/tips-resources.html",
     "href": "projects/tips-resources.html",
     "title": "Tips + resources",
@@ -32,28 +46,42 @@
     "href": "projects/project-02.html",
     "title": "Project Week 2",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, March 17\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nChecklist:\n\nreport.pdf in GitHub repository (max 20 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report"
+    "text": "Important\n\n\n\nDue date: Sunday, March 17\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report"
   },
   {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Course overview",
+    "objectID": "projects/project-01.html",
+    "href": "projects/project-01.html",
+    "title": "Project Week 1",
     "section": "",
-    "text": "This is the homepage for MATH-516 Applied Statistics in Spring 2024 at EPFL. All course materials will be posted on this site.\nYou can find the course syllabus here and the course schedule here. All the additional ressources can be found either on this page or by using the search bar on the top left corner of the website. These ressources include project descriptions, datasets, tips and tricks, etc…"
+    "text": "Important\n\n\n\nDue date: Sunday, March 3"
   },
   {
-    "objectID": "course-overview.html#license",
-    "href": "course-overview.html#license",
-    "title": "Course overview",
-    "section": "5.1 License",
-    "text": "5.1 License\n\nThis online work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International. Visit here for more information about the license.\nThis website and part of the course materials were adapted from different sources:\n\nDr. Mine Çetinkaya-Rundel STA 101 website\nDr. Linda Mhalla MATH-517 Fall 2023 course\nfredhutch.io and R for data analysis and visualization of Ecological Data"
+    "objectID": "projects/project-01.html#data",
+    "href": "projects/project-01.html#data",
+    "title": "Project Week 1",
+    "section": "Data",
+    "text": "Data\n\ndata from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters\n\nshared with the permision of the authors of this paper\n\nthe total number of particles measured (variable particles.detected) and the fraction (variable retained [%]) of particles belonging to each diameter bin (given by startpoint and endpoint)\n\nonly binned data are available (and the grid is not equidistant)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MATH 516: Applied Statistics",
-    "section": "",
-    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      WEEK\n      DATE\n      TOPIC\n      DUE\n    \n  \n  \n    1\nMon, Feb 19\nLecture 1 + Project 1\n\n \n     \nWed, Feb 21\nNo lecture\n\n \n    2\nMon, Feb 26\nProject 1\n\n \n     \nWed, Feb 28\nLecture 2\n\n \n     \nSun, Mar 3\n \nProject 1\n\n    3\nMon, Mar 4\nProject 2\n\n \n     \nWed, Mar 6\nNo lecture\n\n \n    4\nMon, Mar 11\nProject 2\n\n \n     \nWed, Mar 13\nLecture 3 (Logistic regression)\n\n \n     \nSun, Mar 17\n \nProject 2\n\n    5\nMon, Mar 18\nProject 3\n\n \n     \nWed, Mar 20\nNo lecture\n\n \n    6\nMon, Mar 25\nProject 3\n\n \n     \nWed, Mar 27\nLecture 4 (Linear Mixed Models)\n\n \n     \nSun, Mar 31\n \nProject 3\n\n    7\nMon, Apr 8\nProject 4\n\n \n     \nWed, Apr 10\nNo lecture\n\n \n    8\nMon, Apr 15\nProject 4\n\n \n     \nWed, Apr 17\nLecture 5 (Extreme Value Theory)\n\n \n     \nSun, Apr 21\n \nProject 4\n\n    9\nMon, Apr 22\nProject 5\n\n \n     \nWed, Apr 24\nNo lecture\n\n \n    10\nMon, Apr 29\nProject 5 (continued)\n\n \n     \nWed, May 1\nLecture 6 (Causal Inference)\n\n \n     \nSun, May 5\n \nProject 5\n\n    11\nMon, May 6\nProject 6\n\n \n     \nWed, May 8\nNo lecture\n\n \n    12\nMon, May 13\nProject 6 (continued)\n\n \n     \nWed, May 15\nLecture 7 + Project 7 (Statistical Consulting)\n\n \n     \nSun, May 19\n \nProject 6\n\n    13\nMon, May 20\nProject 7 (continued)\n\n \n     \nWed, May 22\nNo lecture\n\n \n     \nSun, May 26\n \nProject 7\n\n    14\nMon, May 27\nOral Exam\n\n \n     \nWed, May 29\nOral Exam"
+    "objectID": "projects/project-01.html#the-goal",
+    "href": "projects/project-01.html#the-goal",
+    "title": "Project Week 1",
+    "section": "The Goal",
+    "text": "The Goal\nSimulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models\n\ni.e., the goal is to do Monte Carlo: how to simulate snow-flake diameters that are compatible with the data?\n\nExpert knowledge: a mixture of two log-normal distributions is a good model for the diameters"
+  },
+  {
+    "objectID": "projects/project-01.html#tasks-for-you",
+    "href": "projects/project-01.html#tasks-for-you",
+    "title": "Project Week 1",
+    "section": "Tasks for You",
+    "text": "Tasks for You\n\nIs the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?\n\nsimple exploration of the data\n\nFit the bi-log-normal distribution in order to be able to simulate the data easily\n\njittering and EM algorithm\noptimization (e.g. local search starting from the jittered EM result)\nBayesian approach\n\nTest whether the diameters come from a bi-log-normal distribution\n\nparametric Bootstrap and goodness of fit"
+  },
+  {
+    "objectID": "projects/project-01.html#math-517-content",
+    "href": "projects/project-01.html#math-517-content",
+    "title": "Project Week 1",
+    "section": "MATH-517 Content",
+    "text": "MATH-517 Content\n\nWeek 1: Introduction & Software & Data Considerations\nWeek 2: Graphics & Visualization\nWeek 3: Kernel Density Estimation\nWeek 4: Non-parametric Regression\nWeek 5: Cross-validation\nWeek 6: EM Algorithm\nWeek 7: EM Algorithm\nWeek 8: Monte Carlo\nWeek 9: Bootstrap\nWeek 10: Bootstrap\nWeek 11: Bayesian Computations\nWeek 12: Bayesian Computations\nWeek 13: Decision Trees\nWeek 14: \\(\\emptyset\\)\n\nWeeks in bold are pertinent to Project 1\nWeeks 1-2 established the workflow needed for all the projects"
   },
   {
     "objectID": "course-syllabus.html",
@@ -98,38 +126,10 @@
     "text": "Transversal skills\n\nGive feedback (critique) in an appropriate fashion.\nTake feedback (critique) and respond in an appropriate manner.\nCommunicate effectively with professionals from other disciplines.\nIdentify the different roles that are involved in well-functioning teams and assume different roles, including leadership roles."
   },
   {
-    "objectID": "projects/project-01.html",
-    "href": "projects/project-01.html",
-    "title": "Project Week 1",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH 516: Applied Statistics",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, March 3"
-  },
-  {
-    "objectID": "projects/project-01.html#data",
-    "href": "projects/project-01.html#data",
-    "title": "Project Week 1",
-    "section": "Data",
-    "text": "Data\n\ndata from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters\n\nshared with the permision of the authors of this paper\n\nthe total number of particles measured (variable particles.detected) and the fraction (variable retained [%]) of particles belonging to each diameter bin (given by startpoint and endpoint)\n\nonly binned data are available (and the grid is not equidistant)"
-  },
-  {
-    "objectID": "projects/project-01.html#the-goal",
-    "href": "projects/project-01.html#the-goal",
-    "title": "Project Week 1",
-    "section": "The Goal",
-    "text": "The Goal\nSimulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models\n\ni.e., the goal is to do Monte Carlo: how to simulate snow-flake diameters that are compatible with the data?\n\nExpert knowledge: a mixture of two log-normal distributions is a good model for the diameters"
-  },
-  {
-    "objectID": "projects/project-01.html#tasks-for-you",
-    "href": "projects/project-01.html#tasks-for-you",
-    "title": "Project Week 1",
-    "section": "Tasks for You",
-    "text": "Tasks for You\n\nIs the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?\n\nsimple exploration of the data\n\nFit the bi-log-normal distribution in order to be able to simulate the data easily\n\njittering and EM algorithm\noptimization (e.g. local search starting from the jittered EM result)\nBayesian approach\n\nTest whether the diameters come from a bi-log-normal distribution\n\nparametric Bootstrap and goodness of fit"
-  },
-  {
-    "objectID": "projects/project-01.html#math-517-content",
-    "href": "projects/project-01.html#math-517-content",
-    "title": "Project Week 1",
-    "section": "MATH-517 Content",
-    "text": "MATH-517 Content\n\nWeek 1: Introduction & Software & Data Considerations\nWeek 2: Graphics & Visualization\nWeek 3: Kernel Density Estimation\nWeek 4: Non-parametric Regression\nWeek 5: Cross-validation\nWeek 6: EM Algorithm\nWeek 7: EM Algorithm\nWeek 8: Monte Carlo\nWeek 9: Bootstrap\nWeek 10: Bootstrap\nWeek 11: Bayesian Computations\nWeek 12: Bayesian Computations\nWeek 13: Decision Trees\nWeek 14: \\(\\emptyset\\)\n\nWeeks in bold are pertinent to Project 1\nWeeks 1-2 established the workflow needed for all the projects"
+    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      WEEK\n      DATE\n      TOPIC\n      DUE\n    \n  \n  \n    1\nMon, Feb 19\nLecture 1 + Project 1\n\n \n     \nWed, Feb 21\nNo lecture\n\n \n    2\nMon, Feb 26\nProject 1\n\n \n     \nWed, Feb 28\nLecture 2\n\n \n     \nSun, Mar 3\n \nProject 1\n\n    3\nMon, Mar 4\nProject 2\n\n \n     \nWed, Mar 6\nNo lecture\n\n \n    4\nMon, Mar 11\nProject 2\n\n \n     \nWed, Mar 13\nCourse d’école\n\n \n     \nSun, Mar 17\n \nProject 2\n\n    5\nMon, Mar 18\nLecture 3 (Logistic regression) + Project 3\n\n \n     \nWed, Mar 20\nProject 3 (continued)\n\n \n    6\nMon, Mar 25\nProject 3 (continued)\n\n \n     \nWed, Mar 27\nLecture 4 (Linear Mixed Models)\n\n \n     \nSun, Mar 31\n \nProject 3\n\n    7\nMon, Apr 8\nProject 4\n\n \n     \nWed, Apr 10\nProject 4 (continued)\n\n \n    8\nMon, Apr 15\nProject 4 (continued)\n\n \n     \nWed, Apr 17\nLecture 5 (Extreme Value Theory)\n\n \n     \nSun, Apr 21\n \nProject 4\n\n    9\nMon, Apr 22\nProject 5\n\n \n     \nWed, Apr 24\nProject 5 (continued)\n\n \n    10\nMon, Apr 29\nProject 5 (continued)\n\n \n     \nWed, May 1\nLecture 6 (Causal Inference)\n\n \n     \nSun, May 5\n \nProject 5\n\n    11\nMon, May 6\nProject 6\n\n \n     \nWed, May 8\nProject 6 (continued)\n\n \n    12\nMon, May 13\nProject 6 (continued)\n\n \n     \nWed, May 15\nLecture 7 + Project 7 (Statistical Consulting)\n\n \n     \nSun, May 19\n \nProject 6\n\n    13\nMon, May 20\nProject 7 (continued)\n\n \n     \nWed, May 22\nProject 7 (continued)\n\n \n     \nSun, May 26\n \nProject 7\n\n    14\nMon, May 27\nOral Exam\n\n \n     \nWed, May 29\nOral Exam"
   }
 ]
