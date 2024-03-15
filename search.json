@@ -16,35 +16,35 @@
   {
     "objectID": "projects/project-01.html",
     "href": "projects/project-01.html",
-    "title": "Project Week 1",
+    "title": "Project 1",
     "section": "",
     "text": "Important\n\n\n\nDue date: Sunday, March 3"
   },
   {
     "objectID": "projects/project-01.html#data",
     "href": "projects/project-01.html#data",
-    "title": "Project Week 1",
+    "title": "Project 1",
     "section": "Data",
     "text": "Data\n\ndata from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters\n\nshared with the permision of the authors of this paper\n\nthe total number of particles measured (variable particles.detected) and the fraction (variable retained [%]) of particles belonging to each diameter bin (given by startpoint and endpoint)\n\nonly binned data are available (and the grid is not equidistant)"
   },
   {
     "objectID": "projects/project-01.html#the-goal",
     "href": "projects/project-01.html#the-goal",
-    "title": "Project Week 1",
+    "title": "Project 1",
     "section": "The Goal",
     "text": "The Goal\nSimulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models\n\ni.e., the goal is to do Monte Carlo: how to simulate snow-flake diameters that are compatible with the data?\n\nExpert knowledge: a mixture of two log-normal distributions is a good model for the diameters"
   },
   {
     "objectID": "projects/project-01.html#tasks-for-you",
     "href": "projects/project-01.html#tasks-for-you",
-    "title": "Project Week 1",
+    "title": "Project 1",
     "section": "Tasks for You",
     "text": "Tasks for You\n\nIs the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?\n\nsimple exploration of the data\n\nFit the bi-log-normal distribution in order to be able to simulate the data easily\n\njittering and EM algorithm\noptimization (e.g. local search starting from the jittered EM result)\nBayesian approach\n\nTest whether the diameters come from a bi-log-normal distribution\n\nparametric Bootstrap and goodness of fit"
   },
   {
     "objectID": "projects/project-01.html#math-517-content",
     "href": "projects/project-01.html#math-517-content",
-    "title": "Project Week 1",
+    "title": "Project 1",
     "section": "MATH-517 Content",
     "text": "MATH-517 Content\n\nWeek 1: Introduction & Software & Data Considerations\nWeek 2: Graphics & Visualization\nWeek 3: Kernel Density Estimation\nWeek 4: Non-parametric Regression\nWeek 5: Cross-validation\nWeek 6: EM Algorithm\nWeek 7: EM Algorithm\nWeek 8: Monte Carlo\nWeek 9: Bootstrap\nWeek 10: Bootstrap\nWeek 11: Bayesian Computations\nWeek 12: Bayesian Computations\nWeek 13: Decision Trees\nWeek 14: \\(\\emptyset\\)\n\nWeeks in bold are pertinent to Project 1\nWeeks 1-2 established the workflow needed for all the projects"
   },
