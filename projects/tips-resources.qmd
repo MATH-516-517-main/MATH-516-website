@@ -2,6 +2,19 @@
 title: "Tips + resources"
 ---
 
+## General comments about Project 1
+
+1. The report should be self-contained
+   - it should not be a tutorial for the code
+   - the reader should not have to jump between the report and the code to understand your work
+2. Use the same verb tense throughout the report, unless you are mentioning others' work (then use the past tense)
+3. Use already-implemented methods, when available 
+4. When discussing your modelling/inference choices
+   - clearly state your assumptions and your model(s)
+   - write down the likelihood you are optimising (this is of course very specific to this project and you wouldn't need to do so in a project where the modelling assumptions directly apply to the data at hand)
+   - in the MCMC part, clearly state your choices of priors and the likelihood
+
+
 ## Tips and tricks for visualisation
 
 1. Consistency is the most important thing for a statistician.
