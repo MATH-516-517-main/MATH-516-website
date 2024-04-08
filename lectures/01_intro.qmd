@@ -196,7 +196,7 @@ Learning Prerequisites (my strong personal recommendation):
 * **Week 5**: Logistic Regression
     - Project 3: TBD
 * **Week 7**: Linear Mixed Models
-    - Project 4: Energy Expenditure in the Human Body
+    - Project 4: Calorie Expenses in the Human Body
 * **Week 9**: Causal Inference
     - Project 5: Tubingen Datasets
 * **Week 11**: Extreme Value Theory
