@@ -1,0 +1,32 @@
+---
+title: "Project 6"
+subtitle: "Sea level extremes in Venice"
+bibliography: ref.bib
+---
+
+
+::: callout-important
+**Due date:** Sunday, May 19
+:::
+
+::: {.callout-note collapse="true"}
+# Invite link for GitHub Classroom
+
+Use the corresponding invite link in [this google doc](https://docs.google.com/document/d/12aVHO4med_qwvEkPE7KHtq1Tme0IVEXgEdLGZStvBco/edit?usp=sharing) (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the [course GitHub organization](https://github.com/MATH-516) and locate the repo titled `project-TEAM-NAME` to get started.
+:::
+
+::: {.callout-warning collapse="true"}
+# Submission requirements
+
+You are required to hand in a PDF version of your report `report.pdf` (generated from the quarto file `report.qmd`, if applicable) and the quarto file itself. The `report.qmd` should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.
+
+Your `README.md` should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.
+
+An aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.
+
+**Checklist**:
+
+1. [ ] `report.pdf` in GitHub repository (**max 15 pages**)
+2. [ ]  Source code in GitHub repository 
+3. [ ] `README.md` with instructions on how to run the code and reproduce the PDF report
+:::
