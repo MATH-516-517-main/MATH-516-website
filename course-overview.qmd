@@ -48,10 +48,10 @@ There will be 7 projects (data analyses) in total:
 
 Of these 6 projects, every student needs to work 4 of them. Three projects are mandatory and one can be chosen from a subset of projects: 
 
-    - Project 1,
-    - Project 3,
-    - Project 5,
-    - Projects 2,4,6.
+    - Project 1 is mandatory,
+    - Project 3 is mandatory,
+    - Project 5 is mandatory,
+    - Projects 2,4,6: choose one of them.
 
 The projects will be worked out and handed in by each student
 individually, but collaborations in small groups is encouraged as long
