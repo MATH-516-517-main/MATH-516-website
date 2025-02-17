@@ -3,9 +3,9 @@ title: "Course overview"
 number-sections: true
 ---
 
-This is the homepage for MATH-516 Applied Statistics in Spring 2024 at EPFL. All course materials will be posted on this site.
+This is the homepage for MATH-516 Applied Statistics in Spring 2025 at EPFL. All course materials will be posted on this site.
 
-You can find the course syllabus [here](/course-syllabus.qmd) and the course schedule [here](/). All the additional ressources can be found either on [this page](https://math-517.github.io/math_517_website/resources/resources.qmd) or by using the search bar on the top left corner of the website. These ressources include project descriptions, datasets, tips and tricks, etc...
+You can find the course syllabus [here](/course-syllabus.qmd) and the course schedule [here](/). All the additional ressources can be found either on [this page](https://math-516-517-main.github.io/math_517_website/resources/resources.html) or by using the search bar on the top left corner of the website. These ressources include project descriptions, datasets, tips and tricks, etc...
 
 
 
@@ -14,44 +14,44 @@ You can find the course syllabus [here](/course-syllabus.qmd) and the course sch
 
 | Meeting   | Location                       | Time                     |
 |-----------|--------------------------------|--------------------------|
-| Lectures  | MA A1 10                       | Wed 13:15 - 14:00        |
-| Exercises | CM 012                         | Mon 13:15 - 16:00        |
+| Lectures  | MA A3 31                       | Mon 13:15 - 14:00        |
+| Exercises | MA A3 31                       | Mon 14:15 - 17:00        |
 
 
 
 # Course Content
 
-Apart from the topics mentioned [in the schedule](index.qmd), mastering this course requires scripting (simulation studies and data exploration & visualization tasks), as well as sharing your code via **GitHub**. Check out [this manual](https://math-517.github.io/math_517_website/resources/tutorials/github.html) from the previous course (MATH-517, a **mandatory prerequisite**). **Exercise classes should be attended** and used to pick up the required skills, and work on the projects!
+Apart from the topics mentioned [in the schedule](index.qmd), mastering this course requires scripting (simulation studies and data exploration & visualization tasks), as well as sharing your code via **GitHub**. Check out [this manual](https://math-516-517-main.github.io/math_517_website/resources/tutorials/github.html) from the previous course (MATH-517, a **mandatory prerequisite**). **Exercise classes should be attended** and used to pick up the required skills, and work on the projects!
 
 # Evaluation
 
-The assessment method for this course is "controle continue", meaning that the course and all the work required from the students effectively with the end of the semester. 
+The assessment method for this course is "controle continue", meaning that the course and all the work required from the students effectively end with the end of the semester. 
 
-**Project 1 is mandatory** (deadline in Sunday, March 3) and the course is "without withdrawal", i.e., whoever submits Project 1 is committing to the course and will eventually get a grade.
+**Project 1 is mandatory** (deadline in Sunday, March 2) and the course is "without withdrawal", i.e., whoever submits Project 1 is committing to the course and will eventually get a grade.
 
 There will be 7 projects (data analyses) in total:
 
-1.  Snow Data
-    - Weeks 1 and 2 (19.2.-3.3.2024)
-2.  GLMs - Climate-related Disasters
-    - Weeks 3 and 4 (4.3.-17.3.2014)
-3.  Logistic Regression - TBD
-    - Weeks 5 and 6 (18.3.-31.3.2024)
-4.  Linear Mixed Models - Energy Expenditure in the Human Body
-    - Weeks 7 and 8 (8.4.-.21.4.2024)
-5.  Causal Inference - Tubingen datasets
-    - Weeks 9 and 10 (22.4.-5.5.2024)
-6.  Extreme Value Theory - The Vargas Tragedy or Rainfall data in Switzerland
-    - Weeks 11 and 12 (6.5.-19.5.2024)
-7.  Statistical Consulting
-    - Week 13 (15.5.-26.5.2024)
+1.  Fundamental frequency of vowels
+    - Weeks 1 and 2 (17.2.-2.3.2025)
+2.  GLMs - TBD
+    - Weeks 3 and 4 (3.3.-16.3.2015)
+3.  Causal Inference - TBD
+    - Weeks 5 and 6 (17.3.-30.3.2025)
+4.  Linear Mixed Models - TBD
+    - Weeks 7 and 8 (31.3.-.13.4.2025)
+5.  Extreme Value Theory - TBD
+    - Weeks 9 and 10 (14.4.-4.5.2025)
+6.  Statistical Consulting - TBD
+    - Weeks 11 and 12 (5.5.-18.5.2025)
+7.  Oral Exams
+    - Week 13 and 14 (19.5.-30.5.2024)
 
-Of these 7 projects, every student needs to choose 5 of them. At least
-one project needs to be chosen from each of the following subsets:
+Of these 6 projects, every student needs to work 4 of them. Three projects are mandatory and one can be chosen from a subset of projects: 
 
-    - Projects 1,2,3,
-    - Projects 4,5,
-    - Projects 6,7.
+    - Project 1,
+    - Project 3,
+    - Project 5,
+    - Projects 2,4,6.
 
 The projects will be worked out and handed in by each student
 individually, but collaborations in small groups is encouraged as long
@@ -61,7 +61,7 @@ idividual project.
 **Grading** 
 <!-- will be done on a rough scale. For example the assignments will be mostly graded on a binary basis, you either receive full 5 % or nothing. Similarly the projects will be graded in 5 % increments. Notice that 5 % corresponds to 0.25 increment on the 1-6 scale used at EPFL. As a result, skipping an assignment will irrevocably reduce your final grade. On the other hand, the assignments will be short and simple, and serious attempts to solve them should resolve in the full mark. Similarly for the projects, with one exception: 10 % of the final project will be awarded for value added (original data analysis, simulation study answering a previously unclear question, etc.). -->
 
-**Deadlines** will always be set at the end of the week (23:59 on Sunday). A project from Week $k$ (given on Monday) will always have its deadline on Week $k+1$ (i.e. the midnight between Sunday and Monday following the $(k+1)$-th week, see [the schedule](index.qmd)).
+**Deadlines** will always be set at the end of the week (23:59 on Sunday). A project from Week $k$ (given on Monday) will always have its deadline on Week $k+1$ (i.e., the midnight between Sunday and Monday following the $(k+1)$-th week, see [the schedule](index.qmd)).
 
 
 # Materials
@@ -71,7 +71,7 @@ All materials will be gradually made available on this website. Lectures and Pro
 
 # Handing-in Projects
 
-We will use GitHub Classroom to handle the projects for this course. See [this page](resources/tutorials/github_classroom.qmd) for more information on how to use GitHub Classroom.
+We will use GitHub Classroom to handle the projects for this course. See [this page](https://math-516-517-main.github.io/math_517_website/resources/tutorials/github_classroom.html) for more information on how to use GitHub Classroom.
 
 
 <br>
@@ -84,6 +84,6 @@ This online work is licensed under a [Creative Commons Attribution-ShareAlike 4.
 This website and part of the course materials were adapted from different sources:
 
 - [Dr. Mine Çetinkaya-Rundel STA 101 website](https://sta101-f23.github.io/course-overview.html)
-- [Dr. Linda Mhalla MATH-517 Fall 2023 course](https://math-517.github.io/math_517_website/)
+- [Dr. Linda Mhalla MATH-517 Fall 2024 course](https://math-516-517-main.github.io/math_517_website/)
 - [fredhutch.io](https://fredhutchio.github.io/r_intro/) and [R for data analysis and visualization of Ecological Data](https://datacarpentry.org/R-ecology-lesson/instructor/aio.html)
 
