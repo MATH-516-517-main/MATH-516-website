@@ -1,68 +1,134 @@
 [
   {
-    "objectID": "projects/tips-resources.html",
-    "href": "projects/tips-resources.html",
-    "title": "Tips + resources",
+    "objectID": "projects/project-02.html",
+    "href": "projects/project-02.html",
+    "title": "Project 2",
     "section": "",
-    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
+    "text": "Important\n\n\n\nDue date: Sunday, March 17\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
     "crumbs": [
       "Projects",
-      "Tips + resources"
+      "Project 2"
     ]
   },
   {
-    "objectID": "projects/tips-resources.html#general-comments-about-project-1",
-    "href": "projects/tips-resources.html#general-comments-about-project-1",
-    "title": "Tips + resources",
+    "objectID": "projects/project-05.html",
+    "href": "projects/project-05.html",
+    "title": "Project 5",
     "section": "",
-    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
+    "text": "Important\n\n\n\nDue date: Sunday, May 5\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
     "crumbs": [
       "Projects",
-      "Tips + resources"
+      "Project 5"
     ]
   },
   {
-    "objectID": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
-    "href": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
-    "title": "Tips + resources",
-    "section": "Tips and tricks for visualisation",
-    "text": "Tips and tricks for visualisation\n\nConsistency is the most important thing for a statistician.\n\njumping between different citation styles is bad\nhaving some captions centered above the figure produced by R and others flushed right below using Markdown is annoying\n\nSave space for better readability.\n\nplots that convey little information don’t have to be large, several (related) plots can be put next to each other on the same line, etc.\neven in an html file, unnecessary scrolling back and forth when reading a report is annoying\na plot frame with one or two boxplots is a waste of space (e.g. histograms would be better)\nbarplots can often be replaced by tables to both save space and improve readability\nin general, if a plot only shows like 3 numbers and is not important for any argument made, it should not be a plot\n\nStory-telling matters.\n\nit is important to grasp attention with an introduction (and describe at the same time what to expect from a report)\nre-iterate the most important ideas/results in several places\ncomment on plots even if they are self-explanatory\n\nMore on plots.\n\ntext in figures (labels, etc.) should be of similar size as the main text\nlabels have to be readable, e.g. no overlaying etc.\ncaptions are necessary and should make the plot self-contained (without looking at the paragraphs around it)\n\nLess is sometimes more.\n\nshowing a scatterplot only to colors to it based on a group of two on the next plot, then adding one regression line, and then two regression lines on the fourth plot… just dilutes the important parts\nBarplots colored by an additional variable should probably be replaced by a table (potentially colored by the cell values – coloring for better readability only).\n\nList of references should be itemized or enumerated (in order to be readable).\nAvoid using local paths.\n\nreproducibility of the report itself!\n\nTransforming variables.\n\nif your plots look bad because of a clear skewing in one of the variables, transform the varible (typically plot it on a log-scale)\nif plotting on a log-scale, consider log10 or log2 to have better interpretability",
+    "objectID": "projects/project-06.html",
+    "href": "projects/project-06.html",
+    "title": "Project 6",
+    "section": "",
+    "text": "Important\n\n\n\nDue date: Sunday, May 19\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
     "crumbs": [
       "Projects",
-      "Tips + resources"
+      "Project 6"
     ]
   },
   {
-    "objectID": "projects/project-04.html",
-    "href": "projects/project-04.html",
-    "title": "Project 4",
+    "objectID": "projects/project-01.html",
+    "href": "projects/project-01.html",
+    "title": "Project 1",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, April 21\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
+    "text": "Important\n\n\n\nDue date: Sunday, March 3",
     "crumbs": [
       "Projects",
-      "Project 4"
+      "Project 1"
     ]
   },
   {
-    "objectID": "projects/project-03.html",
-    "href": "projects/project-03.html",
-    "title": "Project 3",
-    "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, March 31\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
+    "objectID": "projects/project-01.html#data",
+    "href": "projects/project-01.html#data",
+    "title": "Project 1",
+    "section": "Data",
+    "text": "Data\n\ndata from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters\n\nshared with the permision of the authors of this paper\n\nthe total number of particles measured (variable particles.detected) and the fraction (variable retained [%]) of particles belonging to each diameter bin (given by startpoint and endpoint)\n\nonly binned data are available (and the grid is not equidistant)",
     "crumbs": [
       "Projects",
-      "Project 3"
+      "Project 1"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MATH 516: Applied Statistics",
+    "objectID": "projects/project-01.html#the-goal",
+    "href": "projects/project-01.html#the-goal",
+    "title": "Project 1",
+    "section": "The Goal",
+    "text": "The Goal\nSimulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models\n\ni.e., the goal is to do Monte Carlo: how to simulate snow-flake diameters that are compatible with the data?\n\nExpert knowledge: a mixture of two log-normal distributions is a good model for the diameters",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "projects/project-01.html#tasks-for-you",
+    "href": "projects/project-01.html#tasks-for-you",
+    "title": "Project 1",
+    "section": "Tasks for You",
+    "text": "Tasks for You\n\nIs the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?\n\nsimple exploration of the data\n\nFit the bi-log-normal distribution in order to be able to simulate the data easily\n\njittering and EM algorithm\noptimization (e.g. local search starting from the jittered EM result)\nBayesian approach\n\nTest whether the diameters come from a bi-log-normal distribution\n\nparametric Bootstrap and goodness of fit",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "projects/project-01.html#math-517-content",
+    "href": "projects/project-01.html#math-517-content",
+    "title": "Project 1",
+    "section": "MATH-517 Content",
+    "text": "MATH-517 Content\n\nWeek 1: Introduction & Software & Data Considerations\nWeek 2: Graphics & Visualization\nWeek 3: Kernel Density Estimation\nWeek 4: Non-parametric Regression\nWeek 5: Cross-validation\nWeek 6: EM Algorithm\nWeek 7: EM Algorithm\nWeek 8: Monte Carlo\nWeek 9: Bootstrap\nWeek 10: Bootstrap\nWeek 11: Bayesian Computations\nWeek 12: Bayesian Computations\nWeek 13: Decision Trees\nWeek 14: \\(\\emptyset\\)\n\nWeeks in bold are pertinent to Project 1\nWeeks 1-2 established the workflow needed for all the projects",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course overview",
     "section": "",
-    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nDUE\n\n\n\n\n1\nSat, Feb 17\n\nLecture 1 + Project 1\n\n\n\n\n2\nMon, Feb 24\n\nProject 1 (continued)\n\n\n\n\n\nSun, Mar 2\n\n\nProject 1\n\n\n\n3\nMon, Mar 3\n\nLecture 2 + Project 2\n\n\n\n\n4\nMon, Mar 10\n\nProject 2 (continued)\n\n\n\n\n\nSun, Mar 16\n\n\nProject 2",
+    "text": "This is the homepage for MATH-516 Applied Statistics in Spring 2024 at EPFL. All course materials will be posted on this site.\nYou can find the course syllabus here and the course schedule here. All the additional ressources can be found either on this page or by using the search bar on the top left corner of the website. These ressources include project descriptions, datasets, tips and tricks, etc…",
     "crumbs": [
       "Course information",
-      "Schedule"
+      "Overview/Organisation"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#license",
+    "href": "course-overview.html#license",
+    "title": "Course overview",
+    "section": "5.1 License",
+    "text": "5.1 License\n\nThis online work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International. Visit here for more information about the license.\nThis website and part of the course materials were adapted from different sources:\n\nDr. Mine Çetinkaya-Rundel STA 101 website\nDr. Linda Mhalla MATH-517 Fall 2023 course\nfredhutch.io and R for data analysis and visualization of Ecological Data",
+    "crumbs": [
+      "Course information",
+      "Overview/Organisation"
+    ]
+  },
+  {
+    "objectID": "course-faq.html",
+    "href": "course-faq.html",
+    "title": "Help & FAQ",
+    "section": "",
+    "text": "Tip\n\n\n\nIf you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ.",
+    "crumbs": [
+      "Course information",
+      "Help & FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#faq",
+    "href": "course-faq.html#faq",
+    "title": "Help & FAQ",
+    "section": "FAQ",
+    "text": "FAQ\n\nOrganizational\n\nWhich language will we be using?\nYou can use either Python, R, or Julia. We will be providing code examples and suppport only in R, though. We will gladly help you, within our capabilities, if you are using Python or Julia.\n\n\nWhat software do I need to install?\nYou will need to use git, and a text editor or IDE.\nFor git, please see here for instructions on how to install it.\nYou can use any kind of text editor or IDE you like. We recomment using VS Code with the extension corresponding to your language of choice. You can also use Rstudio for R. See here for instructions on how to install the software and IDEs.\n\n\nHow do I submit a project?\nWe will be using Github-classroom to distribute and collect projects. You will need to create a Github account if you don’t already have one.\n\n\n\nTechnical issues\n\nI am lost with Github, what should I do?\nGitHub has possibly the best tutorials and documentation of any software out there. You can find the Hello world there. Most of the time googling your issue will lead you to the right place.\n\n\nI have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?\nFirst google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.\n\n\nI cannot find the repository linked to the project, what should I do?\nAt the top of each project there should be a link where you can manually click to accept the project. If this happens after the first project, please let us know.",
+    "crumbs": [
+      "Course information",
+      "Help & FAQ"
     ]
   },
   {
@@ -132,135 +198,69 @@
     ]
   },
   {
-    "objectID": "course-faq.html",
-    "href": "course-faq.html",
-    "title": "Help & FAQ",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH 516: Applied Statistics",
     "section": "",
-    "text": "Tip\n\n\n\nIf you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ.",
+    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nDUE\n\n\n\n\n1\nSat, Feb 17\n\nLecture 1 + Project 1\n\n\n\n\n2\nMon, Feb 24\n\nProject 1 (continued)\n\n\n\n\n\nSun, Mar 2\n\n\nProject 1\n\n\n\n3\nMon, Mar 3\n\nLecture 2 + Project 2\n\n\n\n\n4\nMon, Mar 10\n\nProject 2 (continued)\n\n\n\n\n\nSun, Mar 16\n\n\nProject 2",
     "crumbs": [
       "Course information",
-      "Help & FAQ"
+      "Schedule"
     ]
   },
   {
-    "objectID": "course-faq.html#faq",
-    "href": "course-faq.html#faq",
-    "title": "Help & FAQ",
-    "section": "FAQ",
-    "text": "FAQ\n\nOrganizational\n\nWhich language will we be using?\nYou can use either Python, R, or Julia. We will be providing code examples and suppport only in R, though. We will gladly help you, within our capabilities, if you are using Python or Julia.\n\n\nWhat software do I need to install?\nYou will need to use git, and a text editor or IDE.\nFor git, please see here for instructions on how to install it.\nYou can use any kind of text editor or IDE you like. We recomment using VS Code with the extension corresponding to your language of choice. You can also use Rstudio for R. See here for instructions on how to install the software and IDEs.\n\n\nHow do I submit a project?\nWe will be using Github-classroom to distribute and collect projects. You will need to create a Github account if you don’t already have one.\n\n\n\nTechnical issues\n\nI am lost with Github, what should I do?\nGitHub has possibly the best tutorials and documentation of any software out there. You can find the Hello world there. Most of the time googling your issue will lead you to the right place.\n\n\nI have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?\nFirst google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.\n\n\nI cannot find the repository linked to the project, what should I do?\nAt the top of each project there should be a link where you can manually click to accept the project. If this happens after the first project, please let us know.",
-    "crumbs": [
-      "Course information",
-      "Help & FAQ"
-    ]
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Course overview",
+    "objectID": "projects/project-03.html",
+    "href": "projects/project-03.html",
+    "title": "Project 3",
     "section": "",
-    "text": "This is the homepage for MATH-516 Applied Statistics in Spring 2024 at EPFL. All course materials will be posted on this site.\nYou can find the course syllabus here and the course schedule here. All the additional ressources can be found either on this page or by using the search bar on the top left corner of the website. These ressources include project descriptions, datasets, tips and tricks, etc…",
+    "text": "Important\n\n\n\nDue date: Sunday, March 31\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
     "crumbs": [
-      "Course information",
-      "Overview/Organisation"
+      "Projects",
+      "Project 3"
     ]
   },
   {
-    "objectID": "course-overview.html#license",
-    "href": "course-overview.html#license",
-    "title": "Course overview",
-    "section": "5.1 License",
-    "text": "5.1 License\n\nThis online work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International. Visit here for more information about the license.\nThis website and part of the course materials were adapted from different sources:\n\nDr. Mine Çetinkaya-Rundel STA 101 website\nDr. Linda Mhalla MATH-517 Fall 2023 course\nfredhutch.io and R for data analysis and visualization of Ecological Data",
-    "crumbs": [
-      "Course information",
-      "Overview/Organisation"
-    ]
-  },
-  {
-    "objectID": "projects/project-01.html",
-    "href": "projects/project-01.html",
-    "title": "Project 1",
+    "objectID": "projects/project-04.html",
+    "href": "projects/project-04.html",
+    "title": "Project 4",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, March 3",
+    "text": "Important\n\n\n\nDue date: Sunday, April 21\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
     "crumbs": [
       "Projects",
-      "Project 1"
+      "Project 4"
     ]
   },
   {
-    "objectID": "projects/project-01.html#data",
-    "href": "projects/project-01.html#data",
-    "title": "Project 1",
-    "section": "Data",
-    "text": "Data\n\ndata from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters\n\nshared with the permision of the authors of this paper\n\nthe total number of particles measured (variable particles.detected) and the fraction (variable retained [%]) of particles belonging to each diameter bin (given by startpoint and endpoint)\n\nonly binned data are available (and the grid is not equidistant)",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "projects/project-01.html#the-goal",
-    "href": "projects/project-01.html#the-goal",
-    "title": "Project 1",
-    "section": "The Goal",
-    "text": "The Goal\nSimulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models\n\ni.e., the goal is to do Monte Carlo: how to simulate snow-flake diameters that are compatible with the data?\n\nExpert knowledge: a mixture of two log-normal distributions is a good model for the diameters",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "projects/project-01.html#tasks-for-you",
-    "href": "projects/project-01.html#tasks-for-you",
-    "title": "Project 1",
-    "section": "Tasks for You",
-    "text": "Tasks for You\n\nIs the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?\n\nsimple exploration of the data\n\nFit the bi-log-normal distribution in order to be able to simulate the data easily\n\njittering and EM algorithm\noptimization (e.g. local search starting from the jittered EM result)\nBayesian approach\n\nTest whether the diameters come from a bi-log-normal distribution\n\nparametric Bootstrap and goodness of fit",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "projects/project-01.html#math-517-content",
-    "href": "projects/project-01.html#math-517-content",
-    "title": "Project 1",
-    "section": "MATH-517 Content",
-    "text": "MATH-517 Content\n\nWeek 1: Introduction & Software & Data Considerations\nWeek 2: Graphics & Visualization\nWeek 3: Kernel Density Estimation\nWeek 4: Non-parametric Regression\nWeek 5: Cross-validation\nWeek 6: EM Algorithm\nWeek 7: EM Algorithm\nWeek 8: Monte Carlo\nWeek 9: Bootstrap\nWeek 10: Bootstrap\nWeek 11: Bayesian Computations\nWeek 12: Bayesian Computations\nWeek 13: Decision Trees\nWeek 14: \\(\\emptyset\\)\n\nWeeks in bold are pertinent to Project 1\nWeeks 1-2 established the workflow needed for all the projects",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "projects/project-06.html",
-    "href": "projects/project-06.html",
-    "title": "Project 6",
+    "objectID": "projects/tips-resources.html",
+    "href": "projects/tips-resources.html",
+    "title": "Tips + resources",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, May 19\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
+    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
     "crumbs": [
       "Projects",
-      "Project 6"
+      "Tips + resources"
     ]
   },
   {
-    "objectID": "projects/project-05.html",
-    "href": "projects/project-05.html",
-    "title": "Project 5",
+    "objectID": "projects/tips-resources.html#general-comments-about-project-1",
+    "href": "projects/tips-resources.html#general-comments-about-project-1",
+    "title": "Tips + resources",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, May 5\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
+    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
     "crumbs": [
       "Projects",
-      "Project 5"
+      "Tips + resources"
     ]
   },
   {
-    "objectID": "projects/project-02.html",
-    "href": "projects/project-02.html",
-    "title": "Project 2",
-    "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, March 17\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the course GitHub organization and locate the repo titled project-TEAM-NAME to get started.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report",
+    "objectID": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
+    "href": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
+    "title": "Tips + resources",
+    "section": "Tips and tricks for visualisation",
+    "text": "Tips and tricks for visualisation\n\nConsistency is the most important thing for a statistician.\n\njumping between different citation styles is bad\nhaving some captions centered above the figure produced by R and others flushed right below using Markdown is annoying\n\nSave space for better readability.\n\nplots that convey little information don’t have to be large, several (related) plots can be put next to each other on the same line, etc.\neven in an html file, unnecessary scrolling back and forth when reading a report is annoying\na plot frame with one or two boxplots is a waste of space (e.g. histograms would be better)\nbarplots can often be replaced by tables to both save space and improve readability\nin general, if a plot only shows like 3 numbers and is not important for any argument made, it should not be a plot\n\nStory-telling matters.\n\nit is important to grasp attention with an introduction (and describe at the same time what to expect from a report)\nre-iterate the most important ideas/results in several places\ncomment on plots even if they are self-explanatory\n\nMore on plots.\n\ntext in figures (labels, etc.) should be of similar size as the main text\nlabels have to be readable, e.g. no overlaying etc.\ncaptions are necessary and should make the plot self-contained (without looking at the paragraphs around it)\n\nLess is sometimes more.\n\nshowing a scatterplot only to colors to it based on a group of two on the next plot, then adding one regression line, and then two regression lines on the fourth plot… just dilutes the important parts\nBarplots colored by an additional variable should probably be replaced by a table (potentially colored by the cell values – coloring for better readability only).\n\nList of references should be itemized or enumerated (in order to be readable).\nAvoid using local paths.\n\nreproducibility of the report itself!\n\nTransforming variables.\n\nif your plots look bad because of a clear skewing in one of the variables, transform the varible (typically plot it on a log-scale)\nif plotting on a log-scale, consider log10 or log2 to have better interpretability",
     "crumbs": [
       "Projects",
-      "Project 2"
+      "Tips + resources"
     ]
   }
 ]
