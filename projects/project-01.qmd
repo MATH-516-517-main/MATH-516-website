@@ -1,19 +1,19 @@
 ---
 title: "Project 1"
-subtitle: "Snow Particles"
+subtitle: "Fundamental frequency of vowels"
 bibliography: ref.bib
 urlcolor: blue
 ---
 
 
 ::: callout-important
-**Due date:** Sunday, March 3
+**Due date:** Sunday, March 2
 :::
 
 ::: {.callout-note collapse="true"}
 # Invite link for GitHub Classroom
 
-Use the corresponding invite link in [this google doc](https://docs.google.com/document/d/12aVHO4med_qwvEkPE7KHtq1Tme0IVEXgEdLGZStvBco/edit?usp=sharing) (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the [course GitHub organization](https://github.com/MATH-516) and locate the repo titled `project-TEAM-NAME` to get started.
+Use the corresponding invite link in [this google doc](https://docs.google.com/document/d/12aVHO4med_qwvEkPE7KHtq1Tme0IVEXgEdLGZStvBco/edit?usp=sharing) (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.
 :::
 
 ::: {.callout-warning collapse="true"}
@@ -39,37 +39,34 @@ An aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. I
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
-## Data
+## Data: Acoustic analysis of vowels
 
--   data from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters
-    -   shared with the permision of the authors of [this paper](https://www.sciencedirect.com/science/article/pii/S1875963717301246)
--   the total number of particles measured (variable `particles.detected`) and the fraction (variable `retained [%]`) of particles belonging to each diameter bin (given by `startpoint` and `endpoint`)
-    -   only binned data are available (and the grid is not equidistant)
+-   Data on acoustic measurements of vowels produced by American English speakers
+    -   data from [Hillebrand et al. (1995)](https://pubmed.ncbi.nlm.nih.gov/7759650/)
+    -   measurements on a group of children, men, and women were recorded
+    -   the fundamental frequency $f_0$ of a vowel's sound wave was measured (in Hz)
+    
+-   Only binned data are available (and the grid is not equidistant)
+    - available data: the number of recorded vowels (variable `count`) and the fraction (variable `percentage`) of vowels' fundamental frequency belonging to each bin (given by `start_point` and `end_point`)
 
-\footnotesize
-
-![](/images/snow_snap.png){width=40%}
-
-\normalsize
 
 ## The Goal
 
-Simulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models
+Simulate the vowels' frequency $f_0$ from a distribution, which is as close as possible to the observed data, in order to study the different characteristics of these sounds in the time domain
 
--   i.e., the goal is to do Monte Carlo: **how to simulate snow-flake diameters that are compatible with the data?**
+-   i.e., the goal is to do Monte Carlo: **how to simulate vowels' frequencies that are compatible with the data?**
 
-Expert knowledge: a mixture of two log-normal distributions is a good model for the diameters
+Expert knowledge: a mixture of two log-normal distributions is a good model for the lowest frequency $f_0$
 
 ## Tasks for You
 
-1.  Is the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?
+1.  Is the assumption viable, i.e., is bi-log-normal distribution a reasonable model for the data?
     -   simple exploration of the data
-2.  Fit the bi-log-normal distribution in order to be able to simulate the data easily
-    -   jittering and EM algorithm
-    -   optimization (e.g. local search starting from the jittered EM result)
-    -   Bayesian approach
-3.  Test whether the diameters come from a bi-log-normal distribution
-    -   parametric Bootstrap and goodness of fit
+2.  Fit the bi-log-normal distribution in order to be able to simulate the data easily using 
+    -   jittering and EM algorithm OR direct optimization (e.g., local search starting from the jittered EM result), AND
+    -   a Bayesian approach
+3.  Test whether the fundamental frequencies come from a bi-log-normal distribution
+    -   parametric bootstrap and goodness of fit
 
 ## MATH-517 Content
 
