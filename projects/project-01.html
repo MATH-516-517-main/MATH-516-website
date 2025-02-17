@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../projects/project-06.html" rel="next">
+<link href="../projects/tips-resources.html" rel="next">
 <link href="../course-faq.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -99,11 +99,8 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Project 1 – MATH 516">
-<meta property="og:description" content="Snow Particles">
-<meta property="og:image" content="https://math-517.github.io/website/images/snow_snap.png">
+<meta property="og:description" content="Fundamental frequency of vowels">
 <meta property="og:site_name" content="MATH 516">
-<meta property="og:image:height" content="568">
-<meta property="og:image:width" content="1752">
 </head>
 
 <body class="nav-sidebar docked">
@@ -195,12 +192,6 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/project-06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project 6</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../projects/tips-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tips + resources</span></a>
   </div>
@@ -221,7 +212,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/project-01.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/project-01.html">Project 1</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Project 1</h1>
-<p class="subtitle lead">Snow Particles</p>
+<p class="subtitle lead">Fundamental frequency of vowels</p>
 </div>
 
 
@@ -248,7 +239,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Due date:</strong> Sunday, March 3</p>
+<p><strong>Due date:</strong> Sunday, March 2</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -263,7 +254,7 @@ Invite link for GitHub Classroom
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Use the corresponding invite link in <a href="https://docs.google.com/document/d/12aVHO4med_qwvEkPE7KHtq1Tme0IVEXgEdLGZStvBco/edit?usp=sharing">this google doc</a> (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the <a href="https://github.com/MATH-516">course GitHub organization</a> and locate the repo titled <code>project-TEAM-NAME</code> to get started.</p>
+<p>Use the corresponding invite link in <a href="https://docs.google.com/document/d/12aVHO4med_qwvEkPE7KHtq1Tme0IVEXgEdLGZStvBco/edit?usp=sharing">this google doc</a> (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.</p>
 </div>
 </div>
 </div>
@@ -303,44 +294,44 @@ Description of the Project
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<section id="data" class="level2">
-<h2 class="anchored" data-anchor-id="data">Data</h2>
+<section id="data-acoustic-analysis-of-vowels" class="level2">
+<h2 class="anchored" data-anchor-id="data-acoustic-analysis-of-vowels">Data: Acoustic analysis of vowels</h2>
 <ul>
-<li>data from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters
+<li>Data on acoustic measurements of vowels produced by American English speakers
 <ul>
-<li>shared with the permision of the authors of <a href="https://www.sciencedirect.com/science/article/pii/S1875963717301246">this paper</a></li>
+<li>data from <a href="https://pubmed.ncbi.nlm.nih.gov/7759650/">Hillebrand et al.&nbsp;(1995)</a></li>
+<li>measurements on a group of children, men, and women were recorded</li>
+<li>the fundamental frequency <span class="math inline">\(f_0\)</span> of a vowel’s sound wave was measured (in Hz)</li>
 </ul></li>
-<li>the total number of particles measured (variable <code>particles.detected</code>) and the fraction (variable <code>retained [%]</code>) of particles belonging to each diameter bin (given by <code>startpoint</code> and <code>endpoint</code>)
+<li>Only binned data are available (and the grid is not equidistant)
 <ul>
-<li>only binned data are available (and the grid is not equidistant)</li>
+<li>available data: the number of recorded vowels (variable <code>count</code>) and the fraction (variable <code>percentage</code>) of vowels’ fundamental frequency belonging to each bin (given by <code>start_point</code> and <code>end_point</code>)</li>
 </ul></li>
 </ul>
-<p><img src="../images/snow_snap.png" class="img-fluid" style="width:40.0%"></p>
 </section>
 <section id="the-goal" class="level2">
 <h2 class="anchored" data-anchor-id="the-goal">The Goal</h2>
-<p>Simulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models</p>
+<p>Simulate the vowels’ frequency <span class="math inline">\(f_0\)</span> from a distribution, which is as close as possible to the observed data, in order to study the different characteristics of these sounds in the time domain</p>
 <ul>
-<li>i.e., the goal is to do Monte Carlo: <strong>how to simulate snow-flake diameters that are compatible with the data?</strong></li>
+<li>i.e., the goal is to do Monte Carlo: <strong>how to simulate vowels’ frequencies that are compatible with the data?</strong></li>
 </ul>
-<p>Expert knowledge: a mixture of two log-normal distributions is a good model for the diameters</p>
+<p>Expert knowledge: a mixture of two log-normal distributions is a good model for the lowest frequency <span class="math inline">\(f_0\)</span></p>
 </section>
 <section id="tasks-for-you" class="level2">
 <h2 class="anchored" data-anchor-id="tasks-for-you">Tasks for You</h2>
 <ol type="1">
-<li>Is the assumption viable, i.e.&nbsp;is bi-log-normal distribution a reasonable model for the data?
+<li>Is the assumption viable, i.e., is bi-log-normal distribution a reasonable model for the data?
 <ul>
 <li>simple exploration of the data</li>
 </ul></li>
-<li>Fit the bi-log-normal distribution in order to be able to simulate the data easily
+<li>Fit the bi-log-normal distribution in order to be able to simulate the data easily using
 <ul>
-<li>jittering and EM algorithm</li>
-<li>optimization (e.g.&nbsp;local search starting from the jittered EM result)</li>
-<li>Bayesian approach</li>
+<li>jittering and EM algorithm OR direct optimization (e.g., local search starting from the jittered EM result), AND</li>
+<li>a Bayesian approach</li>
 </ul></li>
-<li>Test whether the diameters come from a bi-log-normal distribution
+<li>Test whether the fundamental frequencies come from a bi-log-normal distribution
 <ul>
-<li>parametric Bootstrap and goodness of fit</li>
+<li>parametric bootstrap and goodness of fit</li>
 </ul></li>
 </ol>
 </section>
@@ -798,8 +789,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../projects/project-06.html" class="pagination-link" aria-label="Project 6">
-        <span class="nav-page-text">Project 6</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../projects/tips-resources.html" class="pagination-link" aria-label="Tips + resources">
+        <span class="nav-page-text">Tips + resources</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
