@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Help &amp; FAQ – MATH 516</title>
+<title>Project 2 – MATH 516</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./projects/project_02.html" rel="next">
-<link href="./index.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-52b3279f41ca80859d11e21fdd9868ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../projects/project-01.html" rel="next">
+<link href="../course-faq.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-52b3279f41ca80859d11e21fdd9868ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -68,8 +68,38 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Help &amp; FAQ – MATH 516">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Project 2 – MATH 516">
+<meta property="og:description" content="Tips in trips in the city of Chicago">
 <meta property="og:site_name" content="MATH 516">
 </head>
 
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-overview.html">Course information</a></li><li class="breadcrumb-item"><a href="./course-faq.html">Help &amp; FAQ</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/project_02.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/project_02.html">Project 2</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -97,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">MATH 516</a> 
+      <a href="../">MATH 516</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/MATH-516/website" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
 </div>
@@ -112,34 +142,34 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Course information</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-overview.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview/Organisation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-faq.html" class="sidebar-item-text sidebar-link active">
+  <a href="../course-faq.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Help &amp; FAQ</span></a>
   </div>
 </li>
@@ -147,28 +177,28 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Projects</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/project_02.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/project_02.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Project 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/project-01.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/project-01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/tips-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/tips-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tips + resources</span></a>
   </div>
 </li>
@@ -179,25 +209,16 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#faq" id="toc-faq" class="nav-link active" data-scroll-target="#faq">FAQ</a>
-  <ul class="collapse">
-  <li><a href="#organizational" id="toc-organizational" class="nav-link" data-scroll-target="#organizational">Organizational</a></li>
-  <li><a href="#technical-issues" id="toc-technical-issues" class="nav-link" data-scroll-target="#technical-issues">Technical issues</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/MATH-516/website/edit/main/course-faq.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MATH-516/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-overview.html">Course information</a></li><li class="breadcrumb-item"><a href="./course-faq.html">Help &amp; FAQ</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/project_02.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/project_02.html">Project 2</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Help &amp; FAQ</h1>
+<h1 class="title">Project 2</h1>
+<p class="subtitle lead">Tips in trips in the city of Chicago</p>
 </div>
 
 
@@ -214,56 +235,152 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip
+Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>If you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ.</p>
+<p><strong>Due date:</strong> Sunday, March 16</p>
 </div>
 </div>
-<section id="faq" class="level2">
-<h2 class="anchored" data-anchor-id="faq">FAQ</h2>
-<section id="organizational" class="level3">
-<h3 class="anchored" data-anchor-id="organizational">Organizational</h3>
-<section id="which-language-will-we-be-using" class="level4">
-<h4 class="anchored" data-anchor-id="which-language-will-we-be-using">Which language will we be using?</h4>
-<p>You can use either Python, R, or Julia. We will be providing code examples and suppport only in R, though. We will gladly help you, within our capabilities, if you are using Python or Julia.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Invite link for GitHub Classroom
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Use the corresponding invite link in <a href="https://docs.google.com/document/d/12aVHO4med_qwvEkPE7KHtq1Tme0IVEXgEdLGZStvBco/edit?usp=sharing">this google doc</a> (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Submission requirements
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>You are required to hand in a PDF version of your report <code>report.pdf</code> (generated from the quarto file <code>report.qmd</code>, if applicable) and the quarto file itself. The <code>report.qmd</code> should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.</p>
+<p>Your <code>README.md</code> should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.</p>
+<p>An aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.</p>
+<p><strong>Checklist</strong>:</p>
+<ol type="1">
+<li><label><input type="checkbox"><code>report.pdf</code> in GitHub repository (<strong>max 15 pages</strong>)</label></li>
+<li><label><input type="checkbox">Source code in GitHub repository</label></li>
+<li><label><input type="checkbox"><code>README.md</code> with instructions on how to run the code and reproduce the PDF report</label></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Description of the Project
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>Transportation Network Providers (TNPs) such as Uber and Lyft operate in Chicago. As part of its licensing process, Chicago requires the companies to report on their activities monthly</p>
+<ul>
+<li>The dataset provides detailed trip-level information on reported trips</li>
+<li>This dataset covers trips during <strong>October 2024</strong></li>
+<li>Source: City of Chicago Open Data Portal</li>
+<li>Key features:
+<ul>
+<li>Temporal trends</li>
+<li>Spatial patterns</li>
+<li>Fare and cost analysis</li>
+<li>Shared ride behaviour</li>
+</ul></li>
+</ul>
 </section>
-<section id="what-software-do-i-need-to-install" class="level4">
-<h4 class="anchored" data-anchor-id="what-software-do-i-need-to-install">What software do I need to install?</h4>
-<p>You will need to use git, and a text editor or IDE.</p>
-<p>For git, please see <a href="https://math-517.github.io/math_517_website/resources/tutorials/github.html">here</a> for instructions on how to install it.</p>
-<p>You can use any kind of text editor or IDE you like. We recomment using <a href="https://code.visualstudio.com/">VS Code</a> with the extension corresponding to your language of choice. You can also use <a href="https://rstudio.com/products/rstudio/download/">Rstudio</a> for R. See <a href="https://math-517.github.io/math_517_website/resources/tutorials/installing_software.html">here</a> for instructions on how to install the software and IDEs.</p>
+<section id="data-trip-information" class="level2">
+<h2 class="anchored" data-anchor-id="data-trip-information">Data: Trip information</h2>
+<ul>
+<li><code>trip_id</code>: unique identifier for each trip</li>
+<li><code>trip_start_timestamp</code>: timestamp when the trip started</li>
+<li><code>trip_end_timestamp</code>: timestamp when the trip ended</li>
+<li><code>trip_seconds</code>: total duration of the trip in seconds</li>
+<li><code>trip_miles</code>: Total distance of the trip in miles</li>
+<li><code>fare</code>: base fare of the trip</li>
+<li><code>tip</code>: amount tipped by the passenger</li>
+<li><code>additional_charges</code>: extra fees (e.g., service fees)</li>
+<li><code>trip_total</code>: total cost of the trip (sum of fare, tip, and additional charges)</li>
+<li><code>shared_trip_authorized</code>: whether the passenger opted for a shared ride</li>
+<li><code>shared_trip_match</code>: whether the ride was actually matched with another passenger</li>
+<li><code>trips_pooled</code>: number of passengers pooled in a shared trip</li>
+</ul>
+<p><strong>Note</strong>: times are rounded to the nearest 15 minutes, fares are rounded to the nearest 2.50, and tips are rounded to the nearest 1.00</p>
 </section>
-<section id="how-do-i-submit-a-project" class="level4">
-<h4 class="anchored" data-anchor-id="how-do-i-submit-a-project">How do I submit a project?</h4>
-<p>We will be using Github-classroom to distribute and collect projects. You will need to create a Github account if you don’t already have one.</p>
+<section id="the-goal" class="level2">
+<h2 class="anchored" data-anchor-id="the-goal">The Goal</h2>
+<p>The dataset provides valuable insights into:</p>
+<ul>
+<li>temporal trends (peak ride-sharing hours and seasonal variations)</li>
+<li>spatial mobility (pickup/dropoff areas)</li>
+<li>fare &amp; cost analysis (fare structures, tip patterns, and additional charges)</li>
+<li>ride-sharing trends (e.g., how many trips were pooled vs.&nbsp;individual rides)</li>
+</ul>
+<p>We will focus on one specific aspect: <strong>the tipping behaviour</strong></p>
+<p><span class="math inline">\(\rightarrow\)</span> Understanding tipping patterns can help companies adjust pricing models or <strong>researchers study socio-economic factors influencing tips</strong></p>
 </section>
+<section id="data-trip-information-1" class="level2">
+<h2 class="anchored" data-anchor-id="data-trip-information-1">Data: Trip information</h2>
+<ul>
+<li><code>trip_id</code>: unique identifier for each trip</li>
+<li><code>trip_start_timestamp</code>: timestamp when the trip started</li>
+<li><code>trip_end_timestamp</code>: timestamp when the trip ended</li>
+<li><code>trip_seconds</code>: total duration of the trip in seconds</li>
+<li><code>trip_miles</code>: Total distance of the trip in miles</li>
+<li><code>fare</code>: base fare of the trip</li>
+<li><code>tip</code>: amount tipped by the passenger</li>
+<li><code>additional_charges</code>: extra fees (e.g., service fees)</li>
+<li><code>trip_total</code>: total cost of the trip (sum of fare, tip, and additional charges)</li>
+<li><code>shared_trip_authorized</code>: whether the passenger opted for a shared ride</li>
+<li><code>shared_trip_match</code>: whether the ride was actually matched with another passenger</li>
+<li><code>trips_pooled</code>: number of passengers pooled in a shared trip</li>
+</ul>
+<p><strong>Note</strong>: times are rounded to the nearest 15 minutes, fares are rounded to the nearest 2.50, and tips are rounded to the nearest 1.00</p>
 </section>
-<section id="technical-issues" class="level3">
-<h3 class="anchored" data-anchor-id="technical-issues">Technical issues</h3>
-<section id="i-am-lost-with-github-what-should-i-do" class="level4">
-<h4 class="anchored" data-anchor-id="i-am-lost-with-github-what-should-i-do">I am lost with Github, what should I do?</h4>
-<p>GitHub has possibly the best tutorials and documentation of any software out there. You can find the <a href="https://docs.github.com/en/get-started/quickstart/hello-world">Hello world</a> there. Most of the time googling your issue will lead you to the right place.</p>
-</section>
-<section id="i-have-bugs-in-my-code-something-doesnt-work-i-dont-know-how-to-do-something-what-should-i-do" class="level4">
-<h4 class="anchored" data-anchor-id="i-have-bugs-in-my-code-something-doesnt-work-i-dont-know-how-to-do-something-what-should-i-do">I have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?</h4>
-<p>First google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.</p>
-</section>
-<section id="i-cannot-find-the-repository-linked-to-the-project-what-should-i-do" class="level4">
-<h4 class="anchored" data-anchor-id="i-cannot-find-the-repository-linked-to-the-project-what-should-i-do">I cannot find the repository linked to the project, what should I do?</h4>
-<p>At the top of each project there should be a link where you can manually click to accept the project. If this happens <em>after</em> the first project, please let us know.</p>
+<section id="the-goal-1" class="level2">
+<h2 class="anchored" data-anchor-id="the-goal-1">The Goal</h2>
+<p>The dataset provides valuable insights into:</p>
+<ul>
+<li>temporal trends (peak ride-sharing hours and seasonal variations)</li>
+<li>spatial mobility (pickup/dropoff areas)</li>
+<li>fare &amp; cost analysis (fare structures, tip patterns, and additional charges)</li>
+<li>ride-sharing trends (e.g., how many trips were pooled vs.&nbsp;individual rides)</li>
+</ul>
+<p>We will focus on one specific aspect: <strong>the tipping behaviour</strong></p>
+<p><span class="math inline">\(\rightarrow\)</span> Understanding tipping patterns can help companies adjust pricing models or <strong>researchers study socio-economic factors influencing tips</strong></p>
 
 
 </section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -685,13 +802,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Schedule">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Schedule</span>
+      <a href="../course-faq.html" class="pagination-link" aria-label="Help &amp; FAQ">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Help &amp; FAQ</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./projects/project_02.html" class="pagination-link" aria-label="Project 2">
-        <span class="nav-page-text">Project 2</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../projects/project-01.html" class="pagination-link" aria-label="Project 1">
+        <span class="nav-page-text">Project 1</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -703,7 +820,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/MATH-516/website/edit/main/course-faq.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MATH-516/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/MATH-516/website/edit/main/projects/project_02.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MATH-516/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a></p>
 </div>
