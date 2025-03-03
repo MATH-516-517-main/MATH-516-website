@@ -1,5 +1,27 @@
 [
   {
+    "objectID": "course-faq.html",
+    "href": "course-faq.html",
+    "title": "Help & FAQ",
+    "section": "",
+    "text": "Tip\n\n\n\nIf you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ.",
+    "crumbs": [
+      "Course information",
+      "Help & FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#faq",
+    "href": "course-faq.html#faq",
+    "title": "Help & FAQ",
+    "section": "FAQ",
+    "text": "FAQ\n\nOrganizational\n\nWhich language will we be using?\nYou can use either Python, R, or Julia. We will be providing code examples and suppport only in R, though. We will gladly help you, within our capabilities, if you are using Python or Julia.\n\n\nWhat software do I need to install?\nYou will need to use git, and a text editor or IDE.\nFor git, please see here for instructions on how to install it.\nYou can use any kind of text editor or IDE you like. We recomment using VS Code with the extension corresponding to your language of choice. You can also use Rstudio for R. See here for instructions on how to install the software and IDEs.\n\n\nHow do I submit a project?\nWe will be using Github-classroom to distribute and collect projects. You will need to create a Github account if you don’t already have one.\n\n\n\nTechnical issues\n\nI am lost with Github, what should I do?\nGitHub has possibly the best tutorials and documentation of any software out there. You can find the Hello world there. Most of the time googling your issue will lead you to the right place.\n\n\nI have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?\nFirst google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.\n\n\nI cannot find the repository linked to the project, what should I do?\nAt the top of each project there should be a link where you can manually click to accept the project. If this happens after the first project, please let us know.",
+    "crumbs": [
+      "Course information",
+      "Help & FAQ"
+    ]
+  },
+  {
     "objectID": "projects/tips-resources.html",
     "href": "projects/tips-resources.html",
     "title": "Tips + resources",
@@ -30,17 +52,6 @@
     "crumbs": [
       "Projects",
       "Tips + resources"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MATH 516: Applied Statistics",
-    "section": "",
-    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nDUE\n\n\n\n\n1\nMon, Feb 17\n\nLecture 1 + Project 1\n\n\n\n\n2\nMon, Feb 24\n\nProject 1 (continued)\n\n\n\n\n\nSun, Mar 2\n\n\nProject 1\n\n\n\n3\nMon, Mar 3\n\nLecture 2 + Project 2\n\n\n\n\n4\nMon, Mar 10\n\nProject 2 (continued)\n\n\n\n\n\nSun, Mar 16\n\n\nProject 2",
-    "crumbs": [
-      "Course information",
-      "Schedule"
     ]
   },
   {
@@ -110,25 +121,14 @@
     ]
   },
   {
-    "objectID": "course-faq.html",
-    "href": "course-faq.html",
-    "title": "Help & FAQ",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH 516: Applied Statistics",
     "section": "",
-    "text": "Tip\n\n\n\nIf you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ.",
+    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nDUE\n\n\n\n\n1\nMon, Feb 17\n\nLecture 1 + Project 1\n\n\n\n\n2\nMon, Feb 24\n\nProject 1 (continued)\n\n\n\n\n\nSun, Mar 2\n\n\nProject 1\n\n\n\n3\nMon, Mar 3\n\nLecture 2 + Project 2\n\n\n\n\n4\nMon, Mar 10\n\nProject 2 (continued)\n\n\n\n\n\nSun, Mar 16\n\n\nProject 2",
     "crumbs": [
       "Course information",
-      "Help & FAQ"
-    ]
-  },
-  {
-    "objectID": "course-faq.html#faq",
-    "href": "course-faq.html#faq",
-    "title": "Help & FAQ",
-    "section": "FAQ",
-    "text": "FAQ\n\nOrganizational\n\nWhich language will we be using?\nYou can use either Python, R, or Julia. We will be providing code examples and suppport only in R, though. We will gladly help you, within our capabilities, if you are using Python or Julia.\n\n\nWhat software do I need to install?\nYou will need to use git, and a text editor or IDE.\nFor git, please see here for instructions on how to install it.\nYou can use any kind of text editor or IDE you like. We recomment using VS Code with the extension corresponding to your language of choice. You can also use Rstudio for R. See here for instructions on how to install the software and IDEs.\n\n\nHow do I submit a project?\nWe will be using Github-classroom to distribute and collect projects. You will need to create a Github account if you don’t already have one.\n\n\n\nTechnical issues\n\nI am lost with Github, what should I do?\nGitHub has possibly the best tutorials and documentation of any software out there. You can find the Hello world there. Most of the time googling your issue will lead you to the right place.\n\n\nI have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?\nFirst google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.\n\n\nI cannot find the repository linked to the project, what should I do?\nAt the top of each project there should be a link where you can manually click to accept the project. If this happens after the first project, please let us know.",
-    "crumbs": [
-      "Course information",
-      "Help & FAQ"
+      "Schedule"
     ]
   },
   {
