@@ -279,7 +279,7 @@
     "href": "projects/project-03.html#tasks-for-a-given-catchment-1",
     "title": "Project 3",
     "section": "Tasks: For a given catchment",
-    "text": "Tasks: For a given catchment\n\nModel the effect of these variables on the binary flood event variable (target variable \\(T\\)) by performing classification using logistic regression, where\n\n\n3.1. you consider all the variables defined in 2.,\n\nand reduce the set features/covariates by\n\n3.2. performing standard variable selection, such as, e.g., by using a \\(L_1\\) penalty (LASSO)\n3.3. using the PC algorithm for causal discovery and selecting only variables in the Markov blanket around \\(T\\) -3.4 using a local causal discovery method (such as implemented in the R packages bnlearn and MXM) to get the Markov blanket around \\(T\\) and keeping only the corresponding variables\n\n\nCompare the prediction performance on a test set (the last two years, say)",
+    "text": "Tasks: For a given catchment\n\nModel the effect of these variables on the binary flood event variable (target variable \\(T\\)) by performing classification using logistic regression, where\n\n\n3.1. you consider all the variables defined in 2.,\n\nand reduce the set features/covariates by\n\n3.2. performing standard variable selection, such as, e.g., by using a \\(L_1\\) penalty (LASSO)\n3.3. using the PC algorithm for causal discovery and selecting only variables in the Markov blanket around \\(T\\)\n3.4 using a local causal discovery method (such as implemented in the R packages bnlearn and MXM) to get the Markov blanket around \\(T\\) and keeping only the corresponding variables\n\n\nCompare the prediction performance on a test set (the last two years, say)",
     "crumbs": [
       "Projects",
       "Project 3"
