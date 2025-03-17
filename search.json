@@ -77,36 +77,36 @@
     ]
   },
   {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Course overview",
+    "objectID": "projects/tips-resources.html",
+    "href": "projects/tips-resources.html",
+    "title": "Tips + resources",
     "section": "",
-    "text": "This is the homepage for MATH-516 Applied Statistics in Spring 2025 at EPFL. All course materials will be posted on this site.\nYou can find the course syllabus here and the course schedule here. All the additional ressources can be found either on this page or by using the search bar on the top left corner of the website. These ressources include project descriptions, datasets, tips and tricks, etc…",
+    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
     "crumbs": [
-      "Course information",
-      "Overview/Organisation"
+      "Projects",
+      "Tips + resources"
     ]
   },
   {
-    "objectID": "course-overview.html#license",
-    "href": "course-overview.html#license",
-    "title": "Course overview",
-    "section": "5.1 License",
-    "text": "5.1 License\n\nThis online work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International. Visit here for more information about the license.\nThis website and part of the course materials were adapted from different sources:\n\nDr. Mine Çetinkaya-Rundel STA 101 website\nDr. Linda Mhalla MATH-517 Fall 2024 course\nfredhutch.io and R for data analysis and visualization of Ecological Data",
+    "objectID": "projects/tips-resources.html#general-comments-about-project-1",
+    "href": "projects/tips-resources.html#general-comments-about-project-1",
+    "title": "Tips + resources",
+    "section": "",
+    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
     "crumbs": [
-      "Course information",
-      "Overview/Organisation"
+      "Projects",
+      "Tips + resources"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MATH 516: Applied Statistics",
-    "section": "",
-    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nDUE\n\n\n\n\n1\nMon, Feb 17\n\nLecture 1 + Project 1\n\n\n\n\n2\nMon, Feb 24\n\nProject 1 (continued)\n\n\n\n\n\nSun, Mar 2\n\n\nProject 1\n\n\n\n3\nMon, Mar 3\n\nLecture 2 + Project 2\n\n\n\n\n4\nMon, Mar 10\n\nProject 2 (continued)\n\n\n\n\n\nSun, Mar 16\n\n\nProject 2\n\n\n\n5\nMon, Mar 17\n\nLecture 3 + Project 3\n\n\n\n\n6\nMon, Mar 24\n\nProject 3 (continued)\n\n\n\n\n\nSun, Mar 30\n\n\nProject 3",
+    "objectID": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
+    "href": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
+    "title": "Tips + resources",
+    "section": "Tips and tricks for visualisation",
+    "text": "Tips and tricks for visualisation\n\nConsistency is the most important thing for a statistician.\n\njumping between different citation styles is bad\nhaving some captions centered above the figure produced by R and others flushed right below using Markdown is annoying\n\nSave space for better readability.\n\nplots that convey little information don’t have to be large, several (related) plots can be put next to each other on the same line, etc.\neven in an html file, unnecessary scrolling back and forth when reading a report is annoying\na plot frame with one or two boxplots is a waste of space (e.g. histograms would be better)\nbarplots can often be replaced by tables to both save space and improve readability\nin general, if a plot only shows like 3 numbers and is not important for any argument made, it should not be a plot\n\nStory-telling matters.\n\nit is important to grasp attention with an introduction (and describe at the same time what to expect from a report)\nre-iterate the most important ideas/results in several places\ncomment on plots even if they are self-explanatory\n\nMore on plots.\n\ntext in figures (labels, etc.) should be of similar size as the main text\nlabels have to be readable, e.g. no overlaying etc.\ncaptions are necessary and should make the plot self-contained (without looking at the paragraphs around it)\n\nLess is sometimes more.\n\nshowing a scatterplot only to colors to it based on a group of two on the next plot, then adding one regression line, and then two regression lines on the fourth plot… just dilutes the important parts\nBarplots colored by an additional variable should probably be replaced by a table (potentially colored by the cell values – coloring for better readability only).\n\nList of references should be itemized or enumerated (in order to be readable).\nAvoid using local paths.\n\nreproducibility of the report itself!\n\nTransforming variables.\n\nif your plots look bad because of a clear skewing in one of the variables, transform the varible (typically plot it on a log-scale)\nif plotting on a log-scale, consider log10 or log2 to have better interpretability",
     "crumbs": [
-      "Course information",
-      "Schedule"
+      "Projects",
+      "Tips + resources"
     ]
   },
   {
@@ -176,36 +176,124 @@
     ]
   },
   {
-    "objectID": "projects/tips-resources.html",
-    "href": "projects/tips-resources.html",
-    "title": "Tips + resources",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH 516: Applied Statistics",
     "section": "",
-    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
+    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nDUE\n\n\n\n\n1\nMon, Feb 17\n\nLecture 1 + Project 1\n\n\n\n\n2\nMon, Feb 24\n\nProject 1 (continued)\n\n\n\n\n\nSun, Mar 2\n\n\nProject 1\n\n\n\n3\nMon, Mar 3\n\nLecture 2 + Project 2\n\n\n\n\n4\nMon, Mar 10\n\nProject 2 (continued)\n\n\n\n\n\nSun, Mar 16\n\n\nProject 2\n\n\n\n5\nMon, Mar 17\n\nLecture 3 + Project 3\n\n\n\n\n6\nMon, Mar 24\n\nProject 3 (continued)\n\n\n\n\n\nSun, Mar 30\n\n\nProject 3",
     "crumbs": [
-      "Projects",
-      "Tips + resources"
+      "Course information",
+      "Schedule"
     ]
   },
   {
-    "objectID": "projects/tips-resources.html#general-comments-about-project-1",
-    "href": "projects/tips-resources.html#general-comments-about-project-1",
-    "title": "Tips + resources",
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course overview",
     "section": "",
-    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
+    "text": "This is the homepage for MATH-516 Applied Statistics in Spring 2025 at EPFL. All course materials will be posted on this site.\nYou can find the course syllabus here and the course schedule here. All the additional ressources can be found either on this page or by using the search bar on the top left corner of the website. These ressources include project descriptions, datasets, tips and tricks, etc…",
     "crumbs": [
-      "Projects",
-      "Tips + resources"
+      "Course information",
+      "Overview/Organisation"
     ]
   },
   {
-    "objectID": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
-    "href": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
-    "title": "Tips + resources",
-    "section": "Tips and tricks for visualisation",
-    "text": "Tips and tricks for visualisation\n\nConsistency is the most important thing for a statistician.\n\njumping between different citation styles is bad\nhaving some captions centered above the figure produced by R and others flushed right below using Markdown is annoying\n\nSave space for better readability.\n\nplots that convey little information don’t have to be large, several (related) plots can be put next to each other on the same line, etc.\neven in an html file, unnecessary scrolling back and forth when reading a report is annoying\na plot frame with one or two boxplots is a waste of space (e.g. histograms would be better)\nbarplots can often be replaced by tables to both save space and improve readability\nin general, if a plot only shows like 3 numbers and is not important for any argument made, it should not be a plot\n\nStory-telling matters.\n\nit is important to grasp attention with an introduction (and describe at the same time what to expect from a report)\nre-iterate the most important ideas/results in several places\ncomment on plots even if they are self-explanatory\n\nMore on plots.\n\ntext in figures (labels, etc.) should be of similar size as the main text\nlabels have to be readable, e.g. no overlaying etc.\ncaptions are necessary and should make the plot self-contained (without looking at the paragraphs around it)\n\nLess is sometimes more.\n\nshowing a scatterplot only to colors to it based on a group of two on the next plot, then adding one regression line, and then two regression lines on the fourth plot… just dilutes the important parts\nBarplots colored by an additional variable should probably be replaced by a table (potentially colored by the cell values – coloring for better readability only).\n\nList of references should be itemized or enumerated (in order to be readable).\nAvoid using local paths.\n\nreproducibility of the report itself!\n\nTransforming variables.\n\nif your plots look bad because of a clear skewing in one of the variables, transform the varible (typically plot it on a log-scale)\nif plotting on a log-scale, consider log10 or log2 to have better interpretability",
+    "objectID": "course-overview.html#license",
+    "href": "course-overview.html#license",
+    "title": "Course overview",
+    "section": "5.1 License",
+    "text": "5.1 License\n\nThis online work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International. Visit here for more information about the license.\nThis website and part of the course materials were adapted from different sources:\n\nDr. Mine Çetinkaya-Rundel STA 101 website\nDr. Linda Mhalla MATH-517 Fall 2024 course\nfredhutch.io and R for data analysis and visualization of Ecological Data",
+    "crumbs": [
+      "Course information",
+      "Overview/Organisation"
+    ]
+  },
+  {
+    "objectID": "projects/project-03.html",
+    "href": "projects/project-03.html",
+    "title": "Project 3",
+    "section": "",
+    "text": "Important\n\n\n\nDue date: Sunday, April 6",
     "crumbs": [
       "Projects",
-      "Tips + resources"
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "projects/project-03.html#introduction-local-causal-discovery",
+    "href": "projects/project-03.html#introduction-local-causal-discovery",
+    "title": "Project 3",
+    "section": "Introduction: Local causal discovery",
+    "text": "Introduction: Local causal discovery\nFor a target variable \\(T\\), local causal discovery methods aim at learning its Markov blanket, i.e., the direct causes (parents), direct effects (children), and spouses (direct causes of the direct effects) of \\(T\\), yielding its “neighbourhood” in the causal DAG\n\\(\\Rightarrow\\) not interested in the causal DAG of the entire system of \\((T,\\mathbf{X})\\) but only on the causal DAG around \\(T\\)\nPopular constraint-based methods:\n\nPC algorithm can be used to extract the Markov blanket of any variable of interest\nHITON-PC (Aliferis et al. 2003): identifies the Markov blanket of a target variable using conditional independence tests",
+    "crumbs": [
+      "Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "projects/project-03.html#data-hydrologically-simulated-dataset",
+    "href": "projects/project-03.html#data-hydrologically-simulated-dataset",
+    "title": "Project 3",
+    "section": "Data: Hydrologically simulated dataset",
+    "text": "Data: Hydrologically simulated dataset\n\nData simulated using the hydrological modelling system PREVAH (PREecipitation-Runoff-EVApotranspiration Hydrotope model); see this paper and this one\n\n\\(\\Rightarrow\\) developed to improve the understanding of the spatio-temporal variability of hydrological processes in catchments with complex topography; see this paper\n\nDataset consists of 307 catchments in Switzerland for which\n\n\n\n\n\n\n\n\ndischarge [mm]\nprecipitation [mm]\nsnowmelt [mm]\nsoil moisture [mm]\n\n\n\n\ntemperature [°C]\n(actual) evapotranspiration [mm]\nradiation [W \\(m^{-2}\\)]\n\n\n\n\nwere simulated at a daily-resolution from 1981 to 2016",
+    "crumbs": [
+      "Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "projects/project-03.html#data-hydrologically-simulated-dataset-1",
+    "href": "projects/project-03.html#data-hydrologically-simulated-dataset-1",
+    "title": "Project 3",
+    "section": "Data: Hydrologically simulated dataset",
+    "text": "Data: Hydrologically simulated dataset\n\nData were calibrated and validated for each catchment by running it with observed meteorological input data (precipitation and temperature) and assessing the simulated discharge values against observed values\nCatchments’ flood events are mainly driven either by snowmelt (Alps) or rainfall (Jura, Plateau, and Southern Alps) or by their mixture (Pre-Alps); see this paper\n\n\\(\\Rightarrow\\) system of the hydrological and climate variables is spatially dynamic\nSource: Part of the data is downloaded from Envidat and the other part is courtesy of Massimiliano Zappa from the WSL",
+    "crumbs": [
+      "Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "projects/project-03.html#the-goal",
+    "href": "projects/project-03.html#the-goal",
+    "title": "Project 3",
+    "section": "The goal",
+    "text": "The goal\nAim of the study: We are interested in understanding the hydrological and climatological drivers of extreme discharges during Spring (March-April-May)\nTo make the analysis simpler, for a given catchment, consider a binary variable stating whether the discharge variable exceeds its 90% empirical quantile or not.\n\\(\\rightarrow\\) stationarity is implictely assumed. Is it reasonable? Maybe we can do better…\n\nThe goal of this project is thus to investigate\n\nwhich variables intervene on the propensity of flood events\nhow far can causal discovery pay off in terms of prediction accuracy",
+    "crumbs": [
+      "Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "projects/project-03.html#tasks-for-a-given-catchment",
+    "href": "projects/project-03.html#tasks-for-a-given-catchment",
+    "title": "Project 3",
+    "section": "Tasks: For a given catchment",
+    "text": "Tasks: For a given catchment\n\nDetermine the 90% quantile of the discharge levels (stationary or non-stationary?) and create the binary flood event variable\nConsider all the daily variables (except discharge at time \\(t\\)) as well as their lagged versions by three days (you can investigate if this lag is informative about floods and consider alternatives if not)",
+    "crumbs": [
+      "Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "projects/project-03.html#tasks-for-a-given-catchment-1",
+    "href": "projects/project-03.html#tasks-for-a-given-catchment-1",
+    "title": "Project 3",
+    "section": "Tasks: For a given catchment",
+    "text": "Tasks: For a given catchment\n\nModel the effect of these variables on the binary flood event variable (target variable \\(T\\)) by performing classification using logistic regression, where\n\n\n3.1. you consider all the variables defined in 2.,\n\nand reduce the set features/covariates by\n\n3.2. performing standard variable selection, such as, e.g., by using a \\(L_1\\) penalty (LASSO)\n3.3. using the PC algorithm for causal discovery and selecting only variables in the Markov blanket around \\(T\\) -3.4 using a local causal discovery method (such as implemented in the R packages bnlearn and MXM) to get the Markov blanket around \\(T\\) and keeping only the corresponding variables\n\n\nCompare the prediction performance on a test set (the last two years, say)",
+    "crumbs": [
+      "Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "projects/project-03.html#tasks",
+    "href": "projects/project-03.html#tasks",
+    "title": "Project 3",
+    "section": "Tasks",
+    "text": "Tasks\nDo this\n\nfor a low-elevation and a high-elevation catchments\nadding a brief description of the chosen local discovery method to the report",
+    "crumbs": [
+      "Projects",
+      "Project 3"
     ]
   },
   {

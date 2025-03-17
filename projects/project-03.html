@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Help &amp; FAQ – MATH 516</title>
+<title>Project 3 – MATH 516</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./projects/project-01.html" rel="next">
-<link href="./index.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-52b3279f41ca80859d11e21fdd9868ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../projects/tips-resources.html" rel="next">
+<link href="../projects/project-02.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-52b3279f41ca80859d11e21fdd9868ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -68,8 +68,38 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Help &amp; FAQ – MATH 516">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Project 3 – MATH 516">
+<meta property="og:description" content="Hydrological system in Switzerland">
 <meta property="og:site_name" content="MATH 516">
 </head>
 
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-overview.html">Course information</a></li><li class="breadcrumb-item"><a href="./course-faq.html">Help &amp; FAQ</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/project-01.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/project-03.html">Project 3</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -97,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">MATH 516</a> 
+      <a href="../">MATH 516</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/MATH-516/website" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
 </div>
@@ -112,34 +142,34 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Course information</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-overview.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview/Organisation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-faq.html" class="sidebar-item-text sidebar-link active">
+  <a href="../course-faq.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Help &amp; FAQ</span></a>
   </div>
 </li>
@@ -147,34 +177,34 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Projects</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/project-01.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/project-01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/project-02.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/project-02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/project-03.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/project-03.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Project 3</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/tips-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/tips-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tips + resources</span></a>
   </div>
 </li>
@@ -185,25 +215,16 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#faq" id="toc-faq" class="nav-link active" data-scroll-target="#faq">FAQ</a>
-  <ul class="collapse">
-  <li><a href="#organizational" id="toc-organizational" class="nav-link" data-scroll-target="#organizational">Organizational</a></li>
-  <li><a href="#technical-issues" id="toc-technical-issues" class="nav-link" data-scroll-target="#technical-issues">Technical issues</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/MATH-516/website/edit/main/course-faq.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MATH-516/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-overview.html">Course information</a></li><li class="breadcrumb-item"><a href="./course-faq.html">Help &amp; FAQ</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/project-01.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/project-03.html">Project 3</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Help &amp; FAQ</h1>
+<h1 class="title">Project 3</h1>
+<p class="subtitle lead">Hydrological system in Switzerland</p>
 </div>
 
 
@@ -220,56 +241,172 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip
+Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>If you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ.</p>
+<p><strong>Due date:</strong> Sunday, April 6</p>
 </div>
 </div>
-<section id="faq" class="level2">
-<h2 class="anchored" data-anchor-id="faq">FAQ</h2>
-<section id="organizational" class="level3">
-<h3 class="anchored" data-anchor-id="organizational">Organizational</h3>
-<section id="which-language-will-we-be-using" class="level4">
-<h4 class="anchored" data-anchor-id="which-language-will-we-be-using">Which language will we be using?</h4>
-<p>You can use either Python, R, or Julia. We will be providing code examples and suppport only in R, though. We will gladly help you, within our capabilities, if you are using Python or Julia.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Invite link for GitHub Classroom
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Use the corresponding invite link in <a href="https://docs.google.com/document/d/12aVHO4med_qwvEkPE7KHtq1Tme0IVEXgEdLGZStvBco/edit?usp=sharing">this google doc</a> (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Submission requirements
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>You are required to hand in a PDF version of your report <code>report.pdf</code> (generated from the quarto file <code>report.qmd</code>, if applicable) and the quarto file itself. The <code>report.qmd</code> should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.</p>
+<p>Your <code>README.md</code> should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.</p>
+<p>An aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.</p>
+<p><strong>Checklist</strong>:</p>
+<ol type="1">
+<li><label><input type="checkbox"><code>report.pdf</code> in GitHub repository (<strong>max 15 pages</strong>)</label></li>
+<li><label><input type="checkbox">Source code in GitHub repository</label></li>
+<li><label><input type="checkbox"><code>README.md</code> with instructions on how to run the code and reproduce the PDF report</label></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Description of the Project
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="introduction-local-causal-discovery" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-local-causal-discovery">Introduction: Local causal discovery</h2>
+<p>For a target variable <span class="math inline">\(T\)</span>, local causal discovery methods aim at learning its <em>Markov blanket</em>, i.e., the direct causes (parents), direct effects (children), and spouses (direct causes of the direct effects) of <span class="math inline">\(T\)</span>, yielding its “neighbourhood” in the causal DAG</p>
+<p><span class="math inline">\(\Rightarrow\)</span> not interested in the causal DAG of the entire system of <span class="math inline">\((T,\mathbf{X})\)</span> but only on the causal DAG around <span class="math inline">\(T\)</span></p>
+<p><strong>Popular constraint-based methods</strong>:</p>
+<ul>
+<li><p>PC algorithm can be used to extract the Markov blanket of any variable of interest</p></li>
+<li><p>HITON-PC (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1480117/">Aliferis et al.&nbsp;2003</a>): identifies the Markov blanket of a target variable using conditional independence tests</p></li>
+</ul>
 </section>
-<section id="what-software-do-i-need-to-install" class="level4">
-<h4 class="anchored" data-anchor-id="what-software-do-i-need-to-install">What software do I need to install?</h4>
-<p>You will need to use git, and a text editor or IDE.</p>
-<p>For git, please see <a href="https://math-517.github.io/math_517_website/resources/tutorials/github.html">here</a> for instructions on how to install it.</p>
-<p>You can use any kind of text editor or IDE you like. We recomment using <a href="https://code.visualstudio.com/">VS Code</a> with the extension corresponding to your language of choice. You can also use <a href="https://rstudio.com/products/rstudio/download/">Rstudio</a> for R. See <a href="https://math-517.github.io/math_517_website/resources/tutorials/installing_software.html">here</a> for instructions on how to install the software and IDEs.</p>
+<section id="data-hydrologically-simulated-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="data-hydrologically-simulated-dataset">Data: Hydrologically simulated dataset</h2>
+<ul>
+<li>Data simulated using the hydrological modelling system PREVAH (PREecipitation-Runoff-EVApotranspiration Hydrotope model); see <a href="https://iacweb.ethz.ch/doc/publications/2009_Viviroli_PREVAH.pdf">this paper</a> and <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR024701">this one</a></li>
+</ul>
+<p><span class="math inline">\(\Rightarrow\)</span> developed to improve the understanding of the spatio-temporal variability of hydrological processes in catchments with complex topography; see <a href="https://iacweb.ethz.ch/doc/publications/2009_Viviroli_PREVAH.pdf">this paper</a></p>
+<ul>
+<li>Dataset consists of 307 catchments in Switzerland for which</li>
+</ul>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ul>
+<li>discharge [mm]</li>
+<li>precipitation [mm]</li>
+<li>snowmelt [mm]</li>
+<li>soil moisture [mm]</li>
+</ul>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ul>
+<li>temperature [°C]</li>
+<li>(actual) evapotranspiration [mm]</li>
+<li>radiation [W <span class="math inline">\(m^{-2}\)</span>]</li>
+</ul>
+</div>
+</div>
+</div>
+<p>were simulated at a daily-resolution from 1981 to 2016</p>
 </section>
-<section id="how-do-i-submit-a-project" class="level4">
-<h4 class="anchored" data-anchor-id="how-do-i-submit-a-project">How do I submit a project?</h4>
-<p>We will be using Github-classroom to distribute and collect projects. You will need to create a Github account if you don’t already have one.</p>
+<section id="data-hydrologically-simulated-dataset-1" class="level2">
+<h2 class="anchored" data-anchor-id="data-hydrologically-simulated-dataset-1">Data: Hydrologically simulated dataset</h2>
+<ul>
+<li><p>Data were calibrated and validated for each catchment by running it with observed meteorological input data (precipitation and temperature) and assessing the simulated discharge values against observed values</p></li>
+<li><p>Catchments’ flood events are mainly driven either by snowmelt (Alps) or rainfall (Jura, Plateau, and Southern Alps) or by their mixture (Pre-Alps); see <a href="https://hess.copernicus.org/articles/19/3903/2015/">this paper</a></p></li>
+</ul>
+<p><span class="math inline">\(\Rightarrow\)</span> system of the hydrological and climate variables is spatially dynamic</p>
+<p><strong>Source</strong>: Part of the data is downloaded from <a href="https://envidat.ch/#/metadata/simulated-future-discharge-and-climatological-variables">Envidat</a> and the other part is courtesy of Massimiliano Zappa from the <a href="https://www.wsl.ch/en/">WSL</a></p>
 </section>
+<section id="the-goal" class="level2">
+<h2 class="anchored" data-anchor-id="the-goal">The goal</h2>
+<p><strong>Aim of the study</strong>: We are interested in understanding the hydrological and climatological drivers of extreme discharges during <strong>Spring (March-April-May)</strong></p>
+<p>To make the analysis simpler, for a given catchment, consider a binary variable stating whether the discharge variable exceeds its 90% empirical quantile or not.</p>
+<p><span class="math inline">\(\rightarrow\)</span> stationarity is implictely assumed. Is it reasonable? Maybe we can do better…</p>
+<!-- **Pre-defined training and test data** provided in repository for comparability (`lucas_train.csv` and `lucas_test.csv`) -->
+<p><em>The goal of this project is thus to investigate</em></p>
+<ul>
+<li><p><em>which variables intervene on the propensity of flood events</em></p></li>
+<li><p><em>how far can causal discovery pay off in terms of prediction accuracy</em></p></li>
+</ul>
 </section>
-<section id="technical-issues" class="level3">
-<h3 class="anchored" data-anchor-id="technical-issues">Technical issues</h3>
-<section id="i-am-lost-with-github-what-should-i-do" class="level4">
-<h4 class="anchored" data-anchor-id="i-am-lost-with-github-what-should-i-do">I am lost with Github, what should I do?</h4>
-<p>GitHub has possibly the best tutorials and documentation of any software out there. You can find the <a href="https://docs.github.com/en/get-started/quickstart/hello-world">Hello world</a> there. Most of the time googling your issue will lead you to the right place.</p>
+<section id="tasks-for-a-given-catchment" class="level2">
+<h2 class="anchored" data-anchor-id="tasks-for-a-given-catchment">Tasks: For a given catchment</h2>
+<ol type="1">
+<li><p>Determine the 90% quantile of the discharge levels (stationary or non-stationary?) and create the binary flood event variable</p></li>
+<li><p>Consider all the daily variables (except discharge at time <span class="math inline">\(t\)</span>) as well as their lagged versions by three days (you can investigate if this lag is informative about floods and consider alternatives if not)</p></li>
+</ol>
 </section>
-<section id="i-have-bugs-in-my-code-something-doesnt-work-i-dont-know-how-to-do-something-what-should-i-do" class="level4">
-<h4 class="anchored" data-anchor-id="i-have-bugs-in-my-code-something-doesnt-work-i-dont-know-how-to-do-something-what-should-i-do">I have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?</h4>
-<p>First google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.</p>
+<section id="tasks-for-a-given-catchment-1" class="level2">
+<h2 class="anchored" data-anchor-id="tasks-for-a-given-catchment-1">Tasks: For a given catchment</h2>
+<ol start="3" type="1">
+<li>Model the effect of these variables on the binary flood event variable (target variable <span class="math inline">\(T\)</span>) by performing classification using logistic regression, where</li>
+</ol>
+<ul>
+<li>3.1. you consider all the variables defined in 2.,</li>
+</ul>
+<p>and reduce the set features/covariates by</p>
+<ul>
+<li><p>3.2. performing <strong>standard variable selection</strong>, such as, e.g., by using a <span class="math inline">\(L_1\)</span> penalty (LASSO)</p></li>
+<li><p>3.3. using the <strong>PC algorithm</strong> for causal discovery and selecting only variables in the Markov blanket around <span class="math inline">\(T\)</span> -3.4 using <strong>a local causal discovery method</strong> (such as implemented in the <code>R</code> packages <code>bnlearn</code> and <code>MXM</code>) to get the Markov blanket around <span class="math inline">\(T\)</span> and keeping only the corresponding variables</p></li>
+</ul>
+<ol start="4" type="1">
+<li>Compare the prediction performance on a test set (the last two years, say)</li>
+</ol>
 </section>
-<section id="i-cannot-find-the-repository-linked-to-the-project-what-should-i-do" class="level4">
-<h4 class="anchored" data-anchor-id="i-cannot-find-the-repository-linked-to-the-project-what-should-i-do">I cannot find the repository linked to the project, what should I do?</h4>
-<p>At the top of each project there should be a link where you can manually click to accept the project. If this happens <em>after</em> the first project, please let us know.</p>
+<section id="tasks" class="level2">
+<h2 class="anchored" data-anchor-id="tasks">Tasks</h2>
+<p>Do this</p>
+<ol type="a">
+<li><p>for a low-elevation and a high-elevation catchments</p></li>
+<li><p>adding a <strong>brief description of the chosen local discovery method</strong> to the report</p></li>
+</ol>
 
 
 </section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -691,13 +828,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Schedule">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Schedule</span>
+      <a href="../projects/project-02.html" class="pagination-link" aria-label="Project 2">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Project 2</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./projects/project-01.html" class="pagination-link" aria-label="Project 1">
-        <span class="nav-page-text">Project 1</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../projects/tips-resources.html" class="pagination-link" aria-label="Tips + resources">
+        <span class="nav-page-text">Tips + resources</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -709,7 +846,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/MATH-516/website/edit/main/course-faq.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MATH-516/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/MATH-516/website/edit/main/projects/project-03.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MATH-516/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a></p>
 </div>
