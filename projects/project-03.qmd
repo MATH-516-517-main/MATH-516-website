@@ -125,7 +125,8 @@ and reduce the set features/covariates by
    - 3.2.  performing **standard variable selection**, such as, e.g., by using a $L_1$ penalty (LASSO)
 
    - 3.3.  using the **PC algorithm** for causal discovery and selecting only variables in the Markov blanket around $T$
-    -3.4  using **a local causal discovery method** (such as implemented in the `R` packages `bnlearn` and `MXM`) to get the Markov blanket around $T$ and keeping only the corresponding variables
+
+   - 3.4  using **a local causal discovery method** (such as implemented in the `R` packages `bnlearn` and `MXM`) to get the Markov blanket around $T$ and keeping only the corresponding variables
 
  4. Compare the prediction performance on a test set (the last two years, say)
 
