@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://math-517.github.io/website/course-faq.html</loc>
-    <lastmod>2025-03-31T11:12:28.569Z</lastmod>
+    <loc>https://math-517.github.io/website/course-syllabus.html</loc>
+    <lastmod>2025-05-02T13:43:14.042Z</lastmod>
   </url>
   <url>
-    <loc>https://math-517.github.io/website/projects/project-01.html</loc>
-    <lastmod>2025-03-31T11:12:28.588Z</lastmod>
+    <loc>https://math-517.github.io/website/course-faq.html</loc>
+    <lastmod>2025-05-02T13:43:14.042Z</lastmod>
   </url>
   <url>
     <loc>https://math-517.github.io/website/projects/project-04.html</loc>
-    <lastmod>2025-03-31T11:12:28.589Z</lastmod>
+    <lastmod>2025-05-02T13:43:14.063Z</lastmod>
   </url>
   <url>
-    <loc>https://math-517.github.io/website/course-overview.html</loc>
-    <lastmod>2025-03-31T11:12:28.569Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math-517.github.io/website/index.html</loc>
-    <lastmod>2025-03-31T11:12:28.579Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math-517.github.io/website/course-syllabus.html</loc>
-    <lastmod>2025-03-31T11:12:28.569Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math-517.github.io/website/projects/tips-resources.html</loc>
-    <lastmod>2025-03-31T11:12:28.589Z</lastmod>
+    <loc>https://math-517.github.io/website/projects/project-01.html</loc>
+    <lastmod>2025-05-02T13:43:14.063Z</lastmod>
   </url>
   <url>
     <loc>https://math-517.github.io/website/projects/project-03.html</loc>
-    <lastmod>2025-03-31T11:12:28.589Z</lastmod>
+    <lastmod>2025-05-02T13:43:14.063Z</lastmod>
   </url>
   <url>
     <loc>https://math-517.github.io/website/projects/project-02.html</loc>
-    <lastmod>2025-03-31T11:12:28.588Z</lastmod>
+    <lastmod>2025-05-02T13:43:14.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math-517.github.io/website/projects/tips-resources.html</loc>
+    <lastmod>2025-05-02T13:43:14.064Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math-517.github.io/website/projects/project-05.html</loc>
+    <lastmod>2025-05-02T13:43:14.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math-517.github.io/website/index.html</loc>
+    <lastmod>2025-05-02T13:43:14.049Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math-517.github.io/website/course-overview.html</loc>
+    <lastmod>2025-05-02T13:43:14.042Z</lastmod>
   </url>
 </urlset>
