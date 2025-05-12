@@ -8,7 +8,7 @@ This page contains an outline of the topics and projects for the semester. Note 
 
 
 ::: callout-tip
-It can be useful to check the available tutorials to get ready for the assignments quickly. You can find them under the resources section on your left.
+It can be useful to check the available tutorials to get ready for the projects quickly. You can find them under the resources section on your left.
 Please check the [FAQ](/course-faq.qmd) page for common questions and answers. 
 :::
 
