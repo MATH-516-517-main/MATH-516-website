@@ -27,7 +27,7 @@ Apart from the topics mentioned [in the schedule](index.qmd), mastering this cou
 
 The assessment method for this course is "controle continue", meaning that the course and all the work required from the students effectively end with the end of the semester. 
 
-**Project 1 is mandatory** (deadline in Sunday, March 1) and the course is "without withdrawal", i.e., whoever submits Project 1 is committing to the course and will eventually get a grade.
+**Project 1 is mandatory** (deadline is Monday, March 2) and the course is "without withdrawal", i.e., whoever submits Project 1 is committing to the course and will eventually get a grade.
 
 There will be 7 projects (data analyses) in total:
 
@@ -60,20 +60,9 @@ idividual project.
 
 **Deadlines** will always be set on the first day of the week (23:59 on Monday). A project from Week $k$ (given on Monday) will always have its deadline on Week $k+2$ (i.e., the midnight between Monday and Tuesday on the $(k+2)$-th week, see [the schedule](index.qmd)).
 
-**Grading** 
+**Grading** will be based on pre-defined criteria. See [the grading criteria](grading-criteria.qmd) for details.
 <!-- will be done on a rough scale. For example the assignments will be mostly graded on a binary basis, you either receive full 5 % or nothing. Similarly the projects will be graded in 5 % increments. Notice that 5 % corresponds to 0.25 increment on the 1-6 scale used at EPFL. As a result, skipping an assignment will irrevocably reduce your final grade. On the other hand, the assignments will be short and simple, and serious attempts to solve them should resolve in the full mark. Similarly for the projects, with one exception: 10 % of the final project will be awarded for value added (original data analysis, simulation study answering a previously unclear question, etc.). -->
 
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-
-library(googlesheets4)
-library(gt)
-library(tidyverse)
-gs4_deauth()
-d <- read_sheet("https://docs.google.com/spreadsheets/d/1r-FELg7Ol__Tg9V9CuwPx7dNQDKtYvtISwWPbTiF6pc/edit?usp=sharing") 
-```
 
 # Materials
 
