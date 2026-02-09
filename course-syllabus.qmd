@@ -16,7 +16,7 @@ The course will be problem-based, but solutions to the problems may require idea
 
 ## Prerequisites
 
-Required courses: Regression methods, Statistical Computation and Visualisation.
+Recommended courses: Regression methods, Statistical Computation and Visualisation.
 
 ## Learning Outcomes
 By the end of the course, the student must be able to:
