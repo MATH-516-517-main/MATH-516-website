@@ -22,300 +22,14 @@
     ]
   },
   {
-    "objectID": "course-syllabus.html",
-    "href": "course-syllabus.html",
-    "title": "Syllabus",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH 516: Applied Statistics",
     "section": "",
-    "text": "The course will provide an overview of everyday challenges in applied statistics through case studies. Students will learn how to use core statistical methods and their extensions, and will use computational and problem-solving tools to provide reproducible solutions for the problems presented.",
+    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the projects quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nDUE\n\n\n\n\n1\nMon, Feb 17\n\nLecture 1 + Project 1\n\n\n\n\n2\nMon, Feb 24\n\nProject 1 (continued)\n\n\n\n\n\nSun, Mar 2\n\n\nProject 1\n\n\n\n3\nMon, Mar 3\n\nLecture 2 + Project 2\n\n\n\n\n4\nMon, Mar 10\n\nProject 2 (continued)\n\n\n\n\n\nSun, Mar 16\n\n\nProject 2\n\n\n\n5\nMon, Mar 17\n\nLecture 3 + Project 3\n\n\n\n\n6\nMon, Mar 24\n\nProject 3 (continued)\n\n\n\n\n7\nMon, Mar 31\n\nLecture 4 + Project 4\n\n\nProject 3\n\n\n\n8\nMon, Apr 7\n\nProject 4 (continued)\n\n\n\n\n9\nMon, Apr 14\n\nLecture 5 + Project 5\n\n\nProject 4\n\n\n\n10\nMon, Apr 28\n\nProject 5 (continued)\n\n\n\n\n11\nMon, May 5\n\nLecture 6 + Project 6\n\n\nProject 5\n\n\n\n12\nMon, May 12\n\nProject 6 (continued)\n\n\n\n\n13\nMon, May 19\n\nOral exam\n\n\nProject 6\n\n\n\n14\nMon, May 26\n\nOral exam",
     "crumbs": [
       "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#course-description",
-    "href": "course-syllabus.html#course-description",
-    "title": "Syllabus",
-    "section": "",
-    "text": "The course will provide an overview of everyday challenges in applied statistics through case studies. Students will learn how to use core statistical methods and their extensions, and will use computational and problem-solving tools to provide reproducible solutions for the problems presented.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#content",
-    "href": "course-syllabus.html#content",
-    "title": "Syllabus",
-    "section": "Content",
-    "text": "Content\nThe course will be problem-based, but solutions to the problems may require ideas and tools from areas such as smoothing, regression analysis, statistical modelling (likelihood methods) and model selection, time series analysis, spatial and functional data analysis, extreme value analysis, and causal inference",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#prerequisites",
-    "href": "course-syllabus.html#prerequisites",
-    "title": "Syllabus",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nRequired courses: Regression methods, Statistical Computation and Visualisation.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#learning-outcomes",
-    "href": "course-syllabus.html#learning-outcomes",
-    "title": "Syllabus",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nBy the end of the course, the student must be able to:\n\nPropose suitable statistical solutions for real-world problems.\nApply suitable statistical solutions for real-world problems.\nAssess / Evaluate the adequacy of a statistical method for a given task.\nReport results clearly in writing and orally to different types of stakeholder.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#transversal-skills",
-    "href": "course-syllabus.html#transversal-skills",
-    "title": "Syllabus",
-    "section": "Transversal skills",
-    "text": "Transversal skills\n\nGive feedback (critique) in an appropriate fashion.\nTake feedback (critique) and respond in an appropriate manner.\nCommunicate effectively with professionals from other disciplines.\nIdentify the different roles that are involved in well-functioning teams and assume different roles, including leadership roles.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "projects/project-05.html",
-    "href": "projects/project-05.html",
-    "title": "Project 5",
-    "section": "",
-    "text": "Important\n\n\n\nDue date: Monday, May 5\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report\n\n\n\n\n\n\n\n\n\n\nDescription of the Project\n\n\n\n\n\nSee the Moodle webpage",
-    "crumbs": [
-      "Projects",
-      "Project 5"
-    ]
-  },
-  {
-    "objectID": "projects/project-01.html",
-    "href": "projects/project-01.html",
-    "title": "Project 1",
-    "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, March 2",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "projects/project-01.html#data-acoustic-analysis-of-vowels",
-    "href": "projects/project-01.html#data-acoustic-analysis-of-vowels",
-    "title": "Project 1",
-    "section": "Data: Acoustic analysis of vowels",
-    "text": "Data: Acoustic analysis of vowels\n\nData on acoustic measurements of vowels produced by American English speakers\n\ndata from Hillebrand et al. (1995)\nmeasurements on a group of children, men, and women were recorded\nthe fundamental frequency \\(f_0\\) of a vowel’s sound wave was measured (in Hz)\n\nOnly binned data are available (and the grid is not equidistant)\n\navailable data: the number of recorded vowels (variable count) and the fraction (variable percentage) of vowels’ fundamental frequency belonging to each bin (given by start_point and end_point)",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "projects/project-01.html#the-goal",
-    "href": "projects/project-01.html#the-goal",
-    "title": "Project 1",
-    "section": "The Goal",
-    "text": "The Goal\nSimulate the vowels’ frequency \\(f_0\\) from a distribution, which is as close as possible to the observed data, in order to study the different characteristics of these sounds in the time domain\n\ni.e., the goal is to do Monte Carlo: how to simulate vowels’ frequencies that are compatible with the data?\n\nExpert knowledge: a mixture of two log-normal distributions is a good model for the lowest frequency \\(f_0\\)",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "projects/project-01.html#tasks-for-you",
-    "href": "projects/project-01.html#tasks-for-you",
-    "title": "Project 1",
-    "section": "Tasks for You",
-    "text": "Tasks for You\n\nIs the assumption viable, i.e., is bi-log-normal distribution a reasonable model for the data?\n\nsimple exploration of the data\n\nFit the bi-log-normal distribution in order to be able to simulate the data easily using\n\njittering and EM algorithm OR direct optimization (e.g., local search starting from the jittered EM result), AND\na Bayesian approach\n\nTest whether the fundamental frequencies come from a bi-log-normal distribution\n\nparametric bootstrap and goodness of fit",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "projects/project-01.html#math-517-content",
-    "href": "projects/project-01.html#math-517-content",
-    "title": "Project 1",
-    "section": "MATH-517 Content",
-    "text": "MATH-517 Content\n\nWeek 1: Introduction & Software & Data Considerations\nWeek 2: Graphics & Visualization\nWeek 3: Kernel Density Estimation\nWeek 4: Non-parametric Regression\nWeek 5: Cross-validation\nWeek 6: EM Algorithm\nWeek 7: EM Algorithm\nWeek 8: Monte Carlo\nWeek 9: Bootstrap\nWeek 10: Bootstrap\nWeek 11: Bayesian Computations\nWeek 12: Bayesian Computations\nWeek 13: Decision Trees\nWeek 14: \\(\\emptyset\\)\n\nWeeks in bold are pertinent to Project 1\nWeeks 1-2 established the workflow needed for all the projects",
-    "crumbs": [
-      "Projects",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html",
-    "href": "projects/project-02.html",
-    "title": "Project 2",
-    "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, March 16",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#data",
-    "href": "projects/project-02.html#data",
-    "title": "Project 2",
-    "section": "Data",
-    "text": "Data\nTransportation Network Providers (TNPs) such as Uber and Lyft operate in Chicago. As part of its licensing process, Chicago requires the companies to report on their activities monthly\n\nThe dataset provides detailed trip-level information on reported trips\nThis dataset covers trips during October 2024\nSource: City of Chicago Open Data Portal\nKey features:\n\nTemporal trends\nSpatial patterns\nFare and cost analysis\nShared ride behaviour",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#data-trip-information",
-    "href": "projects/project-02.html#data-trip-information",
-    "title": "Project 2",
-    "section": "Data: Trip information",
-    "text": "Data: Trip information\n\ntrip_id: unique identifier for each trip\ntrip_start_timestamp: timestamp when the trip started\ntrip_end_timestamp: timestamp when the trip ended\ntrip_seconds: total duration of the trip in seconds\ntrip_miles: Total distance of the trip in miles\nfare: base fare of the trip\ntip: amount tipped by the passenger\nadditional_charges: extra fees (e.g., service fees)\ntrip_total: total cost of the trip (sum of fare, tip, and additional charges)\nshared_trip_authorized: whether the passenger opted for a shared ride\nshared_trip_match: whether the ride was actually matched with another passenger\ntrips_pooled: number of passengers pooled in a shared trip\n\nNote: times are rounded to the nearest 15 minutes, fares are rounded to the nearest 2.50, and tips are rounded to the nearest 1.00",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#the-goal",
-    "href": "projects/project-02.html#the-goal",
-    "title": "Project 2",
-    "section": "The Goal",
-    "text": "The Goal\nThe dataset provides valuable insights into:\n\ntemporal trends (peak ride-sharing hours and seasonal variations)\nspatial mobility (pickup/dropoff areas)\nfare & cost analysis (fare structures, tip patterns, and additional charges)\nride-sharing trends (e.g., how many trips were pooled vs. individual rides)\n\nWe will focus on one specific aspect: the tipping behaviour\n\\(\\rightarrow\\) Understanding tipping patterns can help companies adjust pricing models or researchers study socio-economic factors influencing tips",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#data-trip-information-1",
-    "href": "projects/project-02.html#data-trip-information-1",
-    "title": "Project 2",
-    "section": "Data: Trip information",
-    "text": "Data: Trip information\n\ntrip_id: unique identifier for each trip\ntrip_start_timestamp: timestamp when the trip started\ntrip_end_timestamp: timestamp when the trip ended\ntrip_seconds: total duration of the trip in seconds\ntrip_miles: Total distance of the trip in miles\nfare: base fare of the trip\ntip: amount tipped by the passenger\nadditional_charges: extra fees (e.g., service fees)\ntrip_total: total cost of the trip (sum of fare, tip, and additional charges)\nshared_trip_authorized: whether the passenger opted for a shared ride\nshared_trip_match: whether the ride was actually matched with another passenger\ntrips_pooled: number of passengers pooled in a shared trip\n\nNote: times are rounded to the nearest 15 minutes, fares are rounded to the nearest 2.50, and tips are rounded to the nearest 1.00",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#the-goal-1",
-    "href": "projects/project-02.html#the-goal-1",
-    "title": "Project 2",
-    "section": "The Goal",
-    "text": "The Goal\nThe dataset provides valuable insights into:\n\ntemporal trends (peak ride-sharing hours and seasonal variations)\nspatial mobility (pickup/dropoff areas)\nfare & cost analysis (fare structures, tip patterns, and additional charges)\nride-sharing trends (e.g., how many trips were pooled vs. individual rides)\n\nWe will focus on one specific aspect: the tipping behaviour\n\\(\\rightarrow\\) Understanding tipping patterns can help companies adjust pricing models or researchers study socio-economic factors influencing tips",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "course-faq.html",
-    "href": "course-faq.html",
-    "title": "Help & FAQ",
-    "section": "",
-    "text": "Tip\n\n\n\nIf you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ.",
-    "crumbs": [
-      "Course information",
-      "Help & FAQ"
-    ]
-  },
-  {
-    "objectID": "course-faq.html#faq",
-    "href": "course-faq.html#faq",
-    "title": "Help & FAQ",
-    "section": "FAQ",
-    "text": "FAQ\n\nOrganizational\n\nWhich language will we be using?\nYou can use either Python, R, or Julia. We will be providing code examples and suppport only in R, though. We will gladly help you, within our capabilities, if you are using Python or Julia.\n\n\nWhat software do I need to install?\nYou will need to use git, and a text editor or IDE.\nFor git, please see here for instructions on how to install it.\nYou can use any kind of text editor or IDE you like. We recomment using VS Code with the extension corresponding to your language of choice. You can also use Rstudio for R. See here for instructions on how to install the software and IDEs.\n\n\nHow do I submit a project?\nWe will be using Github-classroom to distribute and collect projects. You will need to create a Github account if you don’t already have one.\n\n\n\nTechnical issues\n\nI am lost with Github, what should I do?\nGitHub has possibly the best tutorials and documentation of any software out there. You can find the Hello world there. Most of the time googling your issue will lead you to the right place.\n\n\nI have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?\nFirst google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.\n\n\nI cannot find the repository linked to the project, what should I do?\nAt the top of each project there should be a link where you can manually click to accept the project. If this happens after the first project, please let us know.",
-    "crumbs": [
-      "Course information",
-      "Help & FAQ"
-    ]
-  },
-  {
-    "objectID": "projects/tips-resources.html",
-    "href": "projects/tips-resources.html",
-    "title": "Tips + resources",
-    "section": "",
-    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
-    "crumbs": [
-      "Projects",
-      "Tips + resources"
-    ]
-  },
-  {
-    "objectID": "projects/tips-resources.html#general-comments-about-project-1",
-    "href": "projects/tips-resources.html#general-comments-about-project-1",
-    "title": "Tips + resources",
-    "section": "",
-    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
-    "crumbs": [
-      "Projects",
-      "Tips + resources"
-    ]
-  },
-  {
-    "objectID": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
-    "href": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
-    "title": "Tips + resources",
-    "section": "Tips and tricks for visualisation",
-    "text": "Tips and tricks for visualisation\n\nConsistency is the most important thing for a statistician.\n\njumping between different citation styles is bad\nhaving some captions centered above the figure produced by R and others flushed right below using Markdown is annoying\n\nSave space for better readability.\n\nplots that convey little information don’t have to be large, several (related) plots can be put next to each other on the same line, etc.\neven in an html file, unnecessary scrolling back and forth when reading a report is annoying\na plot frame with one or two boxplots is a waste of space (e.g. histograms would be better)\nbarplots can often be replaced by tables to both save space and improve readability\nin general, if a plot only shows like 3 numbers and is not important for any argument made, it should not be a plot\n\nStory-telling matters.\n\nit is important to grasp attention with an introduction (and describe at the same time what to expect from a report)\nre-iterate the most important ideas/results in several places\ncomment on plots even if they are self-explanatory\n\nMore on plots.\n\ntext in figures (labels, etc.) should be of similar size as the main text\nlabels have to be readable, e.g. no overlaying etc.\ncaptions are necessary and should make the plot self-contained (without looking at the paragraphs around it)\n\nLess is sometimes more.\n\nshowing a scatterplot only to colors to it based on a group of two on the next plot, then adding one regression line, and then two regression lines on the fourth plot… just dilutes the important parts\nBarplots colored by an additional variable should probably be replaced by a table (potentially colored by the cell values – coloring for better readability only).\n\nList of references should be itemized or enumerated (in order to be readable).\nAvoid using local paths.\n\nreproducibility of the report itself!\n\nTransforming variables.\n\nif your plots look bad because of a clear skewing in one of the variables, transform the varible (typically plot it on a log-scale)\nif plotting on a log-scale, consider log10 or log2 to have better interpretability",
-    "crumbs": [
-      "Projects",
-      "Tips + resources"
-    ]
-  },
-  {
-    "objectID": "projects/project-04.html",
-    "href": "projects/project-04.html",
-    "title": "Project 4",
-    "section": "",
-    "text": "Important\n\n\n\nDue date: Monday, April 14\n\n\n\n\n\n\n\n\nInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.\n\n\n\n\n\n\n\n\n\nSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report\n\n\n\n\n\n\n\n\n\n\nDescription of the Project\n\n\n\n\n\nSee the Moodle webpage",
-    "crumbs": [
-      "Projects",
-      "Project 4"
-    ]
-  },
-  {
-    "objectID": "projects/project-06.html",
-    "href": "projects/project-06.html",
-    "title": "Project 6",
-    "section": "",
-    "text": "Important\n\n\n\nDue date: Monday, May 19",
-    "crumbs": [
-      "Projects",
-      "Project 6"
-    ]
-  },
-  {
-    "objectID": "projects/project-06.html#statement",
-    "href": "projects/project-06.html#statement",
-    "title": "Project 6",
-    "section": "Statement",
-    "text": "Statement\nA clinical dietitian wants to compare two different diets, \\(A\\) and \\(B\\), for diabetic patients\n\nShe hypothesizes that diet \\(A\\) (Group 1) will be better than diet \\(B\\) (Group 2), in terms of lower blood glucose\nShe plans to get a random sample of diabetic patients and randomly assign them to one of the two diets. At the end of the experiment, which lasts 6 weeks, a fasting blood glucose test will be conducted on each patient\nShe also expects that the average difference in blood glucose measure between the two groups will be about 10 mg/dl \n\nThe dietitian wants to know the number of subjects needed in each group assuming equal sized groups",
-    "crumbs": [
-      "Projects",
-      "Project 6"
-    ]
-  },
-  {
-    "objectID": "projects/project-06.html#project",
-    "href": "projects/project-06.html#project",
-    "title": "Project 6",
-    "section": "Project",
-    "text": "Project\nTasks:\n\nWrite a report answering the dietitian request, to the best of your ability\nKeeping in mind that the dietitian has no background in statistics, please explain the most important technical terms, as well as the hypotheses on which you base your results\nDo you have any recommendation as to how the experiment can be modified to improve the accuracy of the comparison? This is more of a conceptual point rather than a technical one\n\nHints: After a thorough research in the matter, we found out that\n\nthe standard deviation of blood glucose is typically around 15 mg/dl\nclinical dietitians usually consider a significance level at \\(5\\%\\) and a power level at \\(80\\%\\)",
-    "crumbs": [
-      "Projects",
-      "Project 6"
+      "Schedule"
     ]
   },
   {
@@ -407,14 +121,300 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MATH 516: Applied Statistics",
+    "objectID": "projects/project-02.html",
+    "href": "projects/project-02.html",
+    "title": "Project 2",
     "section": "",
-    "text": "This page contains an outline of the topics and projects for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester. See the overview page for more information about the course.\n\n\n\n\n\n\nTip\n\n\n\nIt can be useful to check the available tutorials to get ready for the projects quickly. You can find them under the resources section on your left. Please check the FAQ page for common questions and answers.\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nDUE\n\n\n\n\n1\nMon, Feb 17\n\nLecture 1 + Project 1\n\n\n\n\n2\nMon, Feb 24\n\nProject 1 (continued)\n\n\n\n\n\nSun, Mar 2\n\n\nProject 1\n\n\n\n3\nMon, Mar 3\n\nLecture 2 + Project 2\n\n\n\n\n4\nMon, Mar 10\n\nProject 2 (continued)\n\n\n\n\n\nSun, Mar 16\n\n\nProject 2\n\n\n\n5\nMon, Mar 17\n\nLecture 3 + Project 3\n\n\n\n\n6\nMon, Mar 24\n\nProject 3 (continued)\n\n\n\n\n7\nMon, Mar 31\n\nLecture 4 + Project 4\n\n\nProject 3\n\n\n\n8\nMon, Apr 7\n\nProject 4 (continued)\n\n\n\n\n9\nMon, Apr 14\n\nLecture 5 + Project 5\n\n\nProject 4\n\n\n\n10\nMon, Apr 28\n\nProject 5 (continued)\n\n\n\n\n11\nMon, May 5\n\nLecture 6 + Project 6\n\n\nProject 5\n\n\n\n12\nMon, May 12\n\nProject 6 (continued)\n\n\n\n\n13\nMon, May 19\n\nOral exam\n\n\nProject 6\n\n\n\n14\nMon, May 26\n\nOral exam",
+    "text": "Important\n\n\n\nDue date: Sunday, March 16",
+    "crumbs": [
+      "Projects",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "projects/project-02.html#data",
+    "href": "projects/project-02.html#data",
+    "title": "Project 2",
+    "section": "Data",
+    "text": "Data\nTransportation Network Providers (TNPs) such as Uber and Lyft operate in Chicago. As part of its licensing process, Chicago requires the companies to report on their activities monthly\n\nThe dataset provides detailed trip-level information on reported trips\nThis dataset covers trips during October 2024\nSource: City of Chicago Open Data Portal\nKey features:\n\nTemporal trends\nSpatial patterns\nFare and cost analysis\nShared ride behaviour",
+    "crumbs": [
+      "Projects",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "projects/project-02.html#data-trip-information",
+    "href": "projects/project-02.html#data-trip-information",
+    "title": "Project 2",
+    "section": "Data: Trip information",
+    "text": "Data: Trip information\n\ntrip_id: unique identifier for each trip\ntrip_start_timestamp: timestamp when the trip started\ntrip_end_timestamp: timestamp when the trip ended\ntrip_seconds: total duration of the trip in seconds\ntrip_miles: Total distance of the trip in miles\nfare: base fare of the trip\ntip: amount tipped by the passenger\nadditional_charges: extra fees (e.g., service fees)\ntrip_total: total cost of the trip (sum of fare, tip, and additional charges)\nshared_trip_authorized: whether the passenger opted for a shared ride\nshared_trip_match: whether the ride was actually matched with another passenger\ntrips_pooled: number of passengers pooled in a shared trip\n\nNote: times are rounded to the nearest 15 minutes, fares are rounded to the nearest 2.50, and tips are rounded to the nearest 1.00",
+    "crumbs": [
+      "Projects",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "projects/project-02.html#the-goal",
+    "href": "projects/project-02.html#the-goal",
+    "title": "Project 2",
+    "section": "The Goal",
+    "text": "The Goal\nThe dataset provides valuable insights into:\n\ntemporal trends (peak ride-sharing hours and seasonal variations)\nspatial mobility (pickup/dropoff areas)\nfare & cost analysis (fare structures, tip patterns, and additional charges)\nride-sharing trends (e.g., how many trips were pooled vs. individual rides)\n\nWe will focus on one specific aspect: the tipping behaviour\n\\(\\rightarrow\\) Understanding tipping patterns can help companies adjust pricing models or researchers study socio-economic factors influencing tips",
+    "crumbs": [
+      "Projects",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "projects/project-02.html#data-trip-information-1",
+    "href": "projects/project-02.html#data-trip-information-1",
+    "title": "Project 2",
+    "section": "Data: Trip information",
+    "text": "Data: Trip information\n\ntrip_id: unique identifier for each trip\ntrip_start_timestamp: timestamp when the trip started\ntrip_end_timestamp: timestamp when the trip ended\ntrip_seconds: total duration of the trip in seconds\ntrip_miles: Total distance of the trip in miles\nfare: base fare of the trip\ntip: amount tipped by the passenger\nadditional_charges: extra fees (e.g., service fees)\ntrip_total: total cost of the trip (sum of fare, tip, and additional charges)\nshared_trip_authorized: whether the passenger opted for a shared ride\nshared_trip_match: whether the ride was actually matched with another passenger\ntrips_pooled: number of passengers pooled in a shared trip\n\nNote: times are rounded to the nearest 15 minutes, fares are rounded to the nearest 2.50, and tips are rounded to the nearest 1.00",
+    "crumbs": [
+      "Projects",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "projects/project-02.html#the-goal-1",
+    "href": "projects/project-02.html#the-goal-1",
+    "title": "Project 2",
+    "section": "The Goal",
+    "text": "The Goal\nThe dataset provides valuable insights into:\n\ntemporal trends (peak ride-sharing hours and seasonal variations)\nspatial mobility (pickup/dropoff areas)\nfare & cost analysis (fare structures, tip patterns, and additional charges)\nride-sharing trends (e.g., how many trips were pooled vs. individual rides)\n\nWe will focus on one specific aspect: the tipping behaviour\n\\(\\rightarrow\\) Understanding tipping patterns can help companies adjust pricing models or researchers study socio-economic factors influencing tips",
+    "crumbs": [
+      "Projects",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "projects/tips-resources.html",
+    "href": "projects/tips-resources.html",
+    "title": "Tips + resources",
+    "section": "",
+    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
+    "crumbs": [
+      "Projects",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "projects/tips-resources.html#general-comments-about-project-1",
+    "href": "projects/tips-resources.html#general-comments-about-project-1",
+    "title": "Tips + resources",
+    "section": "",
+    "text": "The report should be self-contained\n\nit should not be a tutorial for the code (no variable names, file format, etc)\nthe reader should not have to jump between the report and the code to understand your work\n\nUse the same verb tense throughout the report, unless you are mentioning others’ work (then use the past tense)\nUse already-implemented methods, when available\nWhen discussing your modelling/inference choices\n\nclearly state your assumptions and your model(s)\nwrite down the likelihood you are optimising (this is of course very specific to this project and you wouldn’t need to do so in a project where the modelling assumptions directly apply to the data at hand)\nin the MCMC part, clearly state your choices of priors and the likelihood\n\nBriefly explain the statistical computational tools but no need to explain in details the visualization tools. Make sure though to understand what a histogram is (and other standard statistical notions)\nIf you produce multiple plots, of which one is better than the others, then restrict to the better one\nIntroduce abbreviations and notations",
+    "crumbs": [
+      "Projects",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
+    "href": "projects/tips-resources.html#tips-and-tricks-for-visualisation",
+    "title": "Tips + resources",
+    "section": "Tips and tricks for visualisation",
+    "text": "Tips and tricks for visualisation\n\nConsistency is the most important thing for a statistician.\n\njumping between different citation styles is bad\nhaving some captions centered above the figure produced by R and others flushed right below using Markdown is annoying\n\nSave space for better readability.\n\nplots that convey little information don’t have to be large, several (related) plots can be put next to each other on the same line, etc.\neven in an html file, unnecessary scrolling back and forth when reading a report is annoying\na plot frame with one or two boxplots is a waste of space (e.g. histograms would be better)\nbarplots can often be replaced by tables to both save space and improve readability\nin general, if a plot only shows like 3 numbers and is not important for any argument made, it should not be a plot\n\nStory-telling matters.\n\nit is important to grasp attention with an introduction (and describe at the same time what to expect from a report)\nre-iterate the most important ideas/results in several places\ncomment on plots even if they are self-explanatory\n\nMore on plots.\n\ntext in figures (labels, etc.) should be of similar size as the main text\nlabels have to be readable, e.g. no overlaying etc.\ncaptions are necessary and should make the plot self-contained (without looking at the paragraphs around it)\n\nLess is sometimes more.\n\nshowing a scatterplot only to colors to it based on a group of two on the next plot, then adding one regression line, and then two regression lines on the fourth plot… just dilutes the important parts\nBarplots colored by an additional variable should probably be replaced by a table (potentially colored by the cell values – coloring for better readability only).\n\nList of references should be itemized or enumerated (in order to be readable).\nAvoid using local paths.\n\nreproducibility of the report itself!\n\nTransforming variables.\n\nif your plots look bad because of a clear skewing in one of the variables, transform the varible (typically plot it on a log-scale)\nif plotting on a log-scale, consider log10 or log2 to have better interpretability",
+    "crumbs": [
+      "Projects",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "projects/project-04.html",
+    "href": "projects/project-04.html",
+    "title": "Project 4",
+    "section": "",
+    "text": "Important\n\n\n\nDue date: Monday, April 14\n\n\n\n\n\n\n\n\nNoteInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.\n\n\n\n\n\n\n\n\n\nWarningSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report\n\n\n\n\n\n\n\n\n\n\nNoteDescription of the Project\n\n\n\n\n\nSee the Moodle webpage",
+    "crumbs": [
+      "Projects",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "projects/project-06.html",
+    "href": "projects/project-06.html",
+    "title": "Project 6",
+    "section": "",
+    "text": "Important\n\n\n\nDue date: Monday, May 19",
+    "crumbs": [
+      "Projects",
+      "Project 6"
+    ]
+  },
+  {
+    "objectID": "projects/project-06.html#statement",
+    "href": "projects/project-06.html#statement",
+    "title": "Project 6",
+    "section": "Statement",
+    "text": "Statement\nA clinical dietitian wants to compare two different diets, \\(A\\) and \\(B\\), for diabetic patients\n\nShe hypothesizes that diet \\(A\\) (Group 1) will be better than diet \\(B\\) (Group 2), in terms of lower blood glucose\nShe plans to get a random sample of diabetic patients and randomly assign them to one of the two diets. At the end of the experiment, which lasts 6 weeks, a fasting blood glucose test will be conducted on each patient\nShe also expects that the average difference in blood glucose measure between the two groups will be about 10 mg/dl \n\nThe dietitian wants to know the number of subjects needed in each group assuming equal sized groups",
+    "crumbs": [
+      "Projects",
+      "Project 6"
+    ]
+  },
+  {
+    "objectID": "projects/project-06.html#project",
+    "href": "projects/project-06.html#project",
+    "title": "Project 6",
+    "section": "Project",
+    "text": "Project\nTasks:\n\nWrite a report answering the dietitian request, to the best of your ability\nKeeping in mind that the dietitian has no background in statistics, please explain the most important technical terms, as well as the hypotheses on which you base your results\nDo you have any recommendation as to how the experiment can be modified to improve the accuracy of the comparison? This is more of a conceptual point rather than a technical one\n\nHints: After a thorough research in the matter, we found out that\n\nthe standard deviation of blood glucose is typically around 15 mg/dl\nclinical dietitians usually consider a significance level at \\(5\\%\\) and a power level at \\(80\\%\\)",
+    "crumbs": [
+      "Projects",
+      "Project 6"
+    ]
+  },
+  {
+    "objectID": "projects/project-05.html",
+    "href": "projects/project-05.html",
+    "title": "Project 5",
+    "section": "",
+    "text": "Important\n\n\n\nDue date: Monday, May 5\n\n\n\n\n\n\n\n\nNoteInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.\n\n\n\n\n\n\n\n\n\nWarningSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report\n\n\n\n\n\n\n\n\n\n\nNoteDescription of the Project\n\n\n\n\n\nSee the Moodle webpage",
+    "crumbs": [
+      "Projects",
+      "Project 5"
+    ]
+  },
+  {
+    "objectID": "projects/project-01.html",
+    "href": "projects/project-01.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "Important\n\n\n\nDue date: Sunday, March 2",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "projects/project-01.html#data-acoustic-analysis-of-vowels",
+    "href": "projects/project-01.html#data-acoustic-analysis-of-vowels",
+    "title": "Project 1",
+    "section": "Data: Acoustic analysis of vowels",
+    "text": "Data: Acoustic analysis of vowels\n\nData on acoustic measurements of vowels produced by American English speakers\n\ndata from Hillebrand et al. (1995)\nmeasurements on a group of children, men, and women were recorded\nthe fundamental frequency \\(f_0\\) of a vowel’s sound wave was measured (in Hz)\n\nOnly binned data are available (and the grid is not equidistant)\n\navailable data: the number of recorded vowels (variable count) and the fraction (variable percentage) of vowels’ fundamental frequency belonging to each bin (given by start_point and end_point)",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "projects/project-01.html#the-goal",
+    "href": "projects/project-01.html#the-goal",
+    "title": "Project 1",
+    "section": "The Goal",
+    "text": "The Goal\nSimulate the vowels’ frequency \\(f_0\\) from a distribution, which is as close as possible to the observed data, in order to study the different characteristics of these sounds in the time domain\n\ni.e., the goal is to do Monte Carlo: how to simulate vowels’ frequencies that are compatible with the data?\n\nExpert knowledge: a mixture of two log-normal distributions is a good model for the lowest frequency \\(f_0\\)",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "projects/project-01.html#tasks-for-you",
+    "href": "projects/project-01.html#tasks-for-you",
+    "title": "Project 1",
+    "section": "Tasks for You",
+    "text": "Tasks for You\n\nIs the assumption viable, i.e., is bi-log-normal distribution a reasonable model for the data?\n\nsimple exploration of the data\n\nFit the bi-log-normal distribution in order to be able to simulate the data easily using\n\njittering and EM algorithm OR direct optimization (e.g., local search starting from the jittered EM result), AND\na Bayesian approach\n\nTest whether the fundamental frequencies come from a bi-log-normal distribution\n\nparametric bootstrap and goodness of fit",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "projects/project-01.html#math-517-content",
+    "href": "projects/project-01.html#math-517-content",
+    "title": "Project 1",
+    "section": "MATH-517 Content",
+    "text": "MATH-517 Content\n\nWeek 1: Introduction & Software & Data Considerations\nWeek 2: Graphics & Visualization\nWeek 3: Kernel Density Estimation\nWeek 4: Non-parametric Regression\nWeek 5: Cross-validation\nWeek 6: EM Algorithm\nWeek 7: EM Algorithm\nWeek 8: Monte Carlo\nWeek 9: Bootstrap\nWeek 10: Bootstrap\nWeek 11: Bayesian Computations\nWeek 12: Bayesian Computations\nWeek 13: Decision Trees\nWeek 14: \\(\\emptyset\\)\n\nWeeks in bold are pertinent to Project 1\nWeeks 1-2 established the workflow needed for all the projects",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "The course will provide an overview of everyday challenges in applied statistics through case studies. Students will learn how to use core statistical methods and their extensions, and will use computational and problem-solving tools to provide reproducible solutions for the problems presented.",
     "crumbs": [
       "Course information",
-      "Schedule"
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#course-description",
+    "href": "course-syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "The course will provide an overview of everyday challenges in applied statistics through case studies. Students will learn how to use core statistical methods and their extensions, and will use computational and problem-solving tools to provide reproducible solutions for the problems presented.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#content",
+    "href": "course-syllabus.html#content",
+    "title": "Syllabus",
+    "section": "Content",
+    "text": "Content\nThe course will be problem-based, but solutions to the problems may require ideas and tools from areas such as smoothing, regression analysis, statistical modelling (likelihood methods) and model selection, time series analysis, spatial and functional data analysis, extreme value analysis, and causal inference",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#prerequisites",
+    "href": "course-syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nRequired courses: Regression methods, Statistical Computation and Visualisation.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#learning-outcomes",
+    "href": "course-syllabus.html#learning-outcomes",
+    "title": "Syllabus",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the end of the course, the student must be able to:\n\nPropose suitable statistical solutions for real-world problems.\nApply suitable statistical solutions for real-world problems.\nAssess / Evaluate the adequacy of a statistical method for a given task.\nReport results clearly in writing and orally to different types of stakeholder.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#transversal-skills",
+    "href": "course-syllabus.html#transversal-skills",
+    "title": "Syllabus",
+    "section": "Transversal skills",
+    "text": "Transversal skills\n\nGive feedback (critique) in an appropriate fashion.\nTake feedback (critique) and respond in an appropriate manner.\nCommunicate effectively with professionals from other disciplines.\nIdentify the different roles that are involved in well-functioning teams and assume different roles, including leadership roles.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-faq.html",
+    "href": "course-faq.html",
+    "title": "Help & FAQ",
+    "section": "",
+    "text": "Tip\n\n\n\nIf you do not find the answer to your question here, you can use the search bar on the top left to search the entire site. If you are still unable to find the answer, you can ask your question during the exercise hours. If you found the solution and think it would be useful to other students, you can report an issue (see on the right) with the questions and the solution, and we will add it to the FAQ.",
+    "crumbs": [
+      "Course information",
+      "Help & FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#faq",
+    "href": "course-faq.html#faq",
+    "title": "Help & FAQ",
+    "section": "FAQ",
+    "text": "FAQ\n\nOrganizational\n\nWhich language will we be using?\nYou can use either Python, R, or Julia. We will be providing code examples and suppport only in R, though. We will gladly help you, within our capabilities, if you are using Python or Julia.\n\n\nWhat software do I need to install?\nYou will need to use git, and a text editor or IDE.\nFor git, please see here for instructions on how to install it.\nYou can use any kind of text editor or IDE you like. We recomment using VS Code with the extension corresponding to your language of choice. You can also use Rstudio for R. See here for instructions on how to install the software and IDEs.\n\n\nHow do I submit a project?\nWe will be using Github-classroom to distribute and collect projects. You will need to create a Github account if you don’t already have one.\n\n\n\nTechnical issues\n\nI am lost with Github, what should I do?\nGitHub has possibly the best tutorials and documentation of any software out there. You can find the Hello world there. Most of the time googling your issue will lead you to the right place.\n\n\nI have bugs in my code/ something doesn’t work/ I don’t know how to do something, what should I do?\nFirst google your issue. 90 times out of 100 this will solve your issues. Another 9% can be resolved by reading the documentation of the software you are using. For the very last percent you can ask your question during the exercises hours.\n\n\nI cannot find the repository linked to the project, what should I do?\nAt the top of each project there should be a link where you can manually click to accept the project. If this happens after the first project, please let us know.",
+    "crumbs": [
+      "Course information",
+      "Help & FAQ"
     ]
   }
 ]
