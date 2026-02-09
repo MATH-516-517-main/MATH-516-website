@@ -22,7 +22,7 @@ library(googlesheets4)
 library(gt)
 library(tidyverse)
 gs4_deauth()
-d <- read_sheet("https://docs.google.com/spreadsheets/d/1MyHdcTWAOtr5LHLGb2t-QZh9AKTi_S1Je15dFOpKS4I/edit?usp=sharing") 
+d <- read_sheet("https://docs.google.com/spreadsheets/d/1nC8AO40B58_xtF3BNVVtV1O6kaa52h7QY1az0c6c3BQ/edit?usp=sharing") 
 ```
 
 ```{r}
