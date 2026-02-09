@@ -18,5 +18,46 @@ library(tidyverse)
 gs4_deauth()
 d <- read_sheet("https://docs.google.com/spreadsheets/d/1r-FELg7Ol__Tg9V9CuwPx7dNQDKtYvtISwWPbTiF6pc/edit?usp=sharing") 
 ```
+```{r}
+#| echo: false
 
+d |>
+  select(-dow) |>
+  sub_missing(columns = c(Criteria, Outstanding, Very Strong, Strong, Satisfactory, Developing, Weak, Inadequate), missing_text = " ") |>
+  cols_align(
+    align = "center", 
+    columns = c(Criteria, Outstanding, Very Strong, Strong, Satisfactory, Developing, Weak, Inadequate)
+    ) |>
+  tab_style(
+    style = cell_borders(
+      sides = "right",
+      color = "#D3D3D3",
+      style = "solid"
+    ),
+    locations = cells_body(
+      columns = c(Criteria)
+    )
+  ) |>
+  fmt_markdown(
+    columns = c(Criteria)
+  ) |>
+  cols_width(
+    Criteria ~ px(50),
+    Outstanding ~ px(300), 
+    Very Strong ~ px(300), 
+    Strong ~ px(300), 
+    Satisfactory ~ px(300), 
+    Developing ~ px(300), 
+    Weak ~ px(300), 
+    Inadequate ~ px(300), 
+  ) |>
+  cols_label_with(fn = function(x) {
+      janitor::make_clean_names(x, case = "title") |>
+        toupper() |>
+        stringr::str_replace_all("^|$", "**") |>
+        md()
+    }) |>
+  tab_options(table.font.size = 13) |>
+  opt_row_striping()
+```
 
