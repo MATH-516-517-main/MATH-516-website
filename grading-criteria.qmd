@@ -1,0 +1,68 @@
+---
+title: "MATH 516: Applied Statistics"
+execute: 
+  freeze: false
+---
+
+This page contains a detailed description of the grading criteria that will be applied to the submitted projects and the oral examination.
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+gs4_deauth()
+d <- read_sheet("https://docs.google.com/spreadsheets/d/1r-FELg7Ol__Tg9V9CuwPx7dNQDKtYvtISwWPbTiF6pc/edit?usp=sharing") 
+```
+
+```{r}
+#| echo: false
+
+d |>
+  select(-dow) |>
+  mutate(
+    date = as.Date(date)
+  ) |>
+  gt() |>
+  fmt_date(date, date_style = 31) |>
+  sub_missing(columns = c(week, topic, due), missing_text = " ") |>
+  cols_align(
+    align = "center", 
+    columns = c(week, topic, due)
+    ) |>
+  cols_align(
+    align = "right",
+    columns = c(date)
+  ) |>
+  tab_style(
+    style = cell_borders(
+      sides = "right",
+      color = "#D3D3D3",
+      style = "solid"
+    ),
+    locations = cells_body(
+      columns = c(date, topic)
+    )
+  ) |>
+  fmt_markdown(
+    columns = c(topic, due)
+  ) |>
+  cols_width(
+    week ~ px(50),
+    date ~ px(120), 
+    topic ~ px(300),
+    due ~ px(150)
+  ) |>
+  cols_label_with(fn = function(x) {
+      janitor::make_clean_names(x, case = "title") |>
+        toupper() |>
+        stringr::str_replace_all("^|$", "**") |>
+        md()
+    }) |>
+  tab_options(table.font.size = 13) |>
+  opt_row_striping()
+```
