@@ -3,7 +3,7 @@
 
 ## Attribution
 
-Much of the structure and content is based on [STA 101 - Fall 2024](https://sta101-f23.github.io/course-overview.html) by Dr. Mine Çetinkaya-Rundel and  [MATH-517 Fall 2023 course]([https://github.com/TMasak/StatComp](https://math-517.github.io/math_517_website/)) by Dr. Linda Mhalla.
+Much of the structure and content is based on [STA 101 - Fall 2024](https://sta101-f23.github.io/course-overview.html) by Dr. Mine Çetinkaya-Rundel and  [MATH-517 Fall 2025 course]([https://github.com/TMasak/StatComp]([https://math-517.github.io/math_517_website/](https://math-516-517-main.github.io/math_517_website/))) by Dr. Linda Mhalla.
 
 ## Acknowledgements 
 
