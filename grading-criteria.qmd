@@ -22,7 +22,6 @@ d <- read_sheet("https://docs.google.com/spreadsheets/d/1r-FELg7Ol__Tg9V9CuwPx7d
 #| echo: false
 
 d |>
-  select(-dow) |>
   sub_missing(columns = c(Criteria, Outstanding, Very Strong, Strong, Satisfactory, Developing, Weak, Inadequate), missing_text = " ") |>
   cols_align(
     align = "center", 
