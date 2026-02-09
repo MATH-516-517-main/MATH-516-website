@@ -36,12 +36,14 @@ website:
           - href: index.qmd
             text: Schedule
           - href: course-faq.qmd
+          - href: grading-criteria.qmd
+            text: Grading criteria
       - section: "Projects"
         contents: projects/*
 
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2024, Charles Dufour"
+    left: "&copy; Copyright 2026, Charles Dufour and Linda Mhalla"
     background: "#5d6d74"
 
 
