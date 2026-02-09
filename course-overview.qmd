@@ -63,9 +63,21 @@ idividual project.
 **Grading** 
 <!-- will be done on a rough scale. For example the assignments will be mostly graded on a binary basis, you either receive full 5 % or nothing. Similarly the projects will be graded in 5 % increments. Notice that 5 % corresponds to 0.25 increment on the 1-6 scale used at EPFL. As a result, skipping an assignment will irrevocably reduce your final grade. On the other hand, the assignments will be short and simple, and serious attempts to solve them should resolve in the full mark. Similarly for the projects, with one exception: 10 % of the final project will be awarded for value added (original data analysis, simulation study answering a previously unclear question, etc.). -->
 
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+gs4_deauth()
+d <- read_sheet("https://docs.google.com/spreadsheets/d/1r-FELg7Ol__Tg9V9CuwPx7dNQDKtYvtISwWPbTiF6pc/edit?usp=sharing") 
+```
+
 # Materials
 
-All materials will be gradually made available on this website. Lectures and Projects can be accessed through their respective tabs. Lecture slides as well as projects' descriptions will be posted in the [schedule](index.qmd).
+All materials will be gradually made available on this website. Lectures and Projects can be accessed through their respective tabs. Lecture slides as well as projects' descriptions will be posted in the [schedule](index.qmd) or the dedicated Moodle webppage.
 
 
 # Handing-in Projects
