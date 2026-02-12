@@ -22,11 +22,12 @@ d <- read_sheet("https://docs.google.com/spreadsheets/d/1r-FELg7Ol__Tg9V9CuwPx7d
 #| echo: false
 
 d |>
-  sub_missing(columns = c(Criteria, Outstanding, Very Strong, Strong, Satisfactory, Developing, Weak, Inadequate), missing_text = " ") |>
+  gt() |> 
+  sub_missing(columns = c(Criteria, Outstanding, VeryStrong, Strong, Satisfactory, Developing, Weak, Inadequate), missing_text = " ") |>
   cols_align(
     align = "center", 
-    columns = c(Criteria, Outstanding, Very Strong, Strong, Satisfactory, Developing, Weak, Inadequate)
-    ) |>
+    columns = c(Criteria, Outstanding, VeryStrong, Strong, Satisfactory, Developing, Weak, Inadequate)
+  ) |>
   tab_style(
     style = cell_borders(
       sides = "right",
@@ -41,9 +42,9 @@ d |>
     columns = c(Criteria)
   ) |>
   cols_width(
-    Criteria ~ px(50),
+    Criteria ~ px(150),
     Outstanding ~ px(300), 
-    Very Strong ~ px(300), 
+    VeryStrong ~ px(300), 
     Strong ~ px(300), 
     Satisfactory ~ px(300), 
     Developing ~ px(300), 
@@ -51,11 +52,12 @@ d |>
     Inadequate ~ px(300), 
   ) |>
   cols_label_with(fn = function(x) {
-      janitor::make_clean_names(x, case = "title") |>
-        toupper() |>
-        stringr::str_replace_all("^|$", "**") |>
-        md()
-    }) |>
+    janitor::make_clean_names(x, case = "title") |>
+      toupper() |>
+      stringr::str_replace_all("^|$", "**") |>
+      stringr::str_replace_all("VeryStrong", "Very Strong") |>
+      md()
+  }) |>
   tab_options(table.font.size = 13) |>
   opt_row_striping()
 ```
