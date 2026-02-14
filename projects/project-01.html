@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-433c10f544771496701cc4260bf32989.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-cfccb48be2df5dc29d5341102d6dadc1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -101,7 +101,7 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Project 1 – MATH 516">
-<meta property="og:description" content="Fundamental frequency of vowels">
+<meta property="og:description" content="Snow particles">
 <meta property="og:site_name" content="MATH 516">
 </head>
 
@@ -250,7 +250,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/project-01.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/project-01.html">Project 1</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Project 1</h1>
-<p class="subtitle lead">Fundamental frequency of vowels</p>
+<p class="subtitle lead">Snow particles</p>
 </div>
 
 
@@ -277,7 +277,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Due date:</strong> Sunday, March 2</p>
+<p><strong>Due date:</strong> Monday, March 2</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -332,67 +332,67 @@ Important
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<section id="data-acoustic-analysis-of-vowels" class="level2">
-<h2 class="anchored" data-anchor-id="data-acoustic-analysis-of-vowels">Data: Acoustic analysis of vowels</h2>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
 <ul>
-<li>Data on acoustic measurements of vowels produced by American English speakers
+<li>data from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters
 <ul>
-<li>data from <a href="https://pubmed.ncbi.nlm.nih.gov/7759650/">Hillebrand et al.&nbsp;(1995)</a></li>
-<li>measurements on a group of children, men, and women were recorded</li>
-<li>the fundamental frequency <span class="math inline">\(f_0\)</span> of a vowel’s sound wave was measured (in Hz)</li>
+<li>shared with the permission of the authors of <a href="https://www.sciencedirect.com/science/article/pii/S1875963717301246">this paper</a></li>
 </ul></li>
-<li>Only binned data are available (and the grid is not equidistant)
+<li>the total number of particles measured (variable <code>particles.detected</code>) and the fraction (variable <code>retained [%]</code>) of particles belonging to each diameter bin (given by <code>startpoint</code> and <code>endpoint</code>)
 <ul>
-<li>available data: the number of recorded vowels (variable <code>count</code>) and the fraction (variable <code>percentage</code>) of vowels’ fundamental frequency belonging to each bin (given by <code>start_point</code> and <code>end_point</code>)</li>
+<li>only binned data are available (and the grid is not equidistant)</li>
 </ul></li>
 </ul>
 </section>
 <section id="the-goal" class="level2">
 <h2 class="anchored" data-anchor-id="the-goal">The Goal</h2>
-<p>Simulate the vowels’ frequency <span class="math inline">\(f_0\)</span> from a distribution, which is as close as possible to the observed data, in order to study the different characteristics of these sounds in the time domain</p>
+<p>Simulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models</p>
 <ul>
-<li>i.e., the goal is to do Monte Carlo: <strong>how to simulate vowels’ frequencies that are compatible with the data?</strong></li>
+<li>i.e., the goal is to do Monte Carlo: <strong>how to simulate snow-flake diameters that are compatible with the data?</strong></li>
 </ul>
-<p>Expert knowledge: a mixture of two log-normal distributions is a good model for the lowest frequency <span class="math inline">\(f_0\)</span></p>
+<p>Expert knowledge: a mixture of two log-normal distributions is a good model for the diameters</p>
 </section>
 <section id="tasks-for-you" class="level2">
 <h2 class="anchored" data-anchor-id="tasks-for-you">Tasks for You</h2>
 <ol type="1">
-<li>Is the assumption viable, i.e., is bi-log-normal distribution a reasonable model for the data?
+<li>Is the assumption viable, i.e.&nbsp;is bi-log-normal distribution a reasonable model for the data?
 <ul>
 <li>simple exploration of the data</li>
 </ul></li>
-<li>Fit the bi-log-normal distribution in order to be able to simulate the data easily using
+<li>Fit the bi-log-normal distribution in order to be able to simulate the data easily
 <ul>
-<li>jittering and EM algorithm OR direct optimization (e.g., local search starting from the jittered EM result), AND</li>
-<li>a Bayesian approach</li>
+<li>jittering and EM algorithm</li>
+<li>optimization (e.g.&nbsp;local search starting from the jittered EM result)</li>
+<li>Bayesian approach</li>
 </ul></li>
-<li>Test whether the fundamental frequencies come from a bi-log-normal distribution
+<li>Test whether the diameters come from a bi-log-normal distribution
 <ul>
-<li>parametric bootstrap and goodness of fit</li>
+<li>parametric Bootstrap and goodness of fit</li>
 </ul></li>
 </ol>
 </section>
 <section id="math-517-content" class="level2">
 <h2 class="anchored" data-anchor-id="math-517-content">MATH-517 Content</h2>
 <ul>
-<li>Week 1: Introduction &amp; Software &amp; Data Considerations</li>
-<li>Week 2: Graphics &amp; Visualization</li>
-<li><strong>Week 3: Kernel Density Estimation</strong></li>
-<li>Week 4: Non-parametric Regression</li>
-<li><strong>Week 5: Cross-validation</strong></li>
+<li>Week 1.1: Introduction &amp; Software &amp; Data Considerations</li>
+<li>Week 1.2: Graphics &amp; Visualization</li>
+<li><strong>Week 2: Kernel Density Estimation</strong></li>
+<li>Week 3: Non-parametric Regression</li>
+<li><strong>Week 4: Cross-validation</strong></li>
+<li><strong>Week 5: EM Algorithm</strong></li>
 <li><strong>Week 6: EM Algorithm</strong></li>
-<li><strong>Week 7: EM Algorithm</strong></li>
-<li><strong>Week 8: Monte Carlo</strong></li>
+<li><strong>Week 7: Monte Carlo</strong></li>
+<li><strong>Week 8: Bootstrap</strong></li>
 <li><strong>Week 9: Bootstrap</strong></li>
-<li><strong>Week 10: Bootstrap</strong></li>
+<li><strong>Week 10: Bayesian Computations</strong></li>
 <li><strong>Week 11: Bayesian Computations</strong></li>
-<li><strong>Week 12: Bayesian Computations</strong></li>
-<li>Week 13: Decision Trees</li>
+<li>Week 12: Decision Trees</li>
+<li>Week 13: Conformal Prediction</li>
 <li>Week 14: <span class="math inline">\(\emptyset\)</span>
 <ul>
 <li>Weeks in bold are pertinent to Project 1</li>
-<li>Weeks 1-2 established the workflow needed for all the projects</li>
+<li>Weeks 1.1-1.2 established the workflow needed for all the projects</li>
 </ul></li>
 </ul>
 </section>
