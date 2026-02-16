@@ -103,7 +103,7 @@
     "href": "projects/project-01.html#the-goal",
     "title": "Project 1",
     "section": "The Goal",
-    "text": "The Goal\nSimulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models\n\ni.e., the goal is to do Monte Carlo: how to simulate snow-flake diameters that are compatible with the data?\n\nExpert knowledge: a mixture of two log-normal distributions is a good model for the diameters",
+    "text": "The Goal\nMelo et al. (2022) show that grain size distribution of surface snow significantly modifies dynamics of wind-driven snow transport (saltation) \\(\\Rightarrow\\) realistic snow transport modelling requires an accurate probabilistic description of particle diameters\nThe goal is to simulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models\n\ni.e., the goal is to do Monte Carlo: how to simulate snow-flake diameters that are compatible with the data?\n\nExpert knowledge: a mixture of two log-normal distributions is a good model for the diameters",
     "crumbs": [
       "Projects",
       "Project 1"
