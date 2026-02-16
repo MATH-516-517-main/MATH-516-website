@@ -48,7 +48,9 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 ## The Goal
 
-Simulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models
+[Melo et al. (2022)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JD035260) show that grain size distribution of surface snow significantly modifies dynamics of wind-driven snow transport (saltation) $\Rightarrow$ realistic snow transport modelling requires an accurate probabilistic description of particle diameters
+
+The goal is to simulate diameters from a distribution, which is as close as possible to the observed data, in order to study aeolian transport of snow using certain numerical models
 
 -   i.e., the goal is to do Monte Carlo: **how to simulate snow-flake diameters that are compatible with the data?**
 
