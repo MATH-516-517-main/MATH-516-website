@@ -18,7 +18,7 @@ The course will be problem-based, but solutions to the problems may require idea
 
 Recommended courses: Regression methods, Statistical Computation and Visualisation.
 
-## Learning Outcomes
+## Learning Outcomes 
 By the end of the course, the student must be able to:
 
 - Propose suitable statistical solutions for real-world problems.
