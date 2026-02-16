@@ -42,7 +42,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ## Data
 
 -   data from a (former) PhD student at the Laboratory of Cryospheric Sciences at EPFL, essentially snow-flake diameters
-    -   shared with the permission of the authors of [this paper](https://www.sciencedirect.com/science/article/pii/S1875963717301246)
+    -   shared with the permission of the authors of [this paper](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JD035260)
 -   the total number of particles measured (variable `particles.detected`) and the fraction (variable `retained [%]`) of particles belonging to each diameter bin (given by `startpoint` and `endpoint`)
     -   only binned data are available (and the grid is not equidistant)
 
