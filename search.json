@@ -114,7 +114,7 @@
     "href": "projects/project-01.html#tasks-for-you",
     "title": "Project 1",
     "section": "Tasks for You",
-    "text": "Tasks for You\n\nIs the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?\n\nsimple exploration of the data\n\nFit the bi-log-normal distribution in order to be able to simulate the data easily\n\njittering and EM algorithm\noptimization (e.g. local search starting from the jittered EM result)\nBayesian approach\n\nTest whether the diameters come from a bi-log-normal distribution\n\nparametric Bootstrap and goodness of fit",
+    "text": "Tasks for You\n\nIs the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?\n\nsimple exploration of the data\n\nWrite down the likelihood of the binned data AND the likelihood of the jittered data\nFit the bi-log-normal distribution in order to be able to simulate the data easily using\n\njittering and EM algorithm OR direct optimisation (e.g., local search starting from the jittered EM result), AND\na Bayesian approach\n\nTest whether the diameters come from a bi-log-normal distribution\n\nparametric bootstrap and goodness of fit",
     "crumbs": [
       "Projects",
       "Project 1"
