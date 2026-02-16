@@ -58,12 +58,12 @@ Expert knowledge: a mixture of two log-normal distributions is a good model for 
 
 1.  Is the assumption viable, i.e. is bi-log-normal distribution a reasonable model for the data?
     -   simple exploration of the data
-2.  Fit the bi-log-normal distribution in order to be able to simulate the data easily
-    -   jittering and EM algorithm
-    -   optimization (e.g. local search starting from the jittered EM result)
-    -   Bayesian approach
-3.  Test whether the diameters come from a bi-log-normal distribution
-    -   parametric Bootstrap and goodness of fit
+2.  Write down the likelihood of the binned data AND the likelihood of the jittered data
+3.  Fit the bi-log-normal distribution in order to be able to simulate the data easily using
+    -   jittering and EM algorithm OR direct optimisation (e.g., local search starting from the jittered EM result), AND
+    -   a Bayesian approach
+4.  Test whether the diameters come from a bi-log-normal distribution
+    -   parametric bootstrap and goodness of fit
 
 ## MATH-517 Content
 
