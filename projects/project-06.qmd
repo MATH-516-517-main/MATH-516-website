@@ -7,7 +7,7 @@ urlcolor: blue
 
 
 ::: callout-important
-**Due date:** Monday, May 19 
+**Due date:** Sunday, May 17
 :::
 
 ::: {.callout-note collapse="true"}
@@ -33,12 +33,12 @@ An aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. I
 :::
 
 ::: {.callout-note collapse="true"}
-# Description of the Project
+# Description of the project to follow
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
-
+<!--
 ## Statement
 
 A clinical dietitian wants to compare two different diets, $A$ and $B$, for diabetic patients
@@ -60,4 +60,4 @@ The dietitian wants to know the number of subjects needed in each group assuming
 **Hints**: After a thorough research in the matter, we found out that
 
 -   the standard deviation of blood glucose is typically around 15 mg/dl
--   clinical dietitians usually consider a significance level at $5\%$ and a power level at $80\%$
+-   clinical dietitians usually consider a significance level at $5\%$ and a power level at $80\%$ -->
