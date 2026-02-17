@@ -180,18 +180,7 @@
     "href": "projects/project-02.html",
     "title": "Project 2",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Monday, March 16",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#description-of-the-project-to-follow",
-    "href": "projects/project-02.html#description-of-the-project-to-follow",
-    "title": "Project 2",
-    "section": "Description of the project to follow",
-    "text": "Description of the project to follow",
+    "text": "Important\n\n\n\nDue date: Monday, March 16\n\n\n\n\n\n\n\n\nNoteInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.\n\n\n\n\n\n\n\n\n\nWarningSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report\n\n\n\n\n\n\n\n\n\n\nNoteDescription of the Project\n\n\n\n\n\nDescription of the project to follow",
     "crumbs": [
       "Projects",
       "Project 2"
