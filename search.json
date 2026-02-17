@@ -136,84 +136,18 @@
     "href": "projects/project-03.html",
     "title": "Project 3",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Monday, March 31",
+    "text": "Important\n\n\n\nDue date: Monday, March 30",
     "crumbs": [
       "Projects",
       "Project 3"
     ]
   },
   {
-    "objectID": "projects/project-03.html#introduction-local-causal-discovery",
-    "href": "projects/project-03.html#introduction-local-causal-discovery",
+    "objectID": "projects/project-03.html#description-of-the-project-to-follow",
+    "href": "projects/project-03.html#description-of-the-project-to-follow",
     "title": "Project 3",
-    "section": "Introduction: Local causal discovery",
-    "text": "Introduction: Local causal discovery\nFor a target variable \\(T\\), local causal discovery methods aim at learning its Markov blanket, i.e., the direct causes (parents), direct effects (children), and spouses (direct causes of the direct effects) of \\(T\\), yielding its “neighbourhood” in the causal DAG\n\\(\\Rightarrow\\) not interested in the causal DAG of the entire system of \\((T,\\mathbf{X})\\) but only on the causal DAG around \\(T\\)\nPopular constraint-based methods:\n\nPC algorithm can be used to extract the Markov blanket of any variable of interest\nHITON-PC (Aliferis et al. 2003): identifies the Markov blanket of a target variable using conditional independence tests",
-    "crumbs": [
-      "Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "projects/project-03.html#data-hydrologically-simulated-dataset",
-    "href": "projects/project-03.html#data-hydrologically-simulated-dataset",
-    "title": "Project 3",
-    "section": "Data: Hydrologically simulated dataset",
-    "text": "Data: Hydrologically simulated dataset\n\nData simulated using the hydrological modelling system PREVAH (PREecipitation-Runoff-EVApotranspiration Hydrotope model); see this paper and this one\n\n\\(\\Rightarrow\\) developed to improve the understanding of the spatio-temporal variability of hydrological processes in catchments with complex topography; see this paper\n\nDataset consists of 307 catchments in Switzerland for which\n\n\n\n\n\ndischarge [mm]\nprecipitation [mm]\nsnowmelt [mm]\nsoil moisture [mm]\n\n\n\n\ntemperature [°C]\n(actual) evapotranspiration [mm]\nradiation [W \\(m^{-2}\\)]\n\n\n\n\nwere simulated at a daily-resolution from 1981 to 2016",
-    "crumbs": [
-      "Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "projects/project-03.html#data-hydrologically-simulated-dataset-1",
-    "href": "projects/project-03.html#data-hydrologically-simulated-dataset-1",
-    "title": "Project 3",
-    "section": "Data: Hydrologically simulated dataset",
-    "text": "Data: Hydrologically simulated dataset\n\nData were calibrated and validated for each catchment by running it with observed meteorological input data (precipitation and temperature) and assessing the simulated discharge values against observed values\nCatchments’ flood events are mainly driven either by snowmelt (Alps) or rainfall (Jura, Plateau, and Southern Alps) or by their mixture (Pre-Alps); see this paper\n\n\\(\\Rightarrow\\) system of the hydrological and climate variables is spatially dynamic\nSource: Part of the data is downloaded from Envidat and the other part is courtesy of Massimiliano Zappa from the WSL",
-    "crumbs": [
-      "Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "projects/project-03.html#the-goal",
-    "href": "projects/project-03.html#the-goal",
-    "title": "Project 3",
-    "section": "The goal",
-    "text": "The goal\nAim of the study: We are interested in understanding the hydrological and climatological drivers of extreme discharges during Spring (March-April-May)\nTo make the analysis simpler, for a given catchment, consider a binary variable stating whether the discharge variable exceeds its 90% empirical quantile or not.\n\\(\\rightarrow\\) stationarity is implictely assumed. Is it reasonable? Maybe we can do better…\n\nThe goal of this project is thus to investigate\n\nwhich variables intervene on the propensity of flood events\nhow far can causal discovery pay off in terms of prediction accuracy",
-    "crumbs": [
-      "Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "projects/project-03.html#tasks-for-a-given-catchment",
-    "href": "projects/project-03.html#tasks-for-a-given-catchment",
-    "title": "Project 3",
-    "section": "Tasks: For a given catchment",
-    "text": "Tasks: For a given catchment\n\nDetermine the 90% quantile of the discharge levels (stationary or non-stationary?) and create the binary flood event variable\nConsider all the daily variables (except discharge at time \\(t\\)) as well as their lagged versions by three days (you can investigate if this lag is informative about floods and consider alternatives if not)",
-    "crumbs": [
-      "Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "projects/project-03.html#tasks-for-a-given-catchment-1",
-    "href": "projects/project-03.html#tasks-for-a-given-catchment-1",
-    "title": "Project 3",
-    "section": "Tasks: For a given catchment",
-    "text": "Tasks: For a given catchment\n\nModel the effect of these variables on the binary flood event variable (target variable \\(T\\)) by performing classification using logistic regression, where\n\n\n3.1. you consider all the variables defined in 2.,\n\nand reduce the set features/covariates by\n\n3.2. performing standard variable selection, such as, e.g., by using a \\(L_1\\) penalty (LASSO)\n3.3. using the PC algorithm for causal discovery and selecting only variables in the Markov blanket around \\(T\\)\n3.4 using a local causal discovery method (such as implemented in the R packages bnlearn and MXM) to get the Markov blanket around \\(T\\) and keeping only the corresponding variables\n\n\nCompare the prediction performance on a test set (the last two years, say)",
-    "crumbs": [
-      "Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "projects/project-03.html#tasks",
-    "href": "projects/project-03.html#tasks",
-    "title": "Project 3",
-    "section": "Tasks",
-    "text": "Tasks\nDo this\n\nfor a low-elevation and a high-elevation catchments\nadding a brief description of the chosen local discovery method to the report",
+    "section": "Description of the project to follow",
+    "text": "Description of the project to follow",
     "crumbs": [
       "Projects",
       "Project 3"
