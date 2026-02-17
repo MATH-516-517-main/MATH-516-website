@@ -70,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <meta property="og:title" content="Project 6 – MATH 516">
 <meta property="og:description" content="Request from a clinical dietitian">
@@ -339,24 +310,24 @@ A clinical dietitian wants to compare two different diets, $A$ and $B$, for diab
 
 -   She hypothesizes that diet $A$ (Group 1) will be better than diet $B$ (Group 2), in terms of lower blood glucose
 -   She plans to get a random sample of diabetic patients and randomly assign them to one of the two diets. At the end of the experiment, which lasts 6 weeks, a fasting blood glucose test will be conducted on each patient
--   She also expects that the average difference in blood glucose measure between the two groups will be about 10 mg/dl <!-- Furthermore, she also assumes the standard deviation of blood glucose distribution for diet A to be 15 and the standard deviation for diet B to be 17.   -->
-<p>The dietitian wants to know the number of subjects needed in each group assuming equal sized groups</p>
-<section id="project" class="level2">
-<h2 class="anchored" data-anchor-id="project">Project</h2>
-<p><strong>Tasks</strong>:</p>
-<ul>
-<li>Write a report answering the dietitian request, to the best of your ability</li>
-<li>Keeping in mind that the dietitian has no background in statistics, please explain the most important technical terms, as well as the hypotheses on which you base your results</li>
-<li>Do you have any recommendation as to how the experiment can be modified to improve the accuracy of the comparison? This is more of a conceptual point rather than a technical one</li>
-</ul>
-<p><strong>Hints</strong>: After a thorough research in the matter, we found out that</p>
-<ul>
-<li>the standard deviation of blood glucose is typically around 15 mg/dl</li>
-<li>clinical dietitians usually consider a significance level at <span class="math inline">\(5\%\)</span> and a power level at <span class="math inline">\(80\%\)</span> –&gt;</li>
-</ul>
+-   She also expects that the average difference in blood glucose measure between the two groups will be about 10 mg/dl <!-- Furthermore, she also assumes the standard deviation of blood glucose distribution for diet A to be 15 and the standard deviation for diet B to be 17.   
+
+The dietitian wants to know the number of subjects needed in each group assuming equal sized groups
+
+## Project
+
+**Tasks**:
+
+-   Write a report answering the dietitian request, to the best of your ability
+-   Keeping in mind that the dietitian has no background in statistics, please explain the most important technical terms, as well as the hypotheses on which you base your results
+-   Do you have any recommendation as to how the experiment can be modified to improve the accuracy of the comparison? This is more of a conceptual point rather than a technical one
+
+**Hints**: After a thorough research in the matter, we found out that
+
+-   the standard deviation of blood glucose is typically around 15 mg/dl
+-   clinical dietitians usually consider a significance level at $5\%$ and a power level at $80\%$ -->
 
 
-</section>
 </div>
 </div>
 </div>

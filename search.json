@@ -158,18 +158,7 @@
     "href": "projects/project-06.html",
     "title": "Project 6",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, May 17",
-    "crumbs": [
-      "Projects",
-      "Project 6"
-    ]
-  },
-  {
-    "objectID": "projects/project-06.html#project",
-    "href": "projects/project-06.html#project",
-    "title": "Project 6",
-    "section": "Project",
-    "text": "Project\nTasks:\n\nWrite a report answering the dietitian request, to the best of your ability\nKeeping in mind that the dietitian has no background in statistics, please explain the most important technical terms, as well as the hypotheses on which you base your results\nDo you have any recommendation as to how the experiment can be modified to improve the accuracy of the comparison? This is more of a conceptual point rather than a technical one\n\nHints: After a thorough research in the matter, we found out that\n\nthe standard deviation of blood glucose is typically around 15 mg/dl\nclinical dietitians usually consider a significance level at \\(5\\%\\) and a power level at \\(80\\%\\) –&gt;",
+    "text": "Important\n\n\n\nDue date: Sunday, May 17\n\n\n\n\n\n\n\n\nNoteInvite link for GitHub Classroom\n\n\n\n\n\nUse the corresponding invite link in this google doc (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one.\n\n\n\n\n\n\n\n\n\nWarningSubmission requirements\n\n\n\n\n\nYou are required to hand in a PDF version of your report report.pdf (generated from the quarto file report.qmd, if applicable) and the quarto file itself. The report.qmd should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.\nYour README.md should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.\nAn aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. In that case, you will also need to submit the source code where chunks should be well commented and references to the figures in the report should be clear.\nChecklist:\n\nreport.pdf in GitHub repository (max 15 pages)\nSource code in GitHub repository\nREADME.md with instructions on how to run the code and reproduce the PDF report\n\n\n\n\n\n\n\n\n\n\nNoteDescription of the project to follow",
     "crumbs": [
       "Projects",
       "Project 6"
