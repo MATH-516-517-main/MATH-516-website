@@ -34,5 +34,5 @@ An aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. I
 
 ::: {.callout-note collapse="true"}
 
-## Description of the project to follow
+# Description of the project to follow
 
