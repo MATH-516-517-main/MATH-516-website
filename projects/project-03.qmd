@@ -33,10 +33,5 @@ An aternative to quarto (or Rmarkdown), is to use LaTeX to produce the report. I
 :::
 
 ::: {.callout-note collapse="true"}
-# Description of the Project
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-```
 
 # Description of the project to follow
