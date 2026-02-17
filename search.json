@@ -279,62 +279,18 @@
     "href": "projects/project-02.html",
     "title": "Project 2",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Sunday, March 16",
+    "text": "Important\n\n\n\nDue date: Monday, March 16",
     "crumbs": [
       "Projects",
       "Project 2"
     ]
   },
   {
-    "objectID": "projects/project-02.html#data",
-    "href": "projects/project-02.html#data",
+    "objectID": "projects/project-02.html#description-of-the-project-to-follow",
+    "href": "projects/project-02.html#description-of-the-project-to-follow",
     "title": "Project 2",
-    "section": "Data",
-    "text": "Data\nTransportation Network Providers (TNPs) such as Uber and Lyft operate in Chicago. As part of its licensing process, Chicago requires the companies to report on their activities monthly\n\nThe dataset provides detailed trip-level information on reported trips\nThis dataset covers trips during October 2024\nSource: City of Chicago Open Data Portal\nKey features:\n\nTemporal trends\nSpatial patterns\nFare and cost analysis\nShared ride behaviour",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#data-trip-information",
-    "href": "projects/project-02.html#data-trip-information",
-    "title": "Project 2",
-    "section": "Data: Trip information",
-    "text": "Data: Trip information\n\ntrip_id: unique identifier for each trip\ntrip_start_timestamp: timestamp when the trip started\ntrip_end_timestamp: timestamp when the trip ended\ntrip_seconds: total duration of the trip in seconds\ntrip_miles: Total distance of the trip in miles\nfare: base fare of the trip\ntip: amount tipped by the passenger\nadditional_charges: extra fees (e.g., service fees)\ntrip_total: total cost of the trip (sum of fare, tip, and additional charges)\nshared_trip_authorized: whether the passenger opted for a shared ride\nshared_trip_match: whether the ride was actually matched with another passenger\ntrips_pooled: number of passengers pooled in a shared trip\n\nNote: times are rounded to the nearest 15 minutes, fares are rounded to the nearest 2.50, and tips are rounded to the nearest 1.00",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#the-goal",
-    "href": "projects/project-02.html#the-goal",
-    "title": "Project 2",
-    "section": "The Goal",
-    "text": "The Goal\nThe dataset provides valuable insights into:\n\ntemporal trends (peak ride-sharing hours and seasonal variations)\nspatial mobility (pickup/dropoff areas)\nfare & cost analysis (fare structures, tip patterns, and additional charges)\nride-sharing trends (e.g., how many trips were pooled vs. individual rides)\n\nWe will focus on one specific aspect: the tipping behaviour\n\\(\\rightarrow\\) Understanding tipping patterns can help companies adjust pricing models or researchers study socio-economic factors influencing tips",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#data-trip-information-1",
-    "href": "projects/project-02.html#data-trip-information-1",
-    "title": "Project 2",
-    "section": "Data: Trip information",
-    "text": "Data: Trip information\n\ntrip_id: unique identifier for each trip\ntrip_start_timestamp: timestamp when the trip started\ntrip_end_timestamp: timestamp when the trip ended\ntrip_seconds: total duration of the trip in seconds\ntrip_miles: Total distance of the trip in miles\nfare: base fare of the trip\ntip: amount tipped by the passenger\nadditional_charges: extra fees (e.g., service fees)\ntrip_total: total cost of the trip (sum of fare, tip, and additional charges)\nshared_trip_authorized: whether the passenger opted for a shared ride\nshared_trip_match: whether the ride was actually matched with another passenger\ntrips_pooled: number of passengers pooled in a shared trip\n\nNote: times are rounded to the nearest 15 minutes, fares are rounded to the nearest 2.50, and tips are rounded to the nearest 1.00",
-    "crumbs": [
-      "Projects",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "projects/project-02.html#the-goal-1",
-    "href": "projects/project-02.html#the-goal-1",
-    "title": "Project 2",
-    "section": "The Goal",
-    "text": "The Goal\nThe dataset provides valuable insights into:\n\ntemporal trends (peak ride-sharing hours and seasonal variations)\nspatial mobility (pickup/dropoff areas)\nfare & cost analysis (fare structures, tip patterns, and additional charges)\nride-sharing trends (e.g., how many trips were pooled vs. individual rides)\n\nWe will focus on one specific aspect: the tipping behaviour\n\\(\\rightarrow\\) Understanding tipping patterns can help companies adjust pricing models or researchers study socio-economic factors influencing tips",
+    "section": "Description of the project to follow",
+    "text": "Description of the project to follow",
     "crumbs": [
       "Projects",
       "Project 2"
