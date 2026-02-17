@@ -158,18 +158,7 @@
     "href": "projects/project-06.html",
     "title": "Project 6",
     "section": "",
-    "text": "Important\n\n\n\nDue date: Monday, May 19",
-    "crumbs": [
-      "Projects",
-      "Project 6"
-    ]
-  },
-  {
-    "objectID": "projects/project-06.html#statement",
-    "href": "projects/project-06.html#statement",
-    "title": "Project 6",
-    "section": "Statement",
-    "text": "Statement\nA clinical dietitian wants to compare two different diets, \\(A\\) and \\(B\\), for diabetic patients\n\nShe hypothesizes that diet \\(A\\) (Group 1) will be better than diet \\(B\\) (Group 2), in terms of lower blood glucose\nShe plans to get a random sample of diabetic patients and randomly assign them to one of the two diets. At the end of the experiment, which lasts 6 weeks, a fasting blood glucose test will be conducted on each patient\nShe also expects that the average difference in blood glucose measure between the two groups will be about 10 mg/dl \n\nThe dietitian wants to know the number of subjects needed in each group assuming equal sized groups",
+    "text": "Important\n\n\n\nDue date: Sunday, May 17",
     "crumbs": [
       "Projects",
       "Project 6"
@@ -180,7 +169,7 @@
     "href": "projects/project-06.html#project",
     "title": "Project 6",
     "section": "Project",
-    "text": "Project\nTasks:\n\nWrite a report answering the dietitian request, to the best of your ability\nKeeping in mind that the dietitian has no background in statistics, please explain the most important technical terms, as well as the hypotheses on which you base your results\nDo you have any recommendation as to how the experiment can be modified to improve the accuracy of the comparison? This is more of a conceptual point rather than a technical one\n\nHints: After a thorough research in the matter, we found out that\n\nthe standard deviation of blood glucose is typically around 15 mg/dl\nclinical dietitians usually consider a significance level at \\(5\\%\\) and a power level at \\(80\\%\\)",
+    "text": "Project\nTasks:\n\nWrite a report answering the dietitian request, to the best of your ability\nKeeping in mind that the dietitian has no background in statistics, please explain the most important technical terms, as well as the hypotheses on which you base your results\nDo you have any recommendation as to how the experiment can be modified to improve the accuracy of the comparison? This is more of a conceptual point rather than a technical one\n\nHints: After a thorough research in the matter, we found out that\n\nthe standard deviation of blood glucose is typically around 15 mg/dl\nclinical dietitians usually consider a significance level at \\(5\\%\\) and a power level at \\(80\\%\\) –&gt;",
     "crumbs": [
       "Projects",
       "Project 6"
