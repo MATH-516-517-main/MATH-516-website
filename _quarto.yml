@@ -4,8 +4,8 @@ project:
 website:
   page-navigation: true
   title: "MATH 516"
-  description: "Homepage for MATH 516- Applied Statistics at EPFL, Fall 2024."
-  site-url: "https://math-517.github.io/website/"
+  description: "Homepage for MATH 516- Applied Statistics at EPFL, Spring 2026."
+  site-url: "https://math-516-517-main.github.io/MATH-516-website/"
 
   repo-url: https://github.com/MATH-516/website
   repo-actions: [edit, issue]
